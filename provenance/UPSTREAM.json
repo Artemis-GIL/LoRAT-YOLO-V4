@@ -1,0 +1,12 @@
+{
+  "LoRAT": {
+    "repository": "https://github.com/LitingLin/LoRAT",
+    "commit": "5260744ff0a65207a73289bbda1788c377d23bcc",
+    "snapshot_is_authoritative": true
+  },
+  "MMOT": {
+    "repository": "https://github.com/983632847/Awesome-Multimodal-Object-Tracking",
+    "commit": "bdd579fd3363e2bea51c89dd3b337f0427d291e4",
+    "snapshot_is_authoritative": true
+  }
+}

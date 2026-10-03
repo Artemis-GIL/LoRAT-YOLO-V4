@@ -1,0 +1,24 @@
+{
+  "version": "lorat_yolo_framework_v4",
+  "status": "experimental_structural_revision_not_accuracy_validated",
+  "local_backend": "LoRAT-L/378",
+  "global_backend": "YOLO26",
+  "initial_template": "fixed",
+  "output_policy": "Preserve usable current local output when commit is deferred; mark tentative explicitly",
+  "reliability": "Shared forward-and-reverse reference localization for local and global hypotheses; not an identity probability",
+  "reference": "Only the initial RGB and supplied initial box; current candidate templates are temporary verifier inputs",
+  "competition": "Only reference-verified spatial alternatives can block a commit; no raw detector veto",
+  "threshold_provenance": "All numeric policy values unchanged from V3; the existing verification overlap and response minima are also used for the reverse check",
+  "presence_semantics": "Unconfirmed localization is not physical absence",
+  "policy": {
+    "local_score_min": 0.5,
+    "detector_score_min": 0.1,
+    "verification_iou_min": 0.3,
+    "association_iou_min": 0.2,
+    "association_center_max": 1.0,
+    "association_area_ratio_max": 4.0,
+    "same_object_iou": 0.5,
+    "confirmation_frames": 3,
+    "max_candidates": 12
+  }
+}

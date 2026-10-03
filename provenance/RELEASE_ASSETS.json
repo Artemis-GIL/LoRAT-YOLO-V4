@@ -1,0 +1,17 @@
+[
+  {
+    "filename": "LoRAT_large-378.bin",
+    "bytes": 130101948,
+    "sha256": "601529735439da5d7ad0136b63e894ee02923d4694ce17d3568e333c298a06b0"
+  },
+  {
+    "filename": "V4_TEST420_PREDICTIONS.zip",
+    "bytes": 12370275,
+    "sha256": "285031124f43d25c296553047f51f5bbff99596ea2b5056b302fcb2ffe3a8c0e"
+  },
+  {
+    "filename": "yolo26_uav_best.pt",
+    "bytes": 60285155,
+    "sha256": "efa76597c9912fbda8ff150208996a88597544fb5ba2e52a6ad02e4dc964b433"
+  }
+]

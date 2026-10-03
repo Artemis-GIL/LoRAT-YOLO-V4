@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "frozen_sources": 866,
+  "prediction_files": 420,
+  "prediction_frames": 476221,
+  "credential_patterns_detected": 0,
+  "code_changed": false,
+  "original_run_untouched": true,
+  "release_assets": [
+    "LoRAT_large-378.bin",
+    "V4_TEST420_PREDICTIONS.zip",
+    "yolo26_uav_best.pt"
+  ],
+  "cpu_tests": 21,
+  "cpu_test_status": "PASS",
+  "cpu_test_command": "python -m unittest discover -s tracking/tests -p test_*v4.py -v",
+  "verification_scope": "Frozen source hashes, saved prediction hashes and row counts, CPU control/launcher tests. No new model inference or GT reevaluation."
+}

@@ -1,0 +1,19 @@
+{
+  "version": "lorat_yolo_framework_v3",
+  "status": "experimental_engineering_defaults_not_accuracy_validated",
+  "local_backend": "LoRAT-L/378",
+  "global_backend": "YOLO26",
+  "initial_template": "fixed",
+  "presence_semantics": "unconfirmed localization is not physical absence",
+  "policy": {
+    "local_score_min": 0.5,
+    "detector_score_min": 0.1,
+    "verification_iou_min": 0.3,
+    "association_iou_min": 0.2,
+    "association_center_max": 1.0,
+    "association_area_ratio_max": 4.0,
+    "same_object_iou": 0.5,
+    "confirmation_frames": 3,
+    "max_candidates": 12
+  }
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "filename": "dinov2_vitl14_pretrain.pth",
+    "original_path": "/home/xu/.cache/torch/hub/checkpoints/dinov2_vitl14_pretrain.pth",
+    "sha256": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428",
+    "bytes": 1217586395,
+    "distribution": "External pretrained backbone; not uploaded; use the original DINOv2 distribution and verify sha256"
+  },
+  {
+    "filename": "LoRAT_large-378.bin",
+    "original_path": "/home/xu/zyx/send/LOCAL_TRACKER_SELECTION_R1_20261002/weights/LoRAT_large-378.bin",
+    "sha256": "601529735439da5d7ad0136b63e894ee02923d4694ce17d3568e333c298a06b0",
+    "bytes": 130101948,
+    "distribution": "private GitHub release asset",
+    "release_asset": "LoRAT_large-378.bin"
+  },
+  {
+    "filename": "best.pt",
+    "original_path": "/home/xu/zyx/send/MVLM_V2_GLOBAL_PROPOSAL_BACKBONE_R1_20261001/training/yolo26_uav/weights/best.pt",
+    "sha256": "efa76597c9912fbda8ff150208996a88597544fb5ba2e52a6ad02e4dc964b433",
+    "bytes": 60285155,
+    "distribution": "private GitHub release asset",
+    "release_asset": "yolo26_uav_best.pt"
+  }
+]

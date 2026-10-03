@@ -1,0 +1,18 @@
+{
+  "model": "LoRAT_L378",
+  "template_size": 196,
+  "search_size": 378,
+  "search_factor": 5.0,
+  "template_factor": 2.0,
+  "window_penalty": 0.45,
+  "min_search_object_size": 10,
+  "amp": "bfloat16",
+  "lora_rank": 64,
+  "lora_alpha": 64,
+  "checkpoint_trainable_keys": 301,
+  "missing_frozen_keys": 437,
+  "unexpected": [],
+  "backbone_strict_loaded": true,
+  "extra_recovery": false,
+  "template_update": false
+}

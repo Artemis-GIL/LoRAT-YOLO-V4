@@ -1,0 +1,14 @@
+{
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "torch": "2.7.1+cu128",
+  "opencv": "4.10.0",
+  "gpu": "NVIDIA GeForce RTX 5090 D",
+  "detector": {
+    "status": "ready",
+    "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.100"
+  },
+  "tf32": false,
+  "transport": "synchronous current RGB bytes only"
+}
