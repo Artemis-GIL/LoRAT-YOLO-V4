@@ -1,0 +1,2526 @@
+{
+  "sequences": 420,
+  "frames": 476221,
+  "files": [
+    {
+      "sequence": "UAV-Anti-UAV_Test_000001",
+      "frames": 113,
+      "sha256": "d854599292a7aaf144ef392ea5112cfbe721115200216d838ba52ad922ca9274",
+      "path": "predictions/UAV-Anti-UAV_Test_000001.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000002",
+      "frames": 283,
+      "sha256": "6cd44738e9356181edc47d0d91070f37152cd1dc1286ac2501d4738452ea4490",
+      "path": "predictions/UAV-Anti-UAV_Test_000002.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000003",
+      "frames": 893,
+      "sha256": "a9d4f0b88bece139508a164b92ad97ea458c1e4c5a713301223779acdff32117",
+      "path": "predictions/UAV-Anti-UAV_Test_000003.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000004",
+      "frames": 271,
+      "sha256": "7f9eae62a9a127a3925c03a2e933b65b6256cca9d26f97271e1c1c779761ea98",
+      "path": "predictions/UAV-Anti-UAV_Test_000004.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000005",
+      "frames": 111,
+      "sha256": "62d247d4a6b88f3c7cab646d8c02f55b5295f64f17e64dba84b3aa15124ae199",
+      "path": "predictions/UAV-Anti-UAV_Test_000005.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000006",
+      "frames": 710,
+      "sha256": "245bc54986d3027f24cd3377c3fa6721f9104ce40d8c7c408bd45a5a464c05a4",
+      "path": "predictions/UAV-Anti-UAV_Test_000006.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000007",
+      "frames": 315,
+      "sha256": "1da011e4680a5d0f53b7b63076409612d90f5de6456777fd51c80111822d43ff",
+      "path": "predictions/UAV-Anti-UAV_Test_000007.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000008",
+      "frames": 414,
+      "sha256": "f095d61d96f9a35522d2316c94617798bf7249153ee03be4f7e0d4f51df70bc1",
+      "path": "predictions/UAV-Anti-UAV_Test_000008.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000009",
+      "frames": 382,
+      "sha256": "4ccc92fa14b97f4f31965a96e2e6e11ce94508f3044cc6e868a165eee8e87aab",
+      "path": "predictions/UAV-Anti-UAV_Test_000009.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000010",
+      "frames": 476,
+      "sha256": "a142cf6cbd31c39deb432c5f8f53935741f13425407366a9beb2b93b647cbb76",
+      "path": "predictions/UAV-Anti-UAV_Test_000010.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000011",
+      "frames": 165,
+      "sha256": "cd7129bba33fcebfb6eb0e4e29a4cd69140f60504e4989659bc9552c1f6beaca",
+      "path": "predictions/UAV-Anti-UAV_Test_000011.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000012",
+      "frames": 354,
+      "sha256": "8cf07be5b36a6239224d40bf8add7c5f1ed7552c81234ce93d3e19dfed0a2c9d",
+      "path": "predictions/UAV-Anti-UAV_Test_000012.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000013",
+      "frames": 358,
+      "sha256": "70c037e988375c6b542577aeec664e9f3e8c87ca1fd4d855efbdfb893c9ab038",
+      "path": "predictions/UAV-Anti-UAV_Test_000013.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000014",
+      "frames": 208,
+      "sha256": "7401d7f1d072612e1a39975d039f133d9e576918fc4bf45d195624d6cfe3c5de",
+      "path": "predictions/UAV-Anti-UAV_Test_000014.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000015",
+      "frames": 1228,
+      "sha256": "0af5e5ed2357e2b891c739fa2dfdbcb336b8ab03d364e3a3682575ff792f57b9",
+      "path": "predictions/UAV-Anti-UAV_Test_000015.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000016",
+      "frames": 3667,
+      "sha256": "bab960a1bbc3142a132b98a20b467f26388a621d2f6b31c81d9133056722aef5",
+      "path": "predictions/UAV-Anti-UAV_Test_000016.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000017",
+      "frames": 372,
+      "sha256": "12c52b56800a035726ec8af2a9e5868df9133105162e134e71c1c304328d276a",
+      "path": "predictions/UAV-Anti-UAV_Test_000017.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000018",
+      "frames": 226,
+      "sha256": "25048716d513fd899dd747450f230ea176dbcd9634385ef26201b0c8640239be",
+      "path": "predictions/UAV-Anti-UAV_Test_000018.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000019",
+      "frames": 608,
+      "sha256": "8f5a2344ffdab6e0bcdd0b9026a5d74071a871e48b8931743cf101271d28993b",
+      "path": "predictions/UAV-Anti-UAV_Test_000019.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000020",
+      "frames": 1229,
+      "sha256": "cb60e18bfef7b677d06216865604f7c3b0111bd20b158005c8b5a4d1907fc351",
+      "path": "predictions/UAV-Anti-UAV_Test_000020.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000021",
+      "frames": 173,
+      "sha256": "2c15f7a4e341dde9685e0dac1015014009535d83c5f48d95856f6979fbe1e9b8",
+      "path": "predictions/UAV-Anti-UAV_Test_000021.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000022",
+      "frames": 224,
+      "sha256": "39f58e8309ee8602e45c68f069c86026e305e5bfe44f67a4d95367303be457db",
+      "path": "predictions/UAV-Anti-UAV_Test_000022.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000023",
+      "frames": 455,
+      "sha256": "8a590720c797f7db9eed344d8ef2b843947a59ef0267000b6d29e30dc2f03b61",
+      "path": "predictions/UAV-Anti-UAV_Test_000023.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000024",
+      "frames": 543,
+      "sha256": "bd7795e5cb29ca5d29becddd7833280ff670d46767f9d0c447ce113e72104a92",
+      "path": "predictions/UAV-Anti-UAV_Test_000024.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000025",
+      "frames": 907,
+      "sha256": "acd885e979dffe1a5f4c54d5d18be793a6b597b9e88539d9c31638c508c2df90",
+      "path": "predictions/UAV-Anti-UAV_Test_000025.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000026",
+      "frames": 2374,
+      "sha256": "e5b0f99617b184086294601eaf3dc986616ba0f6704864e4c2a14cdc7cd42cd6",
+      "path": "predictions/UAV-Anti-UAV_Test_000026.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000027",
+      "frames": 710,
+      "sha256": "6935924c094bb63128ef9b7e87a84f0dfd64d9763c68089fc1551fd94f3327d3",
+      "path": "predictions/UAV-Anti-UAV_Test_000027.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000028",
+      "frames": 2307,
+      "sha256": "4e70afcdde573cb42d006ecb267e48b6fc48035080ce1ab96953323de9d15e5d",
+      "path": "predictions/UAV-Anti-UAV_Test_000028.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000029",
+      "frames": 1024,
+      "sha256": "e2aa4dba3c18a6df5316a8beb5b57384274054a33149470fcc7161a82c55fb7e",
+      "path": "predictions/UAV-Anti-UAV_Test_000029.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000030",
+      "frames": 220,
+      "sha256": "946f279af640f0206c593a63069f9513aaa24d82cabd91561a162e2b4bc0b4be",
+      "path": "predictions/UAV-Anti-UAV_Test_000030.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000031",
+      "frames": 299,
+      "sha256": "ab262525e845637fdd317707eff64f7f0e3d06e63eac4fc828fbfa821d3cbbd1",
+      "path": "predictions/UAV-Anti-UAV_Test_000031.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000032",
+      "frames": 219,
+      "sha256": "3959f167b6b6f31910ab21005a1f4be6ed612fc4fcdedeb4ef5d0e1f8ca50d43",
+      "path": "predictions/UAV-Anti-UAV_Test_000032.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000033",
+      "frames": 550,
+      "sha256": "4377f9d546dff272aa1c45c889fbb934c50d99a1a1185cfb1b7d22e3fbc2decb",
+      "path": "predictions/UAV-Anti-UAV_Test_000033.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000034",
+      "frames": 2031,
+      "sha256": "241e2e4f59a376aaa7f8bfcaffae88938239b4baecf22fc550fc67349aae75d0",
+      "path": "predictions/UAV-Anti-UAV_Test_000034.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000035",
+      "frames": 555,
+      "sha256": "09cd21911e5954c6fb64616b1c2f41f2ac1e260adc1a25f2c79700cd87b151a6",
+      "path": "predictions/UAV-Anti-UAV_Test_000035.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000036",
+      "frames": 300,
+      "sha256": "a46af99e0c15f9956fcf09236fa778be07e1e0b466a995d30300d15fba91657e",
+      "path": "predictions/UAV-Anti-UAV_Test_000036.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000037",
+      "frames": 193,
+      "sha256": "66bfc52bbcdbbf9cf001f35cbe5ad22fe99a9d01c30f927b360d08eb8d241b2d",
+      "path": "predictions/UAV-Anti-UAV_Test_000037.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000038",
+      "frames": 1079,
+      "sha256": "73671a36a8cabfe743f66b5da38fb92b3bc4e530390e4b1270c52cb9d74e19c4",
+      "path": "predictions/UAV-Anti-UAV_Test_000038.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000039",
+      "frames": 2339,
+      "sha256": "6986908e891c10c7f381c5b1b8468e3a1d67eea574cd81ce1a99c051648d0bf0",
+      "path": "predictions/UAV-Anti-UAV_Test_000039.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000040",
+      "frames": 610,
+      "sha256": "1fc28f837b111779f87f0ad414a1fd9d38bfc6717599c42dc21cc4386eb8657b",
+      "path": "predictions/UAV-Anti-UAV_Test_000040.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000041",
+      "frames": 789,
+      "sha256": "4101c7d03fcc78d4cfccbeeea26891dfcb889c643e8b762d28ac29f7fb6d4e8f",
+      "path": "predictions/UAV-Anti-UAV_Test_000041.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000042",
+      "frames": 142,
+      "sha256": "9878403b9924b571897f90b8d11a4a22cb027e06ea6e5a342896631f87c9390e",
+      "path": "predictions/UAV-Anti-UAV_Test_000042.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000043",
+      "frames": 559,
+      "sha256": "f7ebe191b898c7382fff548673416737bad01e6c3a4fc8c7d3099bbb32618d78",
+      "path": "predictions/UAV-Anti-UAV_Test_000043.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000044",
+      "frames": 265,
+      "sha256": "e5cd80d5e727f2d1cc7b8ab38eb739efd648104af082fe2910197c645ffcf52e",
+      "path": "predictions/UAV-Anti-UAV_Test_000044.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000045",
+      "frames": 463,
+      "sha256": "ac3b87609e7344bf96b565eaa30ef9d9e1d3dd491934cd35eb4341af5cef0c70",
+      "path": "predictions/UAV-Anti-UAV_Test_000045.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000046",
+      "frames": 393,
+      "sha256": "0980b1b7c8f2eacaee13d4f519badedb28b4d8e6006ae641a7196673018e2060",
+      "path": "predictions/UAV-Anti-UAV_Test_000046.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000047",
+      "frames": 269,
+      "sha256": "04d2dc848f22d910d0cf663508455fe0a12d9333e49c52ac5a7adbee0ed4b34a",
+      "path": "predictions/UAV-Anti-UAV_Test_000047.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000048",
+      "frames": 344,
+      "sha256": "dd6518b5c2b21be74c24af4f1ca4b77fba3fb9ae54d0864e62afb6364bc329b3",
+      "path": "predictions/UAV-Anti-UAV_Test_000048.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000049",
+      "frames": 609,
+      "sha256": "f74ff422d4716974a5b6cf46240f0e5d57ec0362a0e7cb37aa7633feb4911f33",
+      "path": "predictions/UAV-Anti-UAV_Test_000049.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000050",
+      "frames": 5724,
+      "sha256": "3e3c44a3d43987761822d1ff833de23696f7f478939f155bbfb08845e4f94cfd",
+      "path": "predictions/UAV-Anti-UAV_Test_000050.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000051",
+      "frames": 712,
+      "sha256": "f09da835e00aa5096f4274925db2b1130bfc5b31b43f454c411dcf3934cf9bbb",
+      "path": "predictions/UAV-Anti-UAV_Test_000051.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000052",
+      "frames": 1074,
+      "sha256": "b9fb1366cec19525e8798f047fc985cbb337089b60f3bcfada26088d2e7701d6",
+      "path": "predictions/UAV-Anti-UAV_Test_000052.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000053",
+      "frames": 1914,
+      "sha256": "e0bdd04ec4c01697d7418827e1725d57dce3368143f00005d7bb2f1508e327ec",
+      "path": "predictions/UAV-Anti-UAV_Test_000053.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000054",
+      "frames": 2069,
+      "sha256": "c95a6f0a2608ac5a9013b5912117d881a3542a6094b21068de2e1bd0fd887ed6",
+      "path": "predictions/UAV-Anti-UAV_Test_000054.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000055",
+      "frames": 1047,
+      "sha256": "2bee772f987562ab0678e7e1b1327c6fd78623759e9f7d57c25d5b4140e5526d",
+      "path": "predictions/UAV-Anti-UAV_Test_000055.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000056",
+      "frames": 2751,
+      "sha256": "4199a42fe27246b6e56f64784612b2e6ac3733df1d4b16907f7dafb44f92819a",
+      "path": "predictions/UAV-Anti-UAV_Test_000056.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000057",
+      "frames": 911,
+      "sha256": "ffdb475646c91ef956ac67d9496a314aeb0ed775fe349f4f10522d94d981c6dc",
+      "path": "predictions/UAV-Anti-UAV_Test_000057.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000058",
+      "frames": 122,
+      "sha256": "1c41ecbb39c4c7bd2633c8718fad184769ffcb1413cc12af85d22fccd3f6e96f",
+      "path": "predictions/UAV-Anti-UAV_Test_000058.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000059",
+      "frames": 704,
+      "sha256": "07d33cf295efd5942933c0eb7decb8c4b13ef17749dcd9459bdef2a8189f7458",
+      "path": "predictions/UAV-Anti-UAV_Test_000059.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000060",
+      "frames": 1424,
+      "sha256": "13bf6433296f4e803b0c38e4bdae1a804c3e4ecad15e19a1ee484c0761c7952b",
+      "path": "predictions/UAV-Anti-UAV_Test_000060.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000061",
+      "frames": 3078,
+      "sha256": "ba7b857bec1ae6086e94154f58d2bc2b22e3434d2b001803c4a7ea2d75019700",
+      "path": "predictions/UAV-Anti-UAV_Test_000061.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000062",
+      "frames": 2472,
+      "sha256": "94f907f552f15e8a081178d3e4f4cecabcadcd6f7bcc34a4f53d16f63b0ce260",
+      "path": "predictions/UAV-Anti-UAV_Test_000062.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000063",
+      "frames": 1035,
+      "sha256": "6497d9ff4361d73d61b9e73f903f44b6866b27873d6a7400716bfa1c4e80e80d",
+      "path": "predictions/UAV-Anti-UAV_Test_000063.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000064",
+      "frames": 1681,
+      "sha256": "033ce8f4e18c3a08a0f21148ee7db201a54817b451e5382dd8cb5590264268cc",
+      "path": "predictions/UAV-Anti-UAV_Test_000064.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000065",
+      "frames": 260,
+      "sha256": "13538555ed8457d2a5a6d21f50d1efb83daf7f741e2cf77e376115951bc9587e",
+      "path": "predictions/UAV-Anti-UAV_Test_000065.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000066",
+      "frames": 965,
+      "sha256": "8c908d44af35cd39507563cc6fe9da6629944d0e9783850f216f5da9d76277f1",
+      "path": "predictions/UAV-Anti-UAV_Test_000066.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000067",
+      "frames": 434,
+      "sha256": "7e751a41105b9ef1363f4d2ecabd1dfccad5202d42f716d94756b618b50aece6",
+      "path": "predictions/UAV-Anti-UAV_Test_000067.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000068",
+      "frames": 362,
+      "sha256": "ae066fcdac0a489f3ee3dbc3c3ff014e34472694654cc62285fe8df4bb9becfa",
+      "path": "predictions/UAV-Anti-UAV_Test_000068.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000069",
+      "frames": 1109,
+      "sha256": "11e3ba8136991b81b2e835c2d4f60164481bb1c1a4599c1b42572eb96a52e259",
+      "path": "predictions/UAV-Anti-UAV_Test_000069.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000070",
+      "frames": 275,
+      "sha256": "f3b22135bbdda1c76762e0e04e984a69651042ceed5e20391133957e6f7b48dd",
+      "path": "predictions/UAV-Anti-UAV_Test_000070.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000071",
+      "frames": 70,
+      "sha256": "9b10113b3fa96f956277ab11a3ee40f426f2564f2b9ca926cae0efea3d593142",
+      "path": "predictions/UAV-Anti-UAV_Test_000071.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000072",
+      "frames": 369,
+      "sha256": "114bc229c31bc22123ef2226faaa6f9f66277a3b1a1d6f109e7ed8ef3c474d07",
+      "path": "predictions/UAV-Anti-UAV_Test_000072.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000073",
+      "frames": 177,
+      "sha256": "2dac06c9cac72228c0787baea41c6ff8a3c0c807eba3d2d5875a56dec3954537",
+      "path": "predictions/UAV-Anti-UAV_Test_000073.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000074",
+      "frames": 130,
+      "sha256": "01bf48d06b63dfc99a6e03642911ac54033482e554b334aef366931251f50361",
+      "path": "predictions/UAV-Anti-UAV_Test_000074.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000075",
+      "frames": 150,
+      "sha256": "50a6be100d652c1e737d8edcb11dff907ab436c2ad60b52b908a6ddd48390a86",
+      "path": "predictions/UAV-Anti-UAV_Test_000075.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000076",
+      "frames": 4340,
+      "sha256": "bc882a993aa525d21fa09656ac3c8c21eac92f98a89a808cd5f7e3ab79eb0a1b",
+      "path": "predictions/UAV-Anti-UAV_Test_000076.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000077",
+      "frames": 8160,
+      "sha256": "46f51eeb9b86780586ae8f2d081125c0569604938af3657a6c35a9a7663522af",
+      "path": "predictions/UAV-Anti-UAV_Test_000077.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000078",
+      "frames": 72,
+      "sha256": "08e44c735ecf2c23541c4cc2c646d67ec2a1c2d2d88973e06fbad5f369558b67",
+      "path": "predictions/UAV-Anti-UAV_Test_000078.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000079",
+      "frames": 598,
+      "sha256": "02213dff3d97ec002a02a30165b8443fd68c4b2f69cb5a289078d1d1ec98228a",
+      "path": "predictions/UAV-Anti-UAV_Test_000079.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000080",
+      "frames": 981,
+      "sha256": "0b775703e3b80b6514f0c17b1db6ff84d6989594970c5ba8c98f57d5e1a52264",
+      "path": "predictions/UAV-Anti-UAV_Test_000080.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000081",
+      "frames": 838,
+      "sha256": "63d5904f8cce0ec65966bcf85a3189c51e732ec613ffd41a1b7b02df1b386be8",
+      "path": "predictions/UAV-Anti-UAV_Test_000081.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000082",
+      "frames": 801,
+      "sha256": "b2d72e81d0719271635ef698d92d9530fa6dda3656cf4f24baaa5266970e1207",
+      "path": "predictions/UAV-Anti-UAV_Test_000082.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000083",
+      "frames": 446,
+      "sha256": "8a9eccf00bb169488c6aace66a97ee50f6e9fe367dc459689cb0fb7b617324f6",
+      "path": "predictions/UAV-Anti-UAV_Test_000083.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000084",
+      "frames": 537,
+      "sha256": "3326890c184c43470df15b0dab11e19aad6aeea5ad4ffa5c4b1e621ed1918b93",
+      "path": "predictions/UAV-Anti-UAV_Test_000084.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000085",
+      "frames": 1100,
+      "sha256": "dbbf9148d6bf323646a14b34873aedfa8e4254e6d6aeb54395396cf2c837056b",
+      "path": "predictions/UAV-Anti-UAV_Test_000085.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000086",
+      "frames": 373,
+      "sha256": "877ce2ecc7836a8d11406514dd2c6b2e7b28b2e3fd0f352bb3778d16f527a5f9",
+      "path": "predictions/UAV-Anti-UAV_Test_000086.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000087",
+      "frames": 145,
+      "sha256": "dfbbc83d1bdc332ee1b968461f8e6b5b105f6b8e2d5efb34d1c03a77240d1fe9",
+      "path": "predictions/UAV-Anti-UAV_Test_000087.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000088",
+      "frames": 2522,
+      "sha256": "2cdf776928a0abc092f0cc9a01bff5ac16b3c5cdd74fc26e2dd100fee8850bce",
+      "path": "predictions/UAV-Anti-UAV_Test_000088.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000089",
+      "frames": 461,
+      "sha256": "f552a61563aa2886b16792b9d7a3cf25c89f2d98927dc1891f99d71054829e7b",
+      "path": "predictions/UAV-Anti-UAV_Test_000089.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000090",
+      "frames": 1213,
+      "sha256": "147abc4629a3171ea0b1b13b19b050f5216b24ca3b8362e3d517e5f490768001",
+      "path": "predictions/UAV-Anti-UAV_Test_000090.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000091",
+      "frames": 165,
+      "sha256": "7b0664e413e50db98809cd6d9dc7ae857b7e01433a991e929b5106bc3ac55ef5",
+      "path": "predictions/UAV-Anti-UAV_Test_000091.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000092",
+      "frames": 146,
+      "sha256": "a668ba8db0a505b6aa7f860438172a4a5d099b41f32c8bb27705973714b1be51",
+      "path": "predictions/UAV-Anti-UAV_Test_000092.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000093",
+      "frames": 914,
+      "sha256": "8f25e16a31557dc5e1521f85fef7b5be3e7db50f60b65118aba9e78ea79d1aa8",
+      "path": "predictions/UAV-Anti-UAV_Test_000093.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000094",
+      "frames": 537,
+      "sha256": "8ce9969cc19de12f6d9b002bcb531acede3da3ae4a0849149a8f411f6ae6f146",
+      "path": "predictions/UAV-Anti-UAV_Test_000094.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000095",
+      "frames": 1971,
+      "sha256": "c7715617d26d4b7fb2a457bc56cf8083b029136bafc4c2ee5011c2bc4b79d29b",
+      "path": "predictions/UAV-Anti-UAV_Test_000095.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000096",
+      "frames": 686,
+      "sha256": "5ae097dc59d177b4136c68c7b311290cb7d843ad0d8f0a393a65b5ee93fdf8d3",
+      "path": "predictions/UAV-Anti-UAV_Test_000096.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000097",
+      "frames": 222,
+      "sha256": "fe6e8498a19533d944707e31104d049557f402af22c0639616a735f2aff3ddb0",
+      "path": "predictions/UAV-Anti-UAV_Test_000097.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000098",
+      "frames": 463,
+      "sha256": "3ed4f8f674f37bf99029982f25c1422d373b3252e5d655925e5cfa20e89df435",
+      "path": "predictions/UAV-Anti-UAV_Test_000098.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000099",
+      "frames": 158,
+      "sha256": "1ce75e970de3362a5029e309694a809820df6e19c84091f596925a7f845ebb69",
+      "path": "predictions/UAV-Anti-UAV_Test_000099.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000100",
+      "frames": 369,
+      "sha256": "991f2de9d78a1b042b50d8733844faf32bae08ae95ccadaa4342fc67cbeb0ed8",
+      "path": "predictions/UAV-Anti-UAV_Test_000100.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000101",
+      "frames": 242,
+      "sha256": "834ffe5c2eade4b29e6310ed3dd29a2b20c2835b5b3c9dd47c1f14b7763afddb",
+      "path": "predictions/UAV-Anti-UAV_Test_000101.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000102",
+      "frames": 363,
+      "sha256": "c106acbe2f4dc746c89e72320b11a75cb01509037f5c388d6725defb6937ba02",
+      "path": "predictions/UAV-Anti-UAV_Test_000102.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000103",
+      "frames": 276,
+      "sha256": "9585000199878380e60b7c49da2fe726bff26f180c2e137f8aad178bc387f24e",
+      "path": "predictions/UAV-Anti-UAV_Test_000103.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000104",
+      "frames": 291,
+      "sha256": "ea89df99e4b5851a3426700c2b75b5d9f56e5f61b019fb8f084dffecc85347de",
+      "path": "predictions/UAV-Anti-UAV_Test_000104.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000105",
+      "frames": 83,
+      "sha256": "6b8d8e804dc41e5dd84da7d8c159c4951cc8257dd5d53dbb539dc106cd13c2b2",
+      "path": "predictions/UAV-Anti-UAV_Test_000105.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000106",
+      "frames": 893,
+      "sha256": "e3825d86f7a1c22eec10aaaf53c76c04e9e71b2d9a4721524243f91a5d619749",
+      "path": "predictions/UAV-Anti-UAV_Test_000106.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000107",
+      "frames": 893,
+      "sha256": "73ef7faf4b008163a7825535960b4103f16f2cd019ff2ddccb6a521833e1de9b",
+      "path": "predictions/UAV-Anti-UAV_Test_000107.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000108",
+      "frames": 893,
+      "sha256": "2047386869b9fee25ad920ce4444707a0c5030db8b9fd5b85a19a79250b6ab41",
+      "path": "predictions/UAV-Anti-UAV_Test_000108.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000109",
+      "frames": 893,
+      "sha256": "5c443118f95b1a46c5fa9a7a9d8b5451e41437b3b3e32a27ed66c6869810ed2f",
+      "path": "predictions/UAV-Anti-UAV_Test_000109.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000110",
+      "frames": 1758,
+      "sha256": "32aae2a68eeef7ca52363bc5c9aa7d3db03552a6bac309e3b90c6a207e50d77c",
+      "path": "predictions/UAV-Anti-UAV_Test_000110.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000111",
+      "frames": 185,
+      "sha256": "32d628c01fb27d8129f6f3f40fe8ce2bdac8285c1075b8ca6216eef04a224e3d",
+      "path": "predictions/UAV-Anti-UAV_Test_000111.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000112",
+      "frames": 117,
+      "sha256": "50468fdbf8a6eee2fa4eddd5ebf3ac48caa35c93673725815914ff3b543bdcb2",
+      "path": "predictions/UAV-Anti-UAV_Test_000112.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000113",
+      "frames": 2337,
+      "sha256": "6cd5d172d6a52feb182a36e25ac76790099bbbad47b8505eefd245d3e6d127cc",
+      "path": "predictions/UAV-Anti-UAV_Test_000113.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000114",
+      "frames": 2318,
+      "sha256": "55e360e479492b16509fcf15a441a0e87a3cfe58bb6e14eefa1828304ab392d3",
+      "path": "predictions/UAV-Anti-UAV_Test_000114.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000115",
+      "frames": 4553,
+      "sha256": "c7e9341989cdefb8c6c95be71e4508b43a11df914712d064352f7fbe4529eb9b",
+      "path": "predictions/UAV-Anti-UAV_Test_000115.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000116",
+      "frames": 418,
+      "sha256": "727782cf8ba852c855b36f8b1fa914b1d976b97a64ac5f45fe3562a1569a3d78",
+      "path": "predictions/UAV-Anti-UAV_Test_000116.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000117",
+      "frames": 3959,
+      "sha256": "b8a2371858c160928d826a782dda17ecb7b8b18cec4b7d0412461578a96785b5",
+      "path": "predictions/UAV-Anti-UAV_Test_000117.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000118",
+      "frames": 455,
+      "sha256": "6eb63e18f26b082e9430ff609beb53cc663a338ce202329d28b0a6ec5f4eb25c",
+      "path": "predictions/UAV-Anti-UAV_Test_000118.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000119",
+      "frames": 761,
+      "sha256": "9ab77379357f31c233a87524425a7ca2f58c34d12eeaab8ea69eef18dde686ab",
+      "path": "predictions/UAV-Anti-UAV_Test_000119.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000120",
+      "frames": 824,
+      "sha256": "9086a6f316fb0f0d9dd66ea3fe02f3c1a83402c180f6d9e59b602d038af0a427",
+      "path": "predictions/UAV-Anti-UAV_Test_000120.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000121",
+      "frames": 560,
+      "sha256": "cb0edcf6ba53a3ca733690d05bce83a2b0b4b2480282eae124f8a7a98f609727",
+      "path": "predictions/UAV-Anti-UAV_Test_000121.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000122",
+      "frames": 519,
+      "sha256": "5401c6adeccf1c16be3b103b3c10af590e1761875904ba4aa1f687b033029a09",
+      "path": "predictions/UAV-Anti-UAV_Test_000122.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000123",
+      "frames": 1156,
+      "sha256": "efb372f0d43e9c8cf57b271a4cf3853e5c391ebaff47106fded2801abdc0c083",
+      "path": "predictions/UAV-Anti-UAV_Test_000123.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000124",
+      "frames": 2439,
+      "sha256": "10e91258ce8e6d18b50b0402861516c8b70a73b5b96b19e7e7c9f3c60b71e662",
+      "path": "predictions/UAV-Anti-UAV_Test_000124.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000125",
+      "frames": 407,
+      "sha256": "7dd4edf6b2500f4ca68c127890e3bffc7945df184242eeacaa9f68a05008688b",
+      "path": "predictions/UAV-Anti-UAV_Test_000125.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000126",
+      "frames": 11910,
+      "sha256": "86dfceae6ba0d9260e4fdf4c09197dc744b5d48aa04999aacf3aa2459e65ce11",
+      "path": "predictions/UAV-Anti-UAV_Test_000126.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000127",
+      "frames": 262,
+      "sha256": "11efc7d7552c3bddd9c369c28101dd72db0b7f94ab78cf3b9cd42d88e4254c66",
+      "path": "predictions/UAV-Anti-UAV_Test_000127.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000128",
+      "frames": 262,
+      "sha256": "d1c67e27c879fc8778a1463f6f180b8f99614d95ca6c24093e13fa60dafd7e59",
+      "path": "predictions/UAV-Anti-UAV_Test_000128.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000129",
+      "frames": 254,
+      "sha256": "cf1534be9f47425dcee37d71e26241cee29020e736bc40056da12cfdd7ee502d",
+      "path": "predictions/UAV-Anti-UAV_Test_000129.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000130",
+      "frames": 204,
+      "sha256": "bba9e8e482be174f163d1c75f030447164e920c6e6b28f115bbcffe998d533ca",
+      "path": "predictions/UAV-Anti-UAV_Test_000130.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000131",
+      "frames": 1799,
+      "sha256": "884d0388de8a0e0cda2293f33b58e8d2c1e9ff5482c828e5d288b1861b36406b",
+      "path": "predictions/UAV-Anti-UAV_Test_000131.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000132",
+      "frames": 119,
+      "sha256": "494ee67fb23be41078ffb15e0517ae4364f3964ac28e64ed1126624a3058a56b",
+      "path": "predictions/UAV-Anti-UAV_Test_000132.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000133",
+      "frames": 2582,
+      "sha256": "2e2f1cabc37edbaeae0330dd370cb3342b62a2373876accb67f9d184c94310d2",
+      "path": "predictions/UAV-Anti-UAV_Test_000133.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000134",
+      "frames": 8669,
+      "sha256": "00c84cd0e3f755157024b007cb4294087e8326c1f5a9d4353d9a1596474b74ca",
+      "path": "predictions/UAV-Anti-UAV_Test_000134.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000135",
+      "frames": 5522,
+      "sha256": "5a085f9ab9170138fb6989cbcec3513c19c2d202c4baed1ab9c7111cd2ac39d8",
+      "path": "predictions/UAV-Anti-UAV_Test_000135.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000136",
+      "frames": 925,
+      "sha256": "d9b83da70a7b5452e897692df03e6b34123f33f22e9bd4dc5fa078c9cee44e24",
+      "path": "predictions/UAV-Anti-UAV_Test_000136.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000137",
+      "frames": 3414,
+      "sha256": "cdb5b51a1864fc07f34b34fa8d0c53d2e4751061577476af199131aa92535be1",
+      "path": "predictions/UAV-Anti-UAV_Test_000137.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000138",
+      "frames": 2099,
+      "sha256": "5d3ad5a054bbfa99d6978c968ff6e5ae9f043b058a2117fd6ca51175a1a2d4ba",
+      "path": "predictions/UAV-Anti-UAV_Test_000138.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000139",
+      "frames": 2191,
+      "sha256": "5e6b09de4493b8078b918bad7b723ca32239b98335ad3c8d01c218930f9fcebc",
+      "path": "predictions/UAV-Anti-UAV_Test_000139.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000140",
+      "frames": 139,
+      "sha256": "fa13ea74c06669f6d2d1e4b191a4baf8d13a69050861b17b5531d6f9df0fd72b",
+      "path": "predictions/UAV-Anti-UAV_Test_000140.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000141",
+      "frames": 7800,
+      "sha256": "317d0c048abb88b5bd49939c9ac9440fb32493114d16692ab9295c344901a372",
+      "path": "predictions/UAV-Anti-UAV_Test_000141.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000142",
+      "frames": 3052,
+      "sha256": "7aaecf3c0816ea82392f4824fcbe3523539f507d617b86f7f36fc884af2b0637",
+      "path": "predictions/UAV-Anti-UAV_Test_000142.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000143",
+      "frames": 899,
+      "sha256": "18d5cbe97ac922a00e4e83d8ea42d0b624cd8bdbf1357325575853f4824607f3",
+      "path": "predictions/UAV-Anti-UAV_Test_000143.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000144",
+      "frames": 1319,
+      "sha256": "b5b15c5df2387967efef4cf87d69e00739bbd98482489cbc402b2d5108724959",
+      "path": "predictions/UAV-Anti-UAV_Test_000144.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000145",
+      "frames": 17681,
+      "sha256": "8c8f1bbb1fef5b2952be00b498b05b1cbc59b0c8c78478c990c00df7f0d22d42",
+      "path": "predictions/UAV-Anti-UAV_Test_000145.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000146",
+      "frames": 163,
+      "sha256": "696c30a1bb934b1d95e767ec2b6f7f5d0ced3533dfb1c318ebee6bf4160b3c2e",
+      "path": "predictions/UAV-Anti-UAV_Test_000146.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000147",
+      "frames": 329,
+      "sha256": "d82b622561fca44e9924511e74045e1e247daa2cacbc68c137256d3f75d0f778",
+      "path": "predictions/UAV-Anti-UAV_Test_000147.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000148",
+      "frames": 329,
+      "sha256": "a5bb334709019f22bf86fdaa67a7633272c9c9b5eb1670309ce52f8b8e5173cc",
+      "path": "predictions/UAV-Anti-UAV_Test_000148.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000149",
+      "frames": 1474,
+      "sha256": "1c3f2043e657571a6e04c136a497a037f80233c3cf0a02deec4bd0ffc6148887",
+      "path": "predictions/UAV-Anti-UAV_Test_000149.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000150",
+      "frames": 105,
+      "sha256": "d9066b96875e67cb5be7db061f5c958d2e41176b59c77a1868fd3fec247b26fa",
+      "path": "predictions/UAV-Anti-UAV_Test_000150.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000151",
+      "frames": 118,
+      "sha256": "f9299fcf58ec4322acbdefc7795b8aa88840e5684f222443e5a0fc151fbab509",
+      "path": "predictions/UAV-Anti-UAV_Test_000151.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000152",
+      "frames": 179,
+      "sha256": "400bf993a5af4f92e8576ab4f84a5cd19f1b56454be53e3ff1d0a76e90002239",
+      "path": "predictions/UAV-Anti-UAV_Test_000152.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000153",
+      "frames": 100,
+      "sha256": "a4fcacaacab15ae37148b2a6fc55eaff0f60fa86b99e9f7ef94b0abb6a24fb8b",
+      "path": "predictions/UAV-Anti-UAV_Test_000153.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000154",
+      "frames": 93,
+      "sha256": "01d4add3ff47dcb8be9052ef0fd11dfe0b0e9bf4a917ca279e363751fdc17ea7",
+      "path": "predictions/UAV-Anti-UAV_Test_000154.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000155",
+      "frames": 686,
+      "sha256": "969bd6e4d08d38480b52afa3459255750be18d61d3dc4812c6c552fce6403adf",
+      "path": "predictions/UAV-Anti-UAV_Test_000155.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000156",
+      "frames": 203,
+      "sha256": "8ba477423f658746da66a1322441ff644311b045b89bca2d3d3ee612c07ce8f3",
+      "path": "predictions/UAV-Anti-UAV_Test_000156.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000157",
+      "frames": 3060,
+      "sha256": "c066084b83aa2426ca75a7bdc5bc67ab905aeee5e118f17ed6d832793651dae9",
+      "path": "predictions/UAV-Anti-UAV_Test_000157.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000158",
+      "frames": 50,
+      "sha256": "93a334c30367be894b65e6f7b923847adb7eb581a846f42a544b4228e3b8ee65",
+      "path": "predictions/UAV-Anti-UAV_Test_000158.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000159",
+      "frames": 3764,
+      "sha256": "b558d7368a47fbcba9537a0a6cae9565db072e2325f88e4310e6d5af9e32f104",
+      "path": "predictions/UAV-Anti-UAV_Test_000159.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000160",
+      "frames": 1103,
+      "sha256": "2013b3c2de070fec377bd7f974ee0fd50623404ae5609733af05831c7d2366fc",
+      "path": "predictions/UAV-Anti-UAV_Test_000160.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000161",
+      "frames": 2069,
+      "sha256": "d1933ae86c703da218601aa1316fba24316a7e3d1e2c0f5c4e250960e2d96bbe",
+      "path": "predictions/UAV-Anti-UAV_Test_000161.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000162",
+      "frames": 1058,
+      "sha256": "86b42204e69e07bffe9dd049c0ad60b71c15fbedaa926cb077c2046c219e7deb",
+      "path": "predictions/UAV-Anti-UAV_Test_000162.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000163",
+      "frames": 599,
+      "sha256": "e50160f68df5d8d7eee86cf77053edd4497a38e749d12baf341b98939e2079df",
+      "path": "predictions/UAV-Anti-UAV_Test_000163.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000164",
+      "frames": 443,
+      "sha256": "920f9a2f029f2459c39dd3253aeb51bcc8511dece5bb13df92c28e5be224272a",
+      "path": "predictions/UAV-Anti-UAV_Test_000164.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000165",
+      "frames": 1049,
+      "sha256": "d0b2b76db7779968f10f8bcfee102304b498cfc0c8e9d9cc0c52d37ccba47def",
+      "path": "predictions/UAV-Anti-UAV_Test_000165.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000166",
+      "frames": 3780,
+      "sha256": "528d7213bcc557d5c3c95b7206b59b6300818db21b8b7411fbf5c188eb584847",
+      "path": "predictions/UAV-Anti-UAV_Test_000166.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000167",
+      "frames": 4903,
+      "sha256": "9b3fdd1b0052b2af5b235017442eba45a7da92bb5fa4c887d6b202bd765c7cd6",
+      "path": "predictions/UAV-Anti-UAV_Test_000167.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000168",
+      "frames": 4561,
+      "sha256": "4f57962e32929c5ae30605dd38622dfe3a78d0f688abf4e8a701f422ed2f6ac8",
+      "path": "predictions/UAV-Anti-UAV_Test_000168.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000169",
+      "frames": 587,
+      "sha256": "d8accb15a8fe76d2f091635f52e00fa832216ee01f642a8e91ac044094cc5381",
+      "path": "predictions/UAV-Anti-UAV_Test_000169.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000170",
+      "frames": 587,
+      "sha256": "6cf3b847a4b020c0628b0ead6aa91f78b07fe1d9eb6779476e9f60039a4e2651",
+      "path": "predictions/UAV-Anti-UAV_Test_000170.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000171",
+      "frames": 458,
+      "sha256": "1c4242ebe3a36254a99471c44571cbbb534dd9d2ee955dca706810d3d781a536",
+      "path": "predictions/UAV-Anti-UAV_Test_000171.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000172",
+      "frames": 852,
+      "sha256": "8d209995c976362d1401ab5fbdab290cd84a2fd19c2acfc53a61444314ac143d",
+      "path": "predictions/UAV-Anti-UAV_Test_000172.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000173",
+      "frames": 761,
+      "sha256": "a86f961e10400598ab892588e7fbf10d457ebe5e4f67d304bbf709933c37ba55",
+      "path": "predictions/UAV-Anti-UAV_Test_000173.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000174",
+      "frames": 424,
+      "sha256": "ccd1845f76d20a1f1f93cd7f86dba354a40ba751c8028072ad899d938ef78871",
+      "path": "predictions/UAV-Anti-UAV_Test_000174.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000175",
+      "frames": 207,
+      "sha256": "5f3f00b9920a58c7cd55e8bbe40e1709b70940f5ebd09daaa679e92597a48afe",
+      "path": "predictions/UAV-Anti-UAV_Test_000175.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000176",
+      "frames": 1565,
+      "sha256": "b4975f1093931c7887e31a9b2f8092db2edab648b9a73adc387bab35ec2e2c30",
+      "path": "predictions/UAV-Anti-UAV_Test_000176.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000177",
+      "frames": 357,
+      "sha256": "a67c59ffdf74d02e4c91717b431ecc7dc53a6fdd02aa9cceb1d40f31c62f8b99",
+      "path": "predictions/UAV-Anti-UAV_Test_000177.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000178",
+      "frames": 119,
+      "sha256": "5858b2d52d511cb38e2f242a5f5bf0821528b78db8d7f71fe16a66808110e8b1",
+      "path": "predictions/UAV-Anti-UAV_Test_000178.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000179",
+      "frames": 712,
+      "sha256": "fc67929442e3137f2cf55e803e6da626f9c92d52685f9f676d6899c7cd728fcd",
+      "path": "predictions/UAV-Anti-UAV_Test_000179.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000180",
+      "frames": 712,
+      "sha256": "aab410e0b553b4bd253c562a22dbbf932537b4eed9dba0837506f99c34b3dfab",
+      "path": "predictions/UAV-Anti-UAV_Test_000180.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000181",
+      "frames": 339,
+      "sha256": "fccc6c7f519a146b20dcb534dd2ebdd310b8b01839ecbd4394b601de4dea1e24",
+      "path": "predictions/UAV-Anti-UAV_Test_000181.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000182",
+      "frames": 1248,
+      "sha256": "500c7ef327baa3d977ca9946ee18814d20879a557cb8d27a667f1ef3f2bd7436",
+      "path": "predictions/UAV-Anti-UAV_Test_000182.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000183",
+      "frames": 577,
+      "sha256": "855ba9692bfeed83b78dea266480a538b371d042d2a68600087aa90cf511cd62",
+      "path": "predictions/UAV-Anti-UAV_Test_000183.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000184",
+      "frames": 1229,
+      "sha256": "dcf40de268a15849cf5ec685bade2f6941adc45a3d6bb92a2b10b2cf3287e726",
+      "path": "predictions/UAV-Anti-UAV_Test_000184.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000185",
+      "frames": 544,
+      "sha256": "a287c2f6b7ff1d024323aabdbfe7995fda2b076987c1258a11c0d65e337a19bc",
+      "path": "predictions/UAV-Anti-UAV_Test_000185.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000186",
+      "frames": 275,
+      "sha256": "f9eb786c43b93d30ac1a7d816d9b74e00299bd9979cf777b77d424084c132973",
+      "path": "predictions/UAV-Anti-UAV_Test_000186.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000187",
+      "frames": 200,
+      "sha256": "e183762618977475bd7951a8176fddd6d4291edc14b0b59e5b39a4b13f5b04bc",
+      "path": "predictions/UAV-Anti-UAV_Test_000187.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000188",
+      "frames": 160,
+      "sha256": "ddcdc139db16a53ed9462ea1bd9b060d27ca590e012f8595c2e80807fe9854f7",
+      "path": "predictions/UAV-Anti-UAV_Test_000188.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000189",
+      "frames": 693,
+      "sha256": "fd3a02ebdf176bcb922fc1f906597d73b19c89457ede7aa78ae9fbbff76b57e4",
+      "path": "predictions/UAV-Anti-UAV_Test_000189.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000190",
+      "frames": 22,
+      "sha256": "94df13c36f83556efc70bf7708bb163505c12300d256af05992a6d4c2f69802f",
+      "path": "predictions/UAV-Anti-UAV_Test_000190.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000191",
+      "frames": 208,
+      "sha256": "8180a3d2be18f060376df972c58b37e3c5980ab4e5d44dd71b9d32897a7ef616",
+      "path": "predictions/UAV-Anti-UAV_Test_000191.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000192",
+      "frames": 3929,
+      "sha256": "09579a3a94ee6e711a2660baf4dd0e715477ecaea21ecca8c3c4ca54848aee61",
+      "path": "predictions/UAV-Anti-UAV_Test_000192.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000193",
+      "frames": 573,
+      "sha256": "fda7d3566de5ed3a7380d4bcf72668f388d928ea130efb6c87a53842c8393cf2",
+      "path": "predictions/UAV-Anti-UAV_Test_000193.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000194",
+      "frames": 1799,
+      "sha256": "c0c64e95b556afd8bf022639dd2074929dc81e3fc5041913895b3b6d164d0f3e",
+      "path": "predictions/UAV-Anti-UAV_Test_000194.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000195",
+      "frames": 1675,
+      "sha256": "182007b3af1e5033d6d5bdf4f02ceff0b54e72b7a1e6fc3e41e4477a3be058cb",
+      "path": "predictions/UAV-Anti-UAV_Test_000195.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000196",
+      "frames": 587,
+      "sha256": "bcf95a2815291f8b5a37f4b524cb5b6a80c8306daef513a6d779bc39842c0cbd",
+      "path": "predictions/UAV-Anti-UAV_Test_000196.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000197",
+      "frames": 962,
+      "sha256": "d46d31312bfd7dc6e98e72512659101f831f656986500d899bad22bdf84e2f18",
+      "path": "predictions/UAV-Anti-UAV_Test_000197.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000198",
+      "frames": 166,
+      "sha256": "571c9358f3ad94af7fe0bc78b731568ea33fabb75fdc9221c863a8fce0299702",
+      "path": "predictions/UAV-Anti-UAV_Test_000198.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000199",
+      "frames": 318,
+      "sha256": "750d0b47ec541d49142180e8fda05bde1040beda9f1f2124fdf56ba5f726be48",
+      "path": "predictions/UAV-Anti-UAV_Test_000199.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000200",
+      "frames": 1519,
+      "sha256": "39f7abaeeaa845c0ffbf7ffff4c08e65c3f50efaf80e571f711aa361c861ca15",
+      "path": "predictions/UAV-Anti-UAV_Test_000200.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000201",
+      "frames": 3955,
+      "sha256": "0882c75f5ddba86c18ab982959d312996c9ccb86d23404e3233489c0d05fc0d6",
+      "path": "predictions/UAV-Anti-UAV_Test_000201.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000202",
+      "frames": 1509,
+      "sha256": "7a10d7103a583e7344e6f8dab69c88ca8501e3e0871f23eed5d73c76671cbf5d",
+      "path": "predictions/UAV-Anti-UAV_Test_000202.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000203",
+      "frames": 4656,
+      "sha256": "874fe6afec1c64e51739dbf4392b466cd67a8a000c8e2288786f061ba43aacdc",
+      "path": "predictions/UAV-Anti-UAV_Test_000203.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000204",
+      "frames": 1068,
+      "sha256": "ce2f1ecaf5e7283e4c0c2efd6e935c497b1cf8d367dce92f4587a878c8cdec75",
+      "path": "predictions/UAV-Anti-UAV_Test_000204.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000205",
+      "frames": 834,
+      "sha256": "0b06f7bf6d18a28c0a7a6e8caafe58bc6186dc8df78359c143f098617c425e2f",
+      "path": "predictions/UAV-Anti-UAV_Test_000205.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000206",
+      "frames": 1311,
+      "sha256": "9ca63f9aae64b0aee85a76d9ebc81b39ad758de18e80d428b6ed70c92da8a184",
+      "path": "predictions/UAV-Anti-UAV_Test_000206.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000207",
+      "frames": 513,
+      "sha256": "dd3ade573920315398a0fb0de4d41cfbb6e2788cc1fc8c6b30a7bc7079cd0d4e",
+      "path": "predictions/UAV-Anti-UAV_Test_000207.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000208",
+      "frames": 671,
+      "sha256": "e61d15ff6653f47ec12687aeea1b71dcce1db159964f961469c4c41fdb24bf5d",
+      "path": "predictions/UAV-Anti-UAV_Test_000208.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000209",
+      "frames": 222,
+      "sha256": "890fa9a10f4ea51fcd1c4a38a4fa508427b826b7801dc111e563791d64e123d8",
+      "path": "predictions/UAV-Anti-UAV_Test_000209.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000210",
+      "frames": 3267,
+      "sha256": "304029def7b01f34016380255bbd2b5469e7edc102de91aff40eea2a6b64a5e3",
+      "path": "predictions/UAV-Anti-UAV_Test_000210.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000211",
+      "frames": 4552,
+      "sha256": "a7a0e53ad3105a88a5daec3c892ad40ac0426d6de51a90fcf901754431b55e17",
+      "path": "predictions/UAV-Anti-UAV_Test_000211.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000212",
+      "frames": 1582,
+      "sha256": "01efa3d25fca47ecfd30c1a78b8e9195a5d8dbb0b234221fa5049cae5fb26f96",
+      "path": "predictions/UAV-Anti-UAV_Test_000212.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000213",
+      "frames": 213,
+      "sha256": "c46a116fa6944a0cabab9f3636bc253c2319e375adf9d0c5a9ac17ac8c6c3254",
+      "path": "predictions/UAV-Anti-UAV_Test_000213.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000214",
+      "frames": 105,
+      "sha256": "ab2434836c8e0ea0bf1267575a2e4a09f3fb3e401bde161f3e551e7510dddddd",
+      "path": "predictions/UAV-Anti-UAV_Test_000214.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000215",
+      "frames": 242,
+      "sha256": "a525dc5a557e8b813c7eed77c0a6f16ed937e99117c27cbf2283d26d473e3140",
+      "path": "predictions/UAV-Anti-UAV_Test_000215.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000216",
+      "frames": 84,
+      "sha256": "91b1e099cedfbb2f0489caf75a5c52dbc8424609c87dde8571d939e160fea357",
+      "path": "predictions/UAV-Anti-UAV_Test_000216.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000217",
+      "frames": 7019,
+      "sha256": "159987c56e152030dbcfa7aabec1723911b94045dd5649505d91590c994c67f0",
+      "path": "predictions/UAV-Anti-UAV_Test_000217.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000218",
+      "frames": 148,
+      "sha256": "1c852d6ed056cea975e0015d31540677848b0e2de0e875811074b4ef363feeeb",
+      "path": "predictions/UAV-Anti-UAV_Test_000218.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000219",
+      "frames": 234,
+      "sha256": "66f508c41ef8df2628105b8a572ae8cc3e292b691671829b9510d67c45a0dbd8",
+      "path": "predictions/UAV-Anti-UAV_Test_000219.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000220",
+      "frames": 382,
+      "sha256": "5cbf60994c4b28ebbe1e6f807f2387e71cccf306558871565e576a1612d9e893",
+      "path": "predictions/UAV-Anti-UAV_Test_000220.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000221",
+      "frames": 1152,
+      "sha256": "8a6eb66446f88b9647c373bcd4c9417c0ee430b4f9a27bbad5a55681cc0c11b7",
+      "path": "predictions/UAV-Anti-UAV_Test_000221.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000222",
+      "frames": 316,
+      "sha256": "9089f13735f7d32cbd08a6dc55a1ebbd9964dacece81424afce957f8498b765d",
+      "path": "predictions/UAV-Anti-UAV_Test_000222.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000223",
+      "frames": 437,
+      "sha256": "3eff8ef4f62bea8ac8ce0ea24cd743b4007efb1fa090dd13f1a65192aac370cf",
+      "path": "predictions/UAV-Anti-UAV_Test_000223.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000224",
+      "frames": 116,
+      "sha256": "4ec06b18326c4505b8f85ac98e9c54efc95d6aa0ae81b1969f55541345535852",
+      "path": "predictions/UAV-Anti-UAV_Test_000224.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000225",
+      "frames": 684,
+      "sha256": "addfec2a8e23529ab79d8b1b4246713b7219f4cd76e9a185c96086647518a4c1",
+      "path": "predictions/UAV-Anti-UAV_Test_000225.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000226",
+      "frames": 132,
+      "sha256": "87a731b11c018d4faf571e1a4676a7281b004422df5b85d9a3ec57aaa94daf3d",
+      "path": "predictions/UAV-Anti-UAV_Test_000226.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000227",
+      "frames": 7444,
+      "sha256": "dc34838af5d1371122e11d824ad137352bc9e2d5710f50ec52e3dfe058868962",
+      "path": "predictions/UAV-Anti-UAV_Test_000227.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000228",
+      "frames": 353,
+      "sha256": "387630056e1b93768659897801eeacdd05efae5018c3d31a3a93f8a083f2d92a",
+      "path": "predictions/UAV-Anti-UAV_Test_000228.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000229",
+      "frames": 1731,
+      "sha256": "4bb784bd5577a874922bfa07827d17c2d7abf3a34d19b735d5462569abd8e6c6",
+      "path": "predictions/UAV-Anti-UAV_Test_000229.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000230",
+      "frames": 2147,
+      "sha256": "5bbb983996e1311ab0e276a1da2036a267ea57f72a72ca1f1f09e5439badffd6",
+      "path": "predictions/UAV-Anti-UAV_Test_000230.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000231",
+      "frames": 1001,
+      "sha256": "1d6a5bf65b4a7f8b5c17716c6a958702b23906aaefdb59b6a713a30274a58c9a",
+      "path": "predictions/UAV-Anti-UAV_Test_000231.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000232",
+      "frames": 421,
+      "sha256": "35c48208506603e17d62752aa48067e5f43560b0a129eff643cbe063fe743aa1",
+      "path": "predictions/UAV-Anti-UAV_Test_000232.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000233",
+      "frames": 478,
+      "sha256": "c5b1541789f01f9ace14282e03324e8c1241f653b47bdc197a7b96319c77f8d9",
+      "path": "predictions/UAV-Anti-UAV_Test_000233.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000234",
+      "frames": 3200,
+      "sha256": "313365cacdebc49715e85d8fcc97e9aa3d9a7ad83ff039228b7be2f3bae276df",
+      "path": "predictions/UAV-Anti-UAV_Test_000234.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000235",
+      "frames": 531,
+      "sha256": "80447e904bf5d292a510ab6e50b276c1939570049355edb8a41b70ba6bb19f62",
+      "path": "predictions/UAV-Anti-UAV_Test_000235.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000236",
+      "frames": 1121,
+      "sha256": "9e41778f197121ecb3ecfef640346c7a00484f6b44413f06d8d49c24bad2a95b",
+      "path": "predictions/UAV-Anti-UAV_Test_000236.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000237",
+      "frames": 922,
+      "sha256": "9f23461e6db4e3d2d41870ba800ee5de21180198dc71caa6512f3229b45cd479",
+      "path": "predictions/UAV-Anti-UAV_Test_000237.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000238",
+      "frames": 595,
+      "sha256": "fa0569e93fe52e9a65d5633569ebabe9a13cc13178b689e1f6654cd02389d80c",
+      "path": "predictions/UAV-Anti-UAV_Test_000238.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000239",
+      "frames": 213,
+      "sha256": "b4c0d63b2c4a1f86a5782d88dd1d52eff447c94144819b7d135a60a1b4305da5",
+      "path": "predictions/UAV-Anti-UAV_Test_000239.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000240",
+      "frames": 69,
+      "sha256": "0a9b1c5f152422af8b5373e248a10b561370448205866cdfaf218e20dc57c735",
+      "path": "predictions/UAV-Anti-UAV_Test_000240.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000241",
+      "frames": 693,
+      "sha256": "ba435b5f1b002d7d2b476ecd704ea4ffdce11ee6c75163c331fffcf40acef152",
+      "path": "predictions/UAV-Anti-UAV_Test_000241.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000242",
+      "frames": 2303,
+      "sha256": "44f93749137743569068b03f6af592462a93fef2fcec6a4a6e43ec8d9f4f39bf",
+      "path": "predictions/UAV-Anti-UAV_Test_000242.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000243",
+      "frames": 2265,
+      "sha256": "57a6d18919f17aedfd55db0bc5935cea01bab27ab4cdf49bb43cfb5add6e809f",
+      "path": "predictions/UAV-Anti-UAV_Test_000243.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000244",
+      "frames": 1104,
+      "sha256": "2867036181035aaceed6620a54f11ef1357301ed47632bca405c7d15768d4179",
+      "path": "predictions/UAV-Anti-UAV_Test_000244.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000245",
+      "frames": 53,
+      "sha256": "13eb29f1896f78dbb21f3ba140b9d64a06c459485f987fca733be04145f9cb92",
+      "path": "predictions/UAV-Anti-UAV_Test_000245.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000246",
+      "frames": 660,
+      "sha256": "c974887444b101a37b5dd0da0a89c54a5d601968ca0a3bcd4b884df10e878b53",
+      "path": "predictions/UAV-Anti-UAV_Test_000246.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000247",
+      "frames": 786,
+      "sha256": "8df26a6adf7e2e632e3a1cf117c0d522a8c703a6e8873c0620ad49544e43841b",
+      "path": "predictions/UAV-Anti-UAV_Test_000247.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000248",
+      "frames": 786,
+      "sha256": "3d18e754c304a6203fbf4c00f538ea3290c11d4dc93c2ab556e09772076f0548",
+      "path": "predictions/UAV-Anti-UAV_Test_000248.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000249",
+      "frames": 1039,
+      "sha256": "3d06a82bcb73b8dbca1a8b1f15c18076b055459be0fd735df4cb632d38d07501",
+      "path": "predictions/UAV-Anti-UAV_Test_000249.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000250",
+      "frames": 1087,
+      "sha256": "2623e1a2de941833de739a8f9752edf73ae470069f208dbf972c7f55c92f8a89",
+      "path": "predictions/UAV-Anti-UAV_Test_000250.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000251",
+      "frames": 10724,
+      "sha256": "c824523937c8c71723d1819231387ed1f63eb98010f4c9282f64a3704fd05d85",
+      "path": "predictions/UAV-Anti-UAV_Test_000251.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000252",
+      "frames": 438,
+      "sha256": "2457fd9c2e4dbe8863e89cc695f4dcf80cd2ffce5c8bbce94b6ca00c66e04258",
+      "path": "predictions/UAV-Anti-UAV_Test_000252.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000253",
+      "frames": 3108,
+      "sha256": "381a89a7519e5196216e14262df7c0c538082215d4a475a07e89667f692fbd76",
+      "path": "predictions/UAV-Anti-UAV_Test_000253.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000254",
+      "frames": 695,
+      "sha256": "13f5f593c32be89e5575030ca8e33f94a489309d34bd0849d173e52039c4abdc",
+      "path": "predictions/UAV-Anti-UAV_Test_000254.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000255",
+      "frames": 209,
+      "sha256": "e6f13d987168fa7c8bf2a36e0fba31ae6add318ce6d71df169f6b4c78c97a74c",
+      "path": "predictions/UAV-Anti-UAV_Test_000255.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000256",
+      "frames": 313,
+      "sha256": "fd6ae572a374f0783badbbce93109a8d505272f87e57f8d244ab503943571838",
+      "path": "predictions/UAV-Anti-UAV_Test_000256.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000257",
+      "frames": 73,
+      "sha256": "8de7f84eb8f5d914d9a50700d4884a975b43ef37b4c0f53fd5bb1ffd2d3e2999",
+      "path": "predictions/UAV-Anti-UAV_Test_000257.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000258",
+      "frames": 286,
+      "sha256": "f5205d9483cb2563bc746ea48a50fe74acd1782e009d782e9868c1d14670ebf6",
+      "path": "predictions/UAV-Anti-UAV_Test_000258.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000259",
+      "frames": 702,
+      "sha256": "5a84ee1752aa4ea9121ff4622083df15ff6717fb1751c95d186c032dcc936b1c",
+      "path": "predictions/UAV-Anti-UAV_Test_000259.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000260",
+      "frames": 422,
+      "sha256": "edc5fa5029a46b96f0eeaa641a86dcfb66d3f7fc50bc2cbc1dc63c714b347dff",
+      "path": "predictions/UAV-Anti-UAV_Test_000260.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000261",
+      "frames": 7967,
+      "sha256": "4cf46e950b2103a338e2e411cb887535229592e300b49a164a4cf30fca1926fb",
+      "path": "predictions/UAV-Anti-UAV_Test_000261.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000262",
+      "frames": 655,
+      "sha256": "61638e6aae82a4470a37a661a7638a8d637c187b60ade3d712d4c0bd43503769",
+      "path": "predictions/UAV-Anti-UAV_Test_000262.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000263",
+      "frames": 943,
+      "sha256": "32e6cc6dd726ddbf319c7d98de2017a3877a7f763c0fda4178b1641358d9939b",
+      "path": "predictions/UAV-Anti-UAV_Test_000263.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000264",
+      "frames": 943,
+      "sha256": "d2cd6f34bc3286dffc02949ff8118b4f1a2d486493cc40a2f27ae9697bf98913",
+      "path": "predictions/UAV-Anti-UAV_Test_000264.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000265",
+      "frames": 1593,
+      "sha256": "cf9b1bcd905770b81b0f034aa9c7554e61acd2445dcab5f1840f8f9b39ee9512",
+      "path": "predictions/UAV-Anti-UAV_Test_000265.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000266",
+      "frames": 359,
+      "sha256": "d3f727482c8e66d5676b9101071f17bc157304c613d617344ec732484680cb0a",
+      "path": "predictions/UAV-Anti-UAV_Test_000266.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000267",
+      "frames": 342,
+      "sha256": "2fb4eec0c4d71a262fbd9231bcdc1aae3c5ed6faf91862526ee3f3b67fb7d31c",
+      "path": "predictions/UAV-Anti-UAV_Test_000267.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000268",
+      "frames": 1343,
+      "sha256": "4585cb96dbadefeca1a3f1abd158e10c21c38657ad65709143f0075e48959059",
+      "path": "predictions/UAV-Anti-UAV_Test_000268.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000269",
+      "frames": 1013,
+      "sha256": "6babecd3463c628d963d761974fa1f4657280499a5ce1431b94df3015ca6ae5c",
+      "path": "predictions/UAV-Anti-UAV_Test_000269.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000270",
+      "frames": 1339,
+      "sha256": "900819fafd572a87abbd1811a7bb8695f8e3e9741196eb0fc2d8afb2a985d9d5",
+      "path": "predictions/UAV-Anti-UAV_Test_000270.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000271",
+      "frames": 479,
+      "sha256": "43267cdfc62020dfdc3f852f2389d0fcecead9f0cffbabfb247f212099aed876",
+      "path": "predictions/UAV-Anti-UAV_Test_000271.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000272",
+      "frames": 338,
+      "sha256": "61d310437859bc3a8b8476573460016f9fe3c3808a145171ec631543e82ba39b",
+      "path": "predictions/UAV-Anti-UAV_Test_000272.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000273",
+      "frames": 1109,
+      "sha256": "fcd5db668693dd07d51f975c053a540b905b1c2831e7c2e4e43a8db479b95610",
+      "path": "predictions/UAV-Anti-UAV_Test_000273.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000274",
+      "frames": 102,
+      "sha256": "2239bd63e61266894972e7e813e215b5d8cfa2833ee60e7adae082856890d9bf",
+      "path": "predictions/UAV-Anti-UAV_Test_000274.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000275",
+      "frames": 146,
+      "sha256": "4944e902f92691715c77af3e1ad3a06162d914a41a8f18e8b77fcfd2d17e0ad3",
+      "path": "predictions/UAV-Anti-UAV_Test_000275.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000276",
+      "frames": 40,
+      "sha256": "22d65323afd6fe44a0fae6c8fdd29cffd86d63342abcd31d4839ebb4cd1ad1b9",
+      "path": "predictions/UAV-Anti-UAV_Test_000276.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000277",
+      "frames": 449,
+      "sha256": "c35e517e399daefb628e68f3b69216b908b23a152dc78ac3d2d8bc86f6e8fe0c",
+      "path": "predictions/UAV-Anti-UAV_Test_000277.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000278",
+      "frames": 231,
+      "sha256": "5e20bb6b9c8f87dc2cdbb0cdf750177f7885054a762731c00ec22a484df9830a",
+      "path": "predictions/UAV-Anti-UAV_Test_000278.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000279",
+      "frames": 178,
+      "sha256": "39b1588002cb83e8ddc9816a7939b121f2869d01cf6601b1e5da107468d7d979",
+      "path": "predictions/UAV-Anti-UAV_Test_000279.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000280",
+      "frames": 813,
+      "sha256": "5b86a755d5e8e8d1c9b8e29f0627adcb3f0da5ac829280d1a3d943acc14d1170",
+      "path": "predictions/UAV-Anti-UAV_Test_000280.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000281",
+      "frames": 616,
+      "sha256": "f426b98b86cebe3a69c1a34400dc46f4496a54d8c4a576325fa9eaef1e29e22e",
+      "path": "predictions/UAV-Anti-UAV_Test_000281.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000282",
+      "frames": 1067,
+      "sha256": "6ece1b9273b23a91109bc858e35b58243f37c2b9f8bb9ae03771e0159021c0d2",
+      "path": "predictions/UAV-Anti-UAV_Test_000282.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000283",
+      "frames": 1424,
+      "sha256": "9898f33ebb97aa244d20fa9ce9e4fbc6f2db470fb4733ae605373bf485ef23c7",
+      "path": "predictions/UAV-Anti-UAV_Test_000283.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000284",
+      "frames": 1228,
+      "sha256": "52aaa9b2ad73fb8bf148f5bc1ccf66d300594fd66d57b45a3a58f8f5c0088c45",
+      "path": "predictions/UAV-Anti-UAV_Test_000284.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000285",
+      "frames": 581,
+      "sha256": "2da5c3bb06e28619ac909b5dee85542a2dc517c21182d57c1d5077c1208802ae",
+      "path": "predictions/UAV-Anti-UAV_Test_000285.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000286",
+      "frames": 160,
+      "sha256": "75b5bad63aa3c79b818bccb0008c1b9bff417934c60fb2ca6017bd412ca35670",
+      "path": "predictions/UAV-Anti-UAV_Test_000286.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000287",
+      "frames": 1313,
+      "sha256": "e554cc3153a34a1b3b5c2c4ae705c04f29e29369da535c67819fa64359b6fccd",
+      "path": "predictions/UAV-Anti-UAV_Test_000287.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000288",
+      "frames": 1028,
+      "sha256": "acbb83cc3e78aeed5d6492b03d2d253944666d052800b063f839cc23a8d62530",
+      "path": "predictions/UAV-Anti-UAV_Test_000288.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000289",
+      "frames": 1563,
+      "sha256": "745fa5e548a3deb06eb82723c24cf53b99716a899bf3d6024525d137414d518d",
+      "path": "predictions/UAV-Anti-UAV_Test_000289.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000290",
+      "frames": 4880,
+      "sha256": "f4ed4693a62a8d46fe78127e5e33e8581e64aafc272f967a741ecfcc6cb30d09",
+      "path": "predictions/UAV-Anti-UAV_Test_000290.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000291",
+      "frames": 465,
+      "sha256": "3b40c90862f87b381bef32f970d55d5ddbd3d82b7acb3bdd3ea2975b99925295",
+      "path": "predictions/UAV-Anti-UAV_Test_000291.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000292",
+      "frames": 112,
+      "sha256": "8d3d967ab24b029999b778146af86100c03e49c4f573aeac583b0b67a8e45492",
+      "path": "predictions/UAV-Anti-UAV_Test_000292.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000293",
+      "frames": 106,
+      "sha256": "28461429b3b149b8d6674ccbc782a51802facdd087e4a03eff4604b842977ccd",
+      "path": "predictions/UAV-Anti-UAV_Test_000293.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000294",
+      "frames": 102,
+      "sha256": "55c5c0f59e549d9c4eb6577a604db0dbdd30f9ef6e706a2cc2e05467281ff9ca",
+      "path": "predictions/UAV-Anti-UAV_Test_000294.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000295",
+      "frames": 253,
+      "sha256": "9f9161219d1d0985b0a9c3eeb25a22b9964c62503afc45a8abc595c497735c5d",
+      "path": "predictions/UAV-Anti-UAV_Test_000295.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000296",
+      "frames": 769,
+      "sha256": "19d7427355d4f29a2c34fa9bbebdc273bd1bd368db7755890a251e5481c930f4",
+      "path": "predictions/UAV-Anti-UAV_Test_000296.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000297",
+      "frames": 5870,
+      "sha256": "d0e598a78f7550db9d40dc2bde0edae06d989f37d368eaf1098352698b8d5676",
+      "path": "predictions/UAV-Anti-UAV_Test_000297.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000298",
+      "frames": 5233,
+      "sha256": "a2ef86f7ca5a58b22d949b7944ef2e23a1b819dc8b6965e62d42cae113877e4d",
+      "path": "predictions/UAV-Anti-UAV_Test_000298.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000299",
+      "frames": 4597,
+      "sha256": "18042e1508d09cd61e6c2a2f93b67147e3acd95a33c47923b5d2ed1e7262fff6",
+      "path": "predictions/UAV-Anti-UAV_Test_000299.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000300",
+      "frames": 455,
+      "sha256": "48bed9e810cda7c635cd5f3f88af8c5892c12274abf94d96d940e02d9fad6f61",
+      "path": "predictions/UAV-Anti-UAV_Test_000300.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000301",
+      "frames": 223,
+      "sha256": "f999bcd2f62f340e58ff6ad0552fbab4752d097076165955365acee60111b15b",
+      "path": "predictions/UAV-Anti-UAV_Test_000301.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000302",
+      "frames": 280,
+      "sha256": "035e75710a0544354188b1bb082837f87076a2ab75cc966f5464d1e787c396a2",
+      "path": "predictions/UAV-Anti-UAV_Test_000302.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000303",
+      "frames": 416,
+      "sha256": "6c822e46e42a476fa2191011424f6dbf7a459ec724429ae68820677557084453",
+      "path": "predictions/UAV-Anti-UAV_Test_000303.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000304",
+      "frames": 5236,
+      "sha256": "57a695d0373b0f2a5ad7e2d9bcef4de60fe12c6fcd7e7aebe76a9193d8ac4c96",
+      "path": "predictions/UAV-Anti-UAV_Test_000304.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000305",
+      "frames": 4398,
+      "sha256": "0b159e0b19845f7c2f96049de69df0e2eec73e0802970c480ffdae6c96cf5bca",
+      "path": "predictions/UAV-Anti-UAV_Test_000305.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000306",
+      "frames": 1923,
+      "sha256": "f260b1849bb55b3e078fbfbe75cb4dc5613a63da34188ed16cec24ab6c258c02",
+      "path": "predictions/UAV-Anti-UAV_Test_000306.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000307",
+      "frames": 87,
+      "sha256": "bc8c056ce3400d46074aef9d71bb31c65ffd0b4359436c507ac0a60596a7d67c",
+      "path": "predictions/UAV-Anti-UAV_Test_000307.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000308",
+      "frames": 87,
+      "sha256": "0e52bf3e5a7b0cd8d64e5c843e7dd635d808432bd1dc7ddab0a604e8c4abf462",
+      "path": "predictions/UAV-Anti-UAV_Test_000308.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000309",
+      "frames": 36,
+      "sha256": "f19928e77ebb71d7fc774baccf34442d279a6a6efed350c78d889c094cc66a22",
+      "path": "predictions/UAV-Anti-UAV_Test_000309.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000310",
+      "frames": 204,
+      "sha256": "4be8ee233eff8d8a32825c71ae1ccf40446a593743a66dd8646e7f1b93fca2e2",
+      "path": "predictions/UAV-Anti-UAV_Test_000310.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000311",
+      "frames": 87,
+      "sha256": "d500abfb3b44bc802eff6f483ebebe5cedb473486a825d731de97eb7742801a9",
+      "path": "predictions/UAV-Anti-UAV_Test_000311.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000312",
+      "frames": 910,
+      "sha256": "51b8942644d8e3d4e809fb75467fe01fac31853f73948ea71e7c5c484189eb2b",
+      "path": "predictions/UAV-Anti-UAV_Test_000312.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000313",
+      "frames": 981,
+      "sha256": "e32ff95857cb66979a690dbdbcf209a3a6f56e719c7fede0d2e8f7e7adc5c623",
+      "path": "predictions/UAV-Anti-UAV_Test_000313.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000314",
+      "frames": 550,
+      "sha256": "3928ef660b8d1a79ca726f242688dc5c8fdcb7800dec99e6d7a05a8088628321",
+      "path": "predictions/UAV-Anti-UAV_Test_000314.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000315",
+      "frames": 240,
+      "sha256": "215d884c5aee475f9200870741c9d1bf9065d6709c1af90dc2c1ca8cc71f5429",
+      "path": "predictions/UAV-Anti-UAV_Test_000315.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000316",
+      "frames": 31,
+      "sha256": "26af44036e609fe1b25f5e1ada1d2616d3607bb0c6ce4e9f2d9ad0c2d582eba1",
+      "path": "predictions/UAV-Anti-UAV_Test_000316.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000317",
+      "frames": 324,
+      "sha256": "e6e0bcfa6791389d25e442a0b34920b48ed943b54e5e6ebdf56aaa791c4c82d7",
+      "path": "predictions/UAV-Anti-UAV_Test_000317.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000318",
+      "frames": 836,
+      "sha256": "54f65df49be00112be0adb7a7f7aa1044dd39a705f220df188051c9822ddc089",
+      "path": "predictions/UAV-Anti-UAV_Test_000318.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000319",
+      "frames": 307,
+      "sha256": "a0d3f9e48cac306560d251cabc094f4444ed6a1e7d9bf2463e98dee62acbe39b",
+      "path": "predictions/UAV-Anti-UAV_Test_000319.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000320",
+      "frames": 219,
+      "sha256": "01c22871005290ef7a8dbb4d7b1f2447a6e9645ebf1c187388f8551ed8d75b1d",
+      "path": "predictions/UAV-Anti-UAV_Test_000320.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000321",
+      "frames": 181,
+      "sha256": "7dd42b8375a6fedcdc7e0e09171e9cb6b805cb83e4e6cde5829a85b160c37601",
+      "path": "predictions/UAV-Anti-UAV_Test_000321.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000322",
+      "frames": 1798,
+      "sha256": "321eb84e1579798cd22faa6922bedf19d26373c8b2db0d16e19f67f82516e848",
+      "path": "predictions/UAV-Anti-UAV_Test_000322.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000323",
+      "frames": 1225,
+      "sha256": "86bac88a27cda3c6db51e37f5b5e37af76a34ea011d8e68ea2485db9bd242576",
+      "path": "predictions/UAV-Anti-UAV_Test_000323.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000324",
+      "frames": 17740,
+      "sha256": "ca3d1ad0368e17b59359851d9de0db64dbe679384b47046297ad81f2cd6999e3",
+      "path": "predictions/UAV-Anti-UAV_Test_000324.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000325",
+      "frames": 670,
+      "sha256": "1ab38a9095a7ab92fe25b577af231973fb6337dbe3ab38f24c366646b3ea7ccb",
+      "path": "predictions/UAV-Anti-UAV_Test_000325.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000326",
+      "frames": 678,
+      "sha256": "5153ffa79491536b1e75f16d551cf846e3d015404fda1f0fc23ceb55f4b741a5",
+      "path": "predictions/UAV-Anti-UAV_Test_000326.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000327",
+      "frames": 111,
+      "sha256": "04f859dfe49b9042bd69ce058b979768d9bf3857d279c01edc5ae6150728e927",
+      "path": "predictions/UAV-Anti-UAV_Test_000327.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000328",
+      "frames": 749,
+      "sha256": "4bf69ee5b693f91ebb706b4d4a13872656afb041cbb618202e27b28a2e4c31d4",
+      "path": "predictions/UAV-Anti-UAV_Test_000328.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000329",
+      "frames": 1798,
+      "sha256": "30f04fcb482c6b646309302f0f88e65c8e5d63c6c756da02947de9540a888f48",
+      "path": "predictions/UAV-Anti-UAV_Test_000329.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000330",
+      "frames": 673,
+      "sha256": "47210659618b2b0a060c5a3419c6ea58a28170a6bbddc1a1f4c3d5a32581b3c1",
+      "path": "predictions/UAV-Anti-UAV_Test_000330.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000331",
+      "frames": 459,
+      "sha256": "5a0fc6abaaeb47215843215fa256d1206e3534e58266005dedb38c03232e0322",
+      "path": "predictions/UAV-Anti-UAV_Test_000331.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000332",
+      "frames": 346,
+      "sha256": "cecb758a7e107452ba2070b41bd79dc51f6a51c4bc2b994da7e08df15f94aeb0",
+      "path": "predictions/UAV-Anti-UAV_Test_000332.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000333",
+      "frames": 248,
+      "sha256": "a5e1a8d70766f91f26ffb0e82dea0880c2c7a6d959bf8a5a08987d001ed2ae50",
+      "path": "predictions/UAV-Anti-UAV_Test_000333.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000334",
+      "frames": 278,
+      "sha256": "f46c5e94b2a3a3ae4479664a465c15515001324cc3317e7f627bd34d1b73f0d8",
+      "path": "predictions/UAV-Anti-UAV_Test_000334.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000335",
+      "frames": 174,
+      "sha256": "69f672eb538d15a1f3a82552df81986f6cff834e8b49a2683d0c511550410270",
+      "path": "predictions/UAV-Anti-UAV_Test_000335.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000336",
+      "frames": 248,
+      "sha256": "629fae6ad769c6e898f4bf7569d199c093fe7f734db6b9488b75ea1ee8b3ce44",
+      "path": "predictions/UAV-Anti-UAV_Test_000336.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000337",
+      "frames": 4443,
+      "sha256": "681f52945c3971cf83830ba8abc7b53efb3503ec7b3a8b5bfe46cb2ebde4d867",
+      "path": "predictions/UAV-Anti-UAV_Test_000337.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000338",
+      "frames": 2061,
+      "sha256": "451e59ea1465f13dd1f2727b2312fa0f1f7a5ee9e1559eb130e0d4927926e908",
+      "path": "predictions/UAV-Anti-UAV_Test_000338.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000339",
+      "frames": 1398,
+      "sha256": "cfaa4fec2acf8c2003abc45fbaf8dfd4d513766619afb2529a0e2e87efdf40eb",
+      "path": "predictions/UAV-Anti-UAV_Test_000339.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000340",
+      "frames": 1983,
+      "sha256": "24c7d7dd62e43e485e709d530a76a45cd0ea02c320b43cd6457a8fa281e652f3",
+      "path": "predictions/UAV-Anti-UAV_Test_000340.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000341",
+      "frames": 136,
+      "sha256": "60f6ed71d0e3c5b6045e6b2877c5319295f6bb596d06cd53fdddbd426ea8e25d",
+      "path": "predictions/UAV-Anti-UAV_Test_000341.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000342",
+      "frames": 465,
+      "sha256": "bc91c79c637965b0769d8a80041b312457e08df2b7f2aa1f8d3a3c50793b609d",
+      "path": "predictions/UAV-Anti-UAV_Test_000342.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000343",
+      "frames": 371,
+      "sha256": "0dd399dfd54f6ea2a75d7511751668e2a419ba4c8a8b470441ea7cc73f383b4a",
+      "path": "predictions/UAV-Anti-UAV_Test_000343.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000344",
+      "frames": 500,
+      "sha256": "7b1ec5087c42652dcba4f1eb24988edc4c2cd1bccfea35ad056b1635c80e3308",
+      "path": "predictions/UAV-Anti-UAV_Test_000344.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000345",
+      "frames": 500,
+      "sha256": "58f8580b2055166caf20efb7e6b0d49be86e72a44f6ee1da8a6cd2fc3b79263c",
+      "path": "predictions/UAV-Anti-UAV_Test_000345.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000346",
+      "frames": 500,
+      "sha256": "627d41fea97e8a6cf6113f1ce88b265ea41e6d087cf4ff318d27676061cd3870",
+      "path": "predictions/UAV-Anti-UAV_Test_000346.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000347",
+      "frames": 1000,
+      "sha256": "05a171ace6ba808395897af1e3bc6de21470b36fd7d701e74cf75a41149890c3",
+      "path": "predictions/UAV-Anti-UAV_Test_000347.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000348",
+      "frames": 600,
+      "sha256": "ac0dc411d818829949f3394ae0959a8920b5b501461ae161cf78ba08d8facd8f",
+      "path": "predictions/UAV-Anti-UAV_Test_000348.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000349",
+      "frames": 507,
+      "sha256": "c5271c712800177bdb48dd4de5cdf38c903786e9011e8fc02454748804fd4386",
+      "path": "predictions/UAV-Anti-UAV_Test_000349.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000350",
+      "frames": 1001,
+      "sha256": "f00b8ef403c4b42cef220dcb34c9a3554690a44a73e6131e78e34092e56f4931",
+      "path": "predictions/UAV-Anti-UAV_Test_000350.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000351",
+      "frames": 1060,
+      "sha256": "aebb0c6465d7ade3d9f4491e0c8c7b7a7d1af701dafeb8d313f5a039b8885cd3",
+      "path": "predictions/UAV-Anti-UAV_Test_000351.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000352",
+      "frames": 342,
+      "sha256": "98f077ee2e9580ec08e625176e9295207a63085a7e7060458270ece755fea2dc",
+      "path": "predictions/UAV-Anti-UAV_Test_000352.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000353",
+      "frames": 27,
+      "sha256": "8205b13de6889f4e2966cb038d61e66515e360d4d3bc677abbc1f2898f1982d5",
+      "path": "predictions/UAV-Anti-UAV_Test_000353.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000354",
+      "frames": 45,
+      "sha256": "d2d028298a906a96fd6d7761dbde952e92bdcf4352c5b731e6dbbdfc874e0015",
+      "path": "predictions/UAV-Anti-UAV_Test_000354.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000355",
+      "frames": 35,
+      "sha256": "233c1cecc79e9bad90675af2dd1f4db28f48176f579386eb410216d70b0ee13b",
+      "path": "predictions/UAV-Anti-UAV_Test_000355.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000356",
+      "frames": 446,
+      "sha256": "a402bd128d60c04c3aea9a13f5c3be1ea8cb0a5c8b7753b24f45cb351ba985f7",
+      "path": "predictions/UAV-Anti-UAV_Test_000356.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000357",
+      "frames": 912,
+      "sha256": "998c1b2f604adba6b4ecc073918469b235bc792f630020df3c1059e99d2a561f",
+      "path": "predictions/UAV-Anti-UAV_Test_000357.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000358",
+      "frames": 898,
+      "sha256": "4884158619bb602c642917cf4f2a2780af63e0d3717fcc654f2f759dc540735c",
+      "path": "predictions/UAV-Anti-UAV_Test_000358.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000359",
+      "frames": 176,
+      "sha256": "cdc71cd187578f93928b2444f0afcbd1de4d7016511bb8de8f86a7d4b2011739",
+      "path": "predictions/UAV-Anti-UAV_Test_000359.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000360",
+      "frames": 27,
+      "sha256": "05c89bf844a34b456b740ca03faee5e4a62de57bc98f645bf649642241ee5d8c",
+      "path": "predictions/UAV-Anti-UAV_Test_000360.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000361",
+      "frames": 283,
+      "sha256": "0b3734fa70eadb1520f41eae0bd9b11d6263599e5185f852b9499ace349d4f0b",
+      "path": "predictions/UAV-Anti-UAV_Test_000361.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000362",
+      "frames": 283,
+      "sha256": "f035a1ba7bce15c10f7602ab81adefc511021e1020c1cfb327e07a27899e7c1e",
+      "path": "predictions/UAV-Anti-UAV_Test_000362.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000363",
+      "frames": 212,
+      "sha256": "002c740d39155e9aa718486c4769e11f21a7da30f8bc0735e6a77744b182309d",
+      "path": "predictions/UAV-Anti-UAV_Test_000363.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000364",
+      "frames": 313,
+      "sha256": "4a19880bb44e22013a9072f83e9c00bbd393179ec13e410826add851cbe8182b",
+      "path": "predictions/UAV-Anti-UAV_Test_000364.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000365",
+      "frames": 62,
+      "sha256": "948546f470dbacce8b0913a9af5bc9c89de5345b45f5f19ca81c2cedbdb0a83c",
+      "path": "predictions/UAV-Anti-UAV_Test_000365.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000366",
+      "frames": 180,
+      "sha256": "49f073453173c777569047c9db496367e52f3d4c2d593b79f33b2fd0041d6971",
+      "path": "predictions/UAV-Anti-UAV_Test_000366.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000367",
+      "frames": 201,
+      "sha256": "2cf3eff76a552b016779b765f3a5b4589483ab4db56a8301f9a9e551593a73a6",
+      "path": "predictions/UAV-Anti-UAV_Test_000367.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000368",
+      "frames": 44,
+      "sha256": "b08eb8f3b16a6d653acf5c737fd1cbef913cef5520c711415742a00faca30c0e",
+      "path": "predictions/UAV-Anti-UAV_Test_000368.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000369",
+      "frames": 44,
+      "sha256": "604e753ee1ec4bbc69f9ec80b6cfc01059a16f7a8e8201df774cfe820ac6db39",
+      "path": "predictions/UAV-Anti-UAV_Test_000369.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000370",
+      "frames": 128,
+      "sha256": "69275de22abd92168b35be789606f117027fa77200a198a73a2e8dbb392ee828",
+      "path": "predictions/UAV-Anti-UAV_Test_000370.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000371",
+      "frames": 127,
+      "sha256": "d3d86cc891622b66b24f4bc5d3852ddc8146f28a3acd46a6c48ad2bc071d9aa9",
+      "path": "predictions/UAV-Anti-UAV_Test_000371.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000372",
+      "frames": 171,
+      "sha256": "b08488e1d0c351066337ebeb913f946527533ea0b7984bfb5c0d1502d8220d24",
+      "path": "predictions/UAV-Anti-UAV_Test_000372.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000373",
+      "frames": 226,
+      "sha256": "d390ed2f941716f2f4785bc178f913f50ffa13491276b674955f24a87599876b",
+      "path": "predictions/UAV-Anti-UAV_Test_000373.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000374",
+      "frames": 266,
+      "sha256": "122d6b0a07845ed5a828aa4f1c320dce0451a94cd6f82dd873da04281f72829a",
+      "path": "predictions/UAV-Anti-UAV_Test_000374.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000375",
+      "frames": 319,
+      "sha256": "8f5ec32c8be0817a997a971203ff3ee3453894883c3eb39bba7c098e19686a54",
+      "path": "predictions/UAV-Anti-UAV_Test_000375.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000376",
+      "frames": 274,
+      "sha256": "21354c1f89684317f38d5d4f7dd2f096da59d43ade49db32fec8119a51b41502",
+      "path": "predictions/UAV-Anti-UAV_Test_000376.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000377",
+      "frames": 226,
+      "sha256": "59bd3f42f9c2985f1b307fe4ff71947b300c759be57d91c1acab6b42fbfb3eec",
+      "path": "predictions/UAV-Anti-UAV_Test_000377.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000378",
+      "frames": 154,
+      "sha256": "062283d1d4b9dfaf03b2c9bd2b97e938e9093d6ab83a087fbecd6865e41a9986",
+      "path": "predictions/UAV-Anti-UAV_Test_000378.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000379",
+      "frames": 221,
+      "sha256": "37d9b4fb757a739dff7b9ec5c2be30432bd03520e9b1a9bda563ea343a2a22d9",
+      "path": "predictions/UAV-Anti-UAV_Test_000379.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000380",
+      "frames": 157,
+      "sha256": "d8b7cb24e2efd5e631d85550d346c269e52a32e1af38a7907784e92e0cdff1f4",
+      "path": "predictions/UAV-Anti-UAV_Test_000380.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000381",
+      "frames": 151,
+      "sha256": "fd456000f2b88d2d6ba1a00ed67a795e8e2802754e063e921bb7de688c074714",
+      "path": "predictions/UAV-Anti-UAV_Test_000381.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000382",
+      "frames": 137,
+      "sha256": "c38f2e0b1102c468cb8833a3c286fee76f00cd8f89188be5a423ffa98f9a26e7",
+      "path": "predictions/UAV-Anti-UAV_Test_000382.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000383",
+      "frames": 506,
+      "sha256": "47618cf545e4a37b4386fed86a03a7d6438fd6ddd6341ae8c5478842beff1335",
+      "path": "predictions/UAV-Anti-UAV_Test_000383.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000384",
+      "frames": 161,
+      "sha256": "bbaae9220d9674208e12d1321452b5475ebec29d745c74259a23250ebf40e5a5",
+      "path": "predictions/UAV-Anti-UAV_Test_000384.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000385",
+      "frames": 80,
+      "sha256": "b2ae23d82d258fab557b4bd6a8f534831f2273d3f50210d2cdb274a0c6f372fb",
+      "path": "predictions/UAV-Anti-UAV_Test_000385.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000386",
+      "frames": 85,
+      "sha256": "d74fda02b6d944c5fe19c536f48f35fde1df55eb84556059ef2c20988d2f3228",
+      "path": "predictions/UAV-Anti-UAV_Test_000386.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000387",
+      "frames": 313,
+      "sha256": "31be4820e3c58df2d1d88b1e5ea63cc2c675cc9701206b7fc3a7ace463600e1a",
+      "path": "predictions/UAV-Anti-UAV_Test_000387.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000388",
+      "frames": 137,
+      "sha256": "5968bcc605de4b8a90fdb2473d8300a5b23f2ac26fb8ffdc62a8fc19048e1379",
+      "path": "predictions/UAV-Anti-UAV_Test_000388.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000389",
+      "frames": 172,
+      "sha256": "5a3fadc5efac9e8434a88db58e94464de23b9528ecabee50a84b693dc9209cad",
+      "path": "predictions/UAV-Anti-UAV_Test_000389.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000390",
+      "frames": 23,
+      "sha256": "a25c9e8cebc2101ea8e731750fc11cab86d6428840bf54666e2d3515b1acdd0f",
+      "path": "predictions/UAV-Anti-UAV_Test_000390.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000391",
+      "frames": 355,
+      "sha256": "b82e3468f3a094774d11c0c7167eb4b62406752aac209896f005fcda272b4e7e",
+      "path": "predictions/UAV-Anti-UAV_Test_000391.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000392",
+      "frames": 147,
+      "sha256": "ad81a47579ce776f93e5a70c196caeb2228a8e619d8bbd366adcb4ede286d7d8",
+      "path": "predictions/UAV-Anti-UAV_Test_000392.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000393",
+      "frames": 113,
+      "sha256": "ade640166e20bdc43d021a285135a67f88796fe578fa1793d95a2c75237beabd",
+      "path": "predictions/UAV-Anti-UAV_Test_000393.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000394",
+      "frames": 3469,
+      "sha256": "61e7a87a99e91fd2cc7ae1e83e9b17e1e9d867b2aff3aa5a8838789a0229e36e",
+      "path": "predictions/UAV-Anti-UAV_Test_000394.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000395",
+      "frames": 1555,
+      "sha256": "d59b31bf297ef940b7d2e293b5f34b1b4c979b31cd22de0658789b0b811d833e",
+      "path": "predictions/UAV-Anti-UAV_Test_000395.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000396",
+      "frames": 823,
+      "sha256": "06511852818718e2bffdbef010b1a9a0ae4a6126106f213be15c54a5c5b60dc2",
+      "path": "predictions/UAV-Anti-UAV_Test_000396.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000397",
+      "frames": 997,
+      "sha256": "c0010d3a515eb733ca27f6bad4db9353b04909b2d39e990fef8a4f09844fa268",
+      "path": "predictions/UAV-Anti-UAV_Test_000397.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000398",
+      "frames": 93,
+      "sha256": "b97fe9e7c24eaf5a4b8aecd8d0c4cef34bd8d61ae9459911bc7eab3ccf7a1673",
+      "path": "predictions/UAV-Anti-UAV_Test_000398.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000399",
+      "frames": 133,
+      "sha256": "1208515f088689266ffe49e1c6932ff7694e8fe859b396b8e77a4fc05480265d",
+      "path": "predictions/UAV-Anti-UAV_Test_000399.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000400",
+      "frames": 265,
+      "sha256": "78e805824142038489521f8c404cc321f51e8605b2955f29cee241ad0d7a9188",
+      "path": "predictions/UAV-Anti-UAV_Test_000400.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000401",
+      "frames": 157,
+      "sha256": "01a7c5efc6a895767164f3c20da274420c54d1abcc8349aae1c0852dd88085f2",
+      "path": "predictions/UAV-Anti-UAV_Test_000401.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000402",
+      "frames": 139,
+      "sha256": "23c34b12c7fc854bf0f91746d9cc5c6dde95bdfa14fc5aaed55c55a7f9f9d30e",
+      "path": "predictions/UAV-Anti-UAV_Test_000402.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000403",
+      "frames": 109,
+      "sha256": "80ffd20823631310ec0f0e7423c7a1445fa560ac4a74222f46349d20dc798371",
+      "path": "predictions/UAV-Anti-UAV_Test_000403.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000404",
+      "frames": 373,
+      "sha256": "f40313317390c1c2fcbc15e1fb70c106043997d2e8ed5727fc0b79c74e49070e",
+      "path": "predictions/UAV-Anti-UAV_Test_000404.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000405",
+      "frames": 301,
+      "sha256": "9141cee1b2a3c4bb2ad054402d2d454902c3187c61fcacc21b83d7ef63bf7627",
+      "path": "predictions/UAV-Anti-UAV_Test_000405.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000406",
+      "frames": 790,
+      "sha256": "e4bd7bcf12945d5488e81cfbddc6c99f5d0642e7196805585ceb6ffaa5aced9d",
+      "path": "predictions/UAV-Anti-UAV_Test_000406.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000407",
+      "frames": 492,
+      "sha256": "46e150beeff12873157a6c6d9fdbd4c0a80909d4f3d5df11ad4af73cd8ae4800",
+      "path": "predictions/UAV-Anti-UAV_Test_000407.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000408",
+      "frames": 961,
+      "sha256": "59a02a9aef4c954a02c831f12d67974578e8fe2131810335c73384d39fc8be52",
+      "path": "predictions/UAV-Anti-UAV_Test_000408.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000409",
+      "frames": 1452,
+      "sha256": "0ff1fc6f3390d4681d664f9a3614b76e19104da5c4c0feaded9fb5c3c2c4394f",
+      "path": "predictions/UAV-Anti-UAV_Test_000409.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000410",
+      "frames": 1023,
+      "sha256": "d5181ddbb3affea9679139c23306ad8a0f2f263d3270df046acfeff224ad110d",
+      "path": "predictions/UAV-Anti-UAV_Test_000410.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000411",
+      "frames": 179,
+      "sha256": "fe709703f7af8067dae7233498ec23d4dd55c9c1cf95dada03513473ce4ce13e",
+      "path": "predictions/UAV-Anti-UAV_Test_000411.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000412",
+      "frames": 2588,
+      "sha256": "4b70ef5a3bace121dcd20ebe0a3d6ee339bd56f8429d55e8707392f1084a5702",
+      "path": "predictions/UAV-Anti-UAV_Test_000412.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000413",
+      "frames": 361,
+      "sha256": "2b3a78d74fd5c42a644e8bc3a2b9300b5ffc5ef1b5a95d78108c1a4ffa080b2a",
+      "path": "predictions/UAV-Anti-UAV_Test_000413.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000414",
+      "frames": 115,
+      "sha256": "10c18ac58773c3e329ff6868b8272fc3a274400d853c1e38bb2358e75663ec53",
+      "path": "predictions/UAV-Anti-UAV_Test_000414.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000415",
+      "frames": 888,
+      "sha256": "853f12be953a798c54d0fb6c0d0bf91b1b46d33abd29e43e3cd39f3f62a0af5f",
+      "path": "predictions/UAV-Anti-UAV_Test_000415.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000416",
+      "frames": 405,
+      "sha256": "329a2fee204de164f52b052562aa733634a59b1106c40826e775b370f99e98c7",
+      "path": "predictions/UAV-Anti-UAV_Test_000416.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000417",
+      "frames": 5159,
+      "sha256": "17244436d4f3a0676d580e0bd69993707d59e5b54e304e121f77b8129324cac4",
+      "path": "predictions/UAV-Anti-UAV_Test_000417.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000418",
+      "frames": 532,
+      "sha256": "370c0b01d83d8ea746d57a9817db35722508d6651aada9f5247d1f1ee73e6309",
+      "path": "predictions/UAV-Anti-UAV_Test_000418.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000419",
+      "frames": 296,
+      "sha256": "428bea4603c62a92eeebeeb66b2824be44e9311457dcfadad45eeb8f0a9b8d3d",
+      "path": "predictions/UAV-Anti-UAV_Test_000419.txt"
+    },
+    {
+      "sequence": "UAV-Anti-UAV_Test_000420",
+      "frames": 689,
+      "sha256": "16d1363822d7efbde1ed1b4cad6499bb4e4d9bd7326f6a647e3b92da2e36a04c",
+      "path": "predictions/UAV-Anti-UAV_Test_000420.txt"
+    }
+  ]
+}

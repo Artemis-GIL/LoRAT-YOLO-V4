@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-03T17:29:10.425669+00:00",
+  "unit_tests": 13,
+  "offline_online_history": {
+    "sequences": 1268,
+    "samples": 145817,
+    "exact": true
+  },
+  "training_smoke": {
+    "D0": 2,
+    "D": 2,
+    "E": 2
+  },
+  "online_smoke": {
+    "variants": [
+      "D_ZERO",
+      "D0",
+      "D",
+      "E_ZERO",
+      "E"
+    ],
+    "frames_each": 8
+  },
+  "zero_prediction_state_anchor_RGB_parity": true,
+  "baseline_weights_unchanged": true,
+  "scope": "ENGINEERING_ONLY_NOT_ACCURACY_EVIDENCE",
+  "artifacts": {
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/UNIT_TESTS.log": "128a08ae42ab7511a1e8feb4263eebd708cb2f58b67639552b8195c2d65c29b2",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/D_data/OFFLINE_ONLINE_PARITY.json": "857bc387c75ae294cf344b464c94efdfd609b9054c3fcb058dc035c7319b3590",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/D_data/EMPTY_PERIOD_PARITY.json": "3a1ca394f357520d586d58ef64a7dd24dd3c7bc3eb2c37f3f1aa468a9272e2e1",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/D_data/SUMMARY.json": "d778f0873856135d374388f6a7c00d4ae07bdf0233e7f4c2458d453a1f164e1b",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/D0_smoke/COMPLETE.json": "1e7a4a1e0e73f6efbe6740051264db4e2280cf6766532b2f64b37f3cf2b77d40",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/D_smoke/COMPLETE.json": "e795149909798225bf5282b3e07f402675b839d2adc50abc11b7489984392760",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/E_smoke/COMPLETE.json": "e09361b662b6c0c6d5ef0a754b19c98107d4c202bfaf9eadbf4518af138cfa64",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/D_ZERO/COMPLETE.json": "c4a577960f6a5df644f39afb6558a0273ca890dfef8d0e3c71af1b231bf5e046",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/D_ZERO/PARITY_B.json": "885f3fba98da7e53d22e464a1e0fb1f11b5781e4858f79d6a71e404a97d4e706",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/D0/COMPLETE.json": "5f59766a57843c677d39db2c51f1bbb272cf72405209cf5dda23cbaaec94c4f3",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/D/COMPLETE.json": "6a6577e63cb4c3412cbb4903b32f486ccc95eeea8acd6ab8ee52ef5abd37b553",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/E_ZERO/COMPLETE.json": "5c99f07993eb86a668d56eb32063ffc0d4a4794977cbe3d9e29d805a11b920a1",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/E_ZERO/PARITY_B.json": "885f3fba98da7e53d22e464a1e0fb1f11b5781e4858f79d6a71e404a97d4e706",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/E/COMPLETE.json": "6dceccfcbadeec46e3856fc477467c82c51c66d5e36023e7954e32d6348fb472"
+  }
+}

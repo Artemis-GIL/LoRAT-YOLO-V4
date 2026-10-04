@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE",
+  "epochs": 8,
+  "updates": 2048,
+  "checkpoint": "/home/xu/zyx/send/LORAT_BC_R1_20261003/B/final.safetensors",
+  "sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc",
+  "elapsed_seconds": 770.5728232860565
+}

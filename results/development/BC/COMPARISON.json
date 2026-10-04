@@ -1,0 +1,541 @@
+{
+  "scope": "TRAIN_DEVELOPMENT_VAL132",
+  "summaries": {
+    "A": {
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "variant": "A",
+      "sequences": 132,
+      "frames": 47200,
+      "sequence_macro": {
+        "AUC": 0.7236929722499297,
+        "Precision20": 0.8699854702784489,
+        "cAUC": 0.7217400721392948,
+        "nPrecision_at_0_2": 0.8620726926709559,
+        "nPrecision_AUC": 0.7934319968923303,
+        "mACC": 0.7376709151129146,
+        "visible_mean_iou": 0.7817641687121196,
+        "visible_hit50": 0.9010229903550747
+      },
+      "sequence_macro_null_as_localization_failure": {
+        "AUC": 0.7236929722499297,
+        "Precision20": 0.8699854702784489,
+        "cAUC": 0.7217400721392948,
+        "nPrecision_at_0_2": 0.8620726926709559,
+        "nPrecision_AUC": 0.7934319968923303
+      },
+      "diagnostics": {
+        "visible_frames": 43433,
+        "visible_hit50_frames": 38529,
+        "severe_offset_frames": 2804,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 93,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2751,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 35685,
+        "visible_pool_frames": 0,
+        "pool_hit50_frames": 0,
+        "global_commits": 160,
+        "global_commit_hit50": 108,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 34
+      },
+      "online_tracker_fps": 39.8725121387452,
+      "sequence_loop_fps": 38.733657537999974,
+      "counts": {
+        "detector_requests": 47068,
+        "no_output_frames": 0,
+        "candidate_probes": 9053,
+        "recovery_events": 520,
+        "tentative_output_frames": 7546
+      },
+      "metric_definition": "Installed official MMOT functions used in prior R2/V3/V4 runs. Primary curves include GT-initialized first frame; visible diagnostics exclude it. nPrecision_AUC is primary NP.",
+      "speed_definition": "Synchronous current RGB detector IPC and all candidate/head computation included; model startup and image reading excluded from online FPS. Loop FPS includes reads and output writes.",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "physical_absence_classifier": false,
+      "protocol": "Fixed first-frame template, no later GT passed to tracker. Development validation already used for detector selection; not a blind test."
+    },
+    "B": {
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "variant": "B",
+      "sequences": 132,
+      "frames": 47200,
+      "sequence_macro": {
+        "AUC": 0.7437649838244844,
+        "Precision20": 0.8734077333194413,
+        "cAUC": 0.7421072316995074,
+        "nPrecision_at_0_2": 0.8674554509262388,
+        "nPrecision_AUC": 0.8013541587187072,
+        "mACC": 0.7585398895805823,
+        "visible_mean_iou": 0.8049577277114377,
+        "visible_hit50": 0.9129118131899789
+      },
+      "sequence_macro_null_as_localization_failure": {
+        "AUC": 0.7437649838244844,
+        "Precision20": 0.8734077333194413,
+        "cAUC": 0.7421072316995074,
+        "nPrecision_at_0_2": 0.8674554509262388,
+        "nPrecision_AUC": 0.8013541587187072
+      },
+      "diagnostics": {
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39380,
+        "severe_offset_frames": 2541,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 91,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2923,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36366,
+        "visible_pool_frames": 0,
+        "pool_hit50_frames": 0,
+        "global_commits": 142,
+        "global_commit_hit50": 90,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 32
+      },
+      "online_tracker_fps": 40.74856858754718,
+      "sequence_loop_fps": 39.5792029950507,
+      "counts": {
+        "detector_requests": 47068,
+        "no_output_frames": 0,
+        "candidate_probes": 8328,
+        "recovery_events": 451,
+        "tentative_output_frames": 6981
+      },
+      "metric_definition": "Installed official MMOT functions used in prior R2/V3/V4 runs. Primary curves include GT-initialized first frame; visible diagnostics exclude it. nPrecision_AUC is primary NP.",
+      "speed_definition": "Synchronous current RGB detector IPC and all candidate/head computation included; model startup and image reading excluded from online FPS. Loop FPS includes reads and output writes.",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "physical_absence_classifier": false,
+      "protocol": "Fixed first-frame template, no later GT passed to tracker. Development validation already used for detector selection; not a blind test."
+    },
+    "B_POOL": {
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "variant": "B_POOL",
+      "sequences": 132,
+      "frames": 47200,
+      "sequence_macro": {
+        "AUC": 0.7437649838244844,
+        "Precision20": 0.8734077333194413,
+        "cAUC": 0.7421072316995074,
+        "nPrecision_at_0_2": 0.8674554509262388,
+        "nPrecision_AUC": 0.8013541587187072,
+        "mACC": 0.7585398895805823,
+        "visible_mean_iou": 0.8049577277114377,
+        "visible_hit50": 0.9129118131899789
+      },
+      "sequence_macro_null_as_localization_failure": {
+        "AUC": 0.7437649838244844,
+        "Precision20": 0.8734077333194413,
+        "cAUC": 0.7421072316995074,
+        "nPrecision_at_0_2": 0.8674554509262388,
+        "nPrecision_AUC": 0.8013541587187072
+      },
+      "diagnostics": {
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39380,
+        "severe_offset_frames": 2541,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 91,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2923,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36366,
+        "visible_pool_frames": 43433,
+        "pool_hit50_frames": 40616,
+        "global_commits": 142,
+        "global_commit_hit50": 90,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 32
+      },
+      "online_tracker_fps": 37.666105356326796,
+      "sequence_loop_fps": 36.62663526187908,
+      "counts": {
+        "detector_requests": 47068,
+        "no_output_frames": 0,
+        "candidate_probes": 13173,
+        "recovery_events": 451,
+        "tentative_output_frames": 6981
+      },
+      "metric_definition": "Installed official MMOT functions used in prior R2/V3/V4 runs. Primary curves include GT-initialized first frame; visible diagnostics exclude it. nPrecision_AUC is primary NP.",
+      "speed_definition": "Synchronous current RGB detector IPC and all candidate/head computation included; model startup and image reading excluded from online FPS. Loop FPS includes reads and output writes.",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "physical_absence_classifier": false,
+      "protocol": "Fixed first-frame template, no later GT passed to tracker. Development validation already used for detector selection; not a blind test."
+    },
+    "C": {
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "variant": "C",
+      "sequences": 132,
+      "frames": 47200,
+      "sequence_macro": {
+        "AUC": 0.74521993778902,
+        "Precision20": 0.87299250561069,
+        "cAUC": 0.7434047220317513,
+        "nPrecision_at_0_2": 0.8686145299327128,
+        "nPrecision_AUC": 0.8025667275301606,
+        "mACC": 0.7600302859913914,
+        "visible_mean_iou": 0.8071889104611453,
+        "visible_hit50": 0.9170601628078886
+      },
+      "sequence_macro_null_as_localization_failure": {
+        "AUC": 0.74521993778902,
+        "Precision20": 0.87299250561069,
+        "cAUC": 0.7434047220317513,
+        "nPrecision_at_0_2": 0.8686145299327128,
+        "nPrecision_AUC": 0.8025667275301606
+      },
+      "diagnostics": {
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39561,
+        "severe_offset_frames": 2270,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 38,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 3024,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36499,
+        "visible_pool_frames": 43433,
+        "pool_hit50_frames": 40804,
+        "unmatched_with_hit50_candidate": 2185,
+        "selected_wrong_with_hit50_candidate": 1074,
+        "global_commits": 212,
+        "global_commit_hit50": 100,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 33
+      },
+      "online_tracker_fps": 35.85937475667059,
+      "sequence_loop_fps": 34.93904331290111,
+      "counts": {
+        "detector_requests": 47068,
+        "no_output_frames": 0,
+        "candidate_probes": 15129,
+        "recovery_events": 759,
+        "tentative_output_frames": 8621
+      },
+      "metric_definition": "Installed official MMOT functions used in prior R2/V3/V4 runs. Primary curves include GT-initialized first frame; visible diagnostics exclude it. nPrecision_AUC is primary NP.",
+      "speed_definition": "Synchronous current RGB detector IPC and all candidate/head computation included; model startup and image reading excluded from online FPS. Loop FPS includes reads and output writes.",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "physical_absence_classifier": false,
+      "protocol": "Fixed first-frame template, no later GT passed to tracker. Development validation already used for detector selection; not a blind test."
+    }
+  },
+  "comparisons": {
+    "B_minus_A": {
+      "AUC": {
+        "mean_delta_pp": 2.007201157455481,
+        "paired_sequence_bootstrap_95ci_pp": [
+          1.4228540925805686,
+          2.595717073058536
+        ],
+        "better": 112,
+        "worse": 19,
+        "tied": 1,
+        "median_delta_pp": 1.6949767711962882,
+        "leave_one_sequence_out_range_pp": [
+          1.9162682356084704,
+          2.1661417477605363
+        ]
+      },
+      "Precision20": {
+        "mean_delta_pp": 0.34222630409923405,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.37316771014112227,
+          1.0458724482324928
+        ],
+        "better": 29,
+        "worse": 16,
+        "tied": 87,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.1921669629091518,
+          0.5205552676765434
+        ]
+      },
+      "cAUC": {
+        "mean_delta_pp": 2.036715956021262,
+        "paired_sequence_bootstrap_95ci_pp": [
+          1.4471403559013827,
+          2.6386794974766405
+        ],
+        "better": 114,
+        "worse": 18,
+        "tied": 0,
+        "median_delta_pp": 1.7063119807022047,
+        "leave_one_sequence_out_range_pp": [
+          1.9456436180667545,
+          2.1965677070761216
+        ]
+      },
+      "nPrecision_AUC": {
+        "mean_delta_pp": 0.7922161826376749,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.2466169266223095,
+          1.31998991345522
+        ],
+        "better": 95,
+        "worse": 37,
+        "tied": 0,
+        "median_delta_pp": 0.566703729196455,
+        "leave_one_sequence_out_range_pp": [
+          0.6988773150002735,
+          0.9522344838796357
+        ]
+      },
+      "mACC": {
+        "mean_delta_pp": 2.086897446766767,
+        "paired_sequence_bootstrap_95ci_pp": [
+          1.4825616488757718,
+          2.6943370775675333
+        ],
+        "better": 114,
+        "worse": 18,
+        "tied": 0,
+        "median_delta_pp": 1.7746666720300508,
+        "leave_one_sequence_out_range_pp": [
+          1.990263910354635,
+          2.2493239566894894
+        ]
+      },
+      "visible_hit50": {
+        "mean_delta_pp": 1.188882283490422,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.5210730108653485,
+          1.8889422011331667
+        ],
+        "better": 51,
+        "worse": 12,
+        "tied": 69,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          1.0364779791365617,
+          1.339641736498792
+        ]
+      }
+    },
+    "C_minus_B_POOL": {
+      "AUC": {
+        "mean_delta_pp": 0.14549539645355028,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.582588423929702,
+          0.8900462016078594
+        ],
+        "better": 33,
+        "worse": 28,
+        "tied": 71,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.02441968895290689,
+          0.3171322740923536
+        ]
+      },
+      "Precision20": {
+        "mean_delta_pp": -0.041522770875120706,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -1.0580655511912376,
+          0.9801162334946073
+        ],
+        "better": 27,
+        "worse": 25,
+        "tied": 80,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.28273574660073475,
+          0.20512927802255465
+        ]
+      },
+      "cAUC": {
+        "mean_delta_pp": 0.12974903322439202,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.5978200271744322,
+          0.8741947804301813
+        ],
+        "better": 32,
+        "worse": 28,
+        "tied": 72,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.0390944364435055,
+          0.29859288476203844
+        ]
+      },
+      "nPrecision_AUC": {
+        "mean_delta_pp": 0.12125688114532865,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.7272321118261605,
+          0.9696160801726879
+        ],
+        "better": 32,
+        "worse": 29,
+        "tied": 71,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.07491422763331394,
+          0.33723484953640265
+        ]
+      },
+      "mACC": {
+        "mean_delta_pp": 0.14903964108091627,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.5901348218728453,
+          0.9054192349514774
+        ],
+        "better": 33,
+        "worse": 28,
+        "tied": 71,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.022555812065886856,
+          0.32256988684792504
+        ]
+      },
+      "visible_hit50": {
+        "mean_delta_pp": 0.4148349617909719,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.5522567153480763,
+          1.4324834227691807
+        ],
+        "better": 32,
+        "worse": 24,
+        "tied": 76,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.19221946692882366,
+          0.6002962745903334
+        ]
+      }
+    },
+    "C_minus_A": {
+      "AUC": {
+        "mean_delta_pp": 2.152696553909032,
+        "paired_sequence_bootstrap_95ci_pp": [
+          1.308053979672129,
+          2.9982397462945345
+        ],
+        "better": 109,
+        "worse": 23,
+        "tied": 0,
+        "median_delta_pp": 1.7180735930735935,
+        "leave_one_sequence_out_range_pp": [
+          1.980226359973935,
+          2.3027705947871198
+        ]
+      },
+      "Precision20": {
+        "mean_delta_pp": 0.30070353322411336,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.7934862271546572,
+          1.393832473023491
+        ],
+        "better": 34,
+        "worse": 28,
+        "tied": 70,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.06210297203360795,
+          0.5499679966568974
+        ]
+      },
+      "cAUC": {
+        "mean_delta_pp": 2.1664649892456542,
+        "paired_sequence_bootstrap_95ci_pp": [
+          1.3168100414681891,
+          3.015442652979133
+        ],
+        "better": 108,
+        "worse": 24,
+        "tied": 0,
+        "median_delta_pp": 1.7189754689754644,
+        "leave_one_sequence_out_range_pp": [
+          1.9957386462241817,
+          2.315040437770484
+        ]
+      },
+      "nPrecision_AUC": {
+        "mean_delta_pp": 0.9134730637830034,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.005709800873686171,
+          1.8176400491977194
+        ],
+        "better": 88,
+        "worse": 44,
+        "tied": 0,
+        "median_delta_pp": 0.56161078292703,
+        "leave_one_sequence_out_range_pp": [
+          0.7188713297278507,
+          1.1313162991766121
+        ]
+      },
+      "mACC": {
+        "mean_delta_pp": 2.235937087847683,
+        "paired_sequence_bootstrap_95ci_pp": [
+          1.3674825463484162,
+          3.1042503884296155
+        ],
+        "better": 109,
+        "worse": 23,
+        "tied": 0,
+        "median_delta_pp": 1.8137943184739158,
+        "leave_one_sequence_out_range_pp": [
+          2.0617350378724337,
+          2.389542459569052
+        ]
+      },
+      "visible_hit50": {
+        "mean_delta_pp": 1.6037172452813941,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.420938179603789,
+          2.853234950949021
+        ],
+        "better": 51,
+        "worse": 21,
+        "tied": 60,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          1.37225796754226,
+          1.8263723583301263
+        ]
+      }
+    }
+  },
+  "input_digests": {
+    "A": {
+      "summary_sha256": "c5de324ca758d36f74e65972288df3790302e519543c0a2418c46e0761da4bac",
+      "sequences_sha256": "ca946f8eeea99a4b18d028812075cc0e2e15ab85254c9f486b9fe70129aa9275",
+      "sequences": 132,
+      "frames": 47200
+    },
+    "B": {
+      "summary_sha256": "052991d2e11c9b1744b3db47bc69c13d36e4425ae2217969392b19dbfb78a152",
+      "sequences_sha256": "fa88fec066925fa50cbd5fa4ef0f66756bbcc53e751e7720988e0f7f01bf70c7",
+      "sequences": 132,
+      "frames": 47200
+    },
+    "B_POOL": {
+      "summary_sha256": "ebe1107ec8c5bee12d6d4a521b3fdcdd1dab8e24ac8324a4b6f6112bb7ae55ae",
+      "sequences_sha256": "af5490d52ff790596f12f103d90d4c8ed2ab26541b6643fabf04d2b313122211",
+      "sequences": 132,
+      "frames": 47200
+    },
+    "C": {
+      "summary_sha256": "58096c6aa61ed46fa625933783994455698752a0f6f19c3535442f92cecedebf",
+      "sequences_sha256": "9f32862f200f4ccc3d377825f980db23031d2d527c6dc13dd4ce46ead7cda8ac",
+      "sequences": 132,
+      "frames": 47200
+    }
+  },
+  "B_POOL_exactly_matches_B": true,
+  "no_test_inference": true,
+  "automatic_promotion": false,
+  "interpretation": "Candidate-pool construction and learned selection are separated by the B_POOL control. C changes its trajectory, so actual numerical candidates need not remain identical to B_POOL.",
+  "limits": [
+    "One seed and fixed training budgets, no blind Test result.",
+    "132 validation sequences were already used for YOLO model selection.",
+    "Sequence bootstrap assumes independent sequences; source-level dependence is not resolved.",
+    "C also includes unmatched handling and confirmed anchor replacement; its delta measures the integrated C mechanism."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "user_instruction": "这样，你完成之后自动根据最好的一组跑420test集",
+  "authorized_utc": "2026-10-03T18:11:08.257763+00:00",
+  "test420_authorized": true,
+  "precondition": "Complete D/E validation and full checks; do not select partial results",
+  "selection_candidates": [
+    "B",
+    "D0",
+    "D",
+    "E"
+  ],
+  "selection_rule": "Highest unrounded Val132 sequence-macro AUC; exact ties use nPrecision_AUC, then fixed order B,D0,D,E. No Test metrics enter selection.",
+  "source_validation_run": "/home/xu/zyx/send/LORAT_B_DE_R1_20261004",
+  "test_sequences": 420,
+  "test_frames": 476221,
+  "fixed_first_frame_template": true,
+  "detector_precomputation": false,
+  "post_initialization_gt_input": false,
+  "reverse_verification": false,
+  "test_threshold_sweep": false,
+  "combined_DE": false,
+  "change_B_baseline_registration": false
+}

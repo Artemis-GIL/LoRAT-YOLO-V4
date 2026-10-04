@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "variant": "D",
+  "sequences": 420,
+  "frames": 476221,
+  "selection_sha256": "3ed744e7df83ca0e1fc75f8e91cc11090b4d5e2184572c6da3aadc56129c4dbb",
+  "test_completion_sha256": "00aae05ce901c326402c944341b3be0e2badeff9e1aec89106aeeb15cbc88aae",
+  "completed_utc": "2026-10-04T00:54:10.224941+00:00"
+}

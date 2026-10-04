@@ -1,0 +1,18 @@
+{
+  "version": "B_UAV_finetuned_development_baseline",
+  "selected_by_user": true,
+  "checkpoint": "/home/xu/zyx/send/LORAT_BC_R1_20261003/B/final.safetensors",
+  "checkpoint_sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc",
+  "tracker": "research.bc_r1.tracker_c.build variant B",
+  "architecture": "LoRAT-L/378 with trained LoRA, token embeddings and MLP head; synchronous current-frame YOLO; V3 output separation",
+  "reverse_verification": false,
+  "fixed_first_frame_template": true,
+  "post_initialization_gt_input": false,
+  "validation_summary": "/home/xu/zyx/send/LORAT_BC_R1_20261003/validation/B/metrics/SUMMARY.json",
+  "validation_summary_sha256": "052991d2e11c9b1744b3db47bc69c13d36e4425ae2217969392b19dbfb78a152",
+  "scope": "Research baseline chosen from development Val132; not a new Test420 result or replacement of historical V4 records",
+  "research_extensions": [
+    "D temporal candidate association with explicit KEEP_B action",
+    "E zero-initialized spatial residual in LoRAT search-token head input"
+  ]
+}

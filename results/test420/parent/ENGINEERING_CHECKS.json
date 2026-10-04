@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "cpu_tests": 8,
+  "coverage": [
+    "Predetermined validation-only rank and ties",
+    "Missing/nonfinite candidate rejection",
+    "Zero state/RGB mismatch rejection",
+    "Artifact tampering rejection",
+    "Sequential current-image loop",
+    "Interrupted sequence restart",
+    "Template preservation",
+    "Official MMOT Test-root scoring wrapper"
+  ],
+  "new_test_runner_GPU_smoke": false,
+  "reason": "Existing frozen tracker builders already passed all five online smoke checks; the new image harness was CPU-tested without disturbing active validation",
+  "artifacts": {
+    "/home/xu/zyx/send/LORAT_BEST_DE_TEST420_20261004/UNIT_TESTS.log": "dcb7a3daadd6dc9207039ce75dcf69b54cfc93e18a1af15e52f251376355c5b2",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/D_ZERO/COMPLETE.json": "c4a577960f6a5df644f39afb6558a0273ca890dfef8d0e3c71af1b231bf5e046",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/D0/COMPLETE.json": "5f59766a57843c677d39db2c51f1bbb272cf72405209cf5dda23cbaaec94c4f3",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/D/COMPLETE.json": "6a6577e63cb4c3412cbb4903b32f486ccc95eeea8acd6ab8ee52ef5abd37b553",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/E_ZERO/COMPLETE.json": "5c99f07993eb86a668d56eb32063ffc0d4a4794977cbe3d9e29d805a11b920a1",
+    "/home/xu/zyx/send/LORAT_B_DE_R1_20261004/validation_smoke/E/COMPLETE.json": "6dceccfcbadeec46e3856fc477467c82c51c66d5e36023e7954e32d6348fb472"
+  }
+}

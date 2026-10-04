@@ -1,16 +1,26 @@
 [
   {
-    "filename": "LoRAT_large-378.bin",
+    "name": "BD_TEST420_PREDICTIONS.zip",
+    "bytes": 12749260,
+    "sha256": "58265c0f9ea0b091e25b0b2969668cb0d74d3dfaf804f70280980c49b108fb9a"
+  },
+  {
+    "name": "GRU_D_final.safetensors",
+    "bytes": 1002996,
+    "sha256": "998a0b111232fae8ad8b6b2cdfa5ed906101c25969abf670850b7f0f01ccdd51"
+  },
+  {
+    "name": "LoRAT_B_UAV_final.safetensors",
+    "bytes": 130101948,
+    "sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc"
+  },
+  {
+    "name": "LoRAT_large-378.bin",
     "bytes": 130101948,
     "sha256": "601529735439da5d7ad0136b63e894ee02923d4694ce17d3568e333c298a06b0"
   },
   {
-    "filename": "V4_TEST420_PREDICTIONS.zip",
-    "bytes": 12370275,
-    "sha256": "285031124f43d25c296553047f51f5bbff99596ea2b5056b302fcb2ffe3a8c0e"
-  },
-  {
-    "filename": "yolo26_uav_best.pt",
+    "name": "yolo26_uav_best.pt",
     "bytes": 60285155,
     "sha256": "efa76597c9912fbda8ff150208996a88597544fb5ba2e52a6ad02e4dc964b433"
   }

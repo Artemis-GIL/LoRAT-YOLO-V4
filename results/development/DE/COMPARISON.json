@@ -1,0 +1,2548 @@
+{
+  "scope": "TRAIN_DEVELOPMENT_VAL132",
+  "sequences": 132,
+  "frames": 47200,
+  "summaries": {
+    "B": {
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "variant": "B",
+      "sequences": 132,
+      "frames": 47200,
+      "sequence_macro": {
+        "AUC": 0.7437649838244844,
+        "Precision20": 0.8734077333194413,
+        "cAUC": 0.7421072316995074,
+        "nPrecision_at_0_2": 0.8674554509262388,
+        "nPrecision_AUC": 0.8013541587187072,
+        "mACC": 0.7585398895805823,
+        "visible_mean_iou": 0.8049577277114377,
+        "visible_hit50": 0.9129118131899789
+      },
+      "sequence_macro_null_as_localization_failure": {
+        "AUC": 0.7437649838244844,
+        "Precision20": 0.8734077333194413,
+        "cAUC": 0.7421072316995074,
+        "nPrecision_at_0_2": 0.8674554509262388,
+        "nPrecision_AUC": 0.8013541587187072
+      },
+      "diagnostics": {
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39380,
+        "severe_offset_frames": 2541,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 91,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2923,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36366,
+        "visible_pool_frames": 0,
+        "pool_hit50_frames": 0,
+        "global_commits": 142,
+        "global_commit_hit50": 90,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 32
+      },
+      "online_tracker_fps": 40.74856858754718,
+      "sequence_loop_fps": 39.5792029950507,
+      "counts": {
+        "detector_requests": 47068,
+        "no_output_frames": 0,
+        "candidate_probes": 8328,
+        "recovery_events": 451,
+        "tentative_output_frames": 6981
+      },
+      "metric_definition": "Installed official MMOT functions used in prior R2/V3/V4 runs. Primary curves include GT-initialized first frame; visible diagnostics exclude it. nPrecision_AUC is primary NP.",
+      "speed_definition": "Synchronous current RGB detector IPC and all candidate/head computation included; model startup and image reading excluded from online FPS. Loop FPS includes reads and output writes.",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "physical_absence_classifier": false,
+      "protocol": "Fixed first-frame template, no later GT passed to tracker. Development validation already used for detector selection; not a blind test."
+    },
+    "D_ZERO": {
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "variant": "D_ZERO",
+      "sequences": 132,
+      "frames": 47200,
+      "sequence_macro": {
+        "AUC": 0.7437649838244844,
+        "Precision20": 0.8734077333194413,
+        "cAUC": 0.7421072316995074,
+        "nPrecision_at_0_2": 0.8674554509262388,
+        "nPrecision_AUC": 0.8013541587187072,
+        "mACC": 0.7585398895805823,
+        "visible_mean_iou": 0.8049577277114377,
+        "visible_hit50": 0.9129118131899789
+      },
+      "sequence_macro_null_as_localization_failure": {
+        "AUC": 0.7437649838244844,
+        "Precision20": 0.8734077333194413,
+        "cAUC": 0.7421072316995074,
+        "nPrecision_at_0_2": 0.8674554509262388,
+        "nPrecision_AUC": 0.8013541587187072
+      },
+      "diagnostics": {
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39380,
+        "severe_offset_frames": 2541,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 91,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2923,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36366,
+        "visible_pool_frames": 43433,
+        "pool_hit50_frames": 40616,
+        "unmatched_with_hit50_candidate": 0,
+        "selected_wrong_with_hit50_candidate": 1236,
+        "global_commits": 142,
+        "global_commit_hit50": 90,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 32
+      },
+      "online_tracker_fps": 36.62454193218735,
+      "sequence_loop_fps": 35.67460235776178,
+      "counts": {
+        "detector_requests": 47068,
+        "no_output_frames": 0,
+        "candidate_probes": 13173,
+        "recovery_events": 451,
+        "tentative_output_frames": 6981
+      },
+      "metric_definition": "Installed official MMOT functions used in prior R2/V3/V4 runs. Primary curves include GT-initialized first frame; visible diagnostics exclude it. nPrecision_AUC is primary NP.",
+      "speed_definition": "Synchronous current RGB detector IPC and all candidate/head computation included; model startup and image reading excluded from online FPS. Loop FPS includes reads and output writes.",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "physical_absence_classifier": false,
+      "protocol": "Fixed first-frame template, no later GT passed to tracker. Development validation already used for detector selection; not a blind test.",
+      "research_stage": "INDEPENDENT_B_PLUS_D_AND_B_PLUS_E",
+      "baseline_checkpoint_sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc",
+      "automatic_promotion": false,
+      "experiment_role": "Zero-effect temporal implementation control; must reproduce B exactly",
+      "exact_prediction_parity_with_frozen_B": true
+    },
+    "D0": {
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "variant": "D0",
+      "sequences": 132,
+      "frames": 47200,
+      "sequence_macro": {
+        "AUC": 0.7430191636920209,
+        "Precision20": 0.8719449493573591,
+        "cAUC": 0.7413951987983723,
+        "nPrecision_at_0_2": 0.8665681887326028,
+        "nPrecision_AUC": 0.800318723374685,
+        "mACC": 0.7578041354032855,
+        "visible_mean_iou": 0.8038685683652174,
+        "visible_hit50": 0.9121814691954003
+      },
+      "sequence_macro_null_as_localization_failure": {
+        "AUC": 0.7430191636920209,
+        "Precision20": 0.8719449493573591,
+        "cAUC": 0.7413951987983723,
+        "nPrecision_at_0_2": 0.8665681887326028,
+        "nPrecision_AUC": 0.800318723374685
+      },
+      "diagnostics": {
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39305,
+        "severe_offset_frames": 2618,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 94,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2949,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36262,
+        "visible_pool_frames": 43433,
+        "pool_hit50_frames": 40572,
+        "unmatched_with_hit50_candidate": 0,
+        "selected_wrong_with_hit50_candidate": 1140,
+        "global_commits": 186,
+        "global_commit_hit50": 102,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 29
+      },
+      "online_tracker_fps": 36.00976796174133,
+      "sequence_loop_fps": 35.06078396387574,
+      "counts": {
+        "detector_requests": 47068,
+        "no_output_frames": 0,
+        "candidate_probes": 12691,
+        "recovery_events": 510,
+        "tentative_output_frames": 6597
+      },
+      "metric_definition": "Installed official MMOT functions used in prior R2/V3/V4 runs. Primary curves include GT-initialized first frame; visible diagnostics exclude it. nPrecision_AUC is primary NP.",
+      "speed_definition": "Synchronous current RGB detector IPC and all candidate/head computation included; model startup and image reading excluded from online FPS. Loop FPS includes reads and output writes.",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "physical_absence_classifier": false,
+      "protocol": "Fixed first-frame template, no later GT passed to tracker. Development validation already used for detector selection; not a blind test.",
+      "research_stage": "INDEPENDENT_B_PLUS_D_AND_B_PLUS_E",
+      "baseline_checkpoint_sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc",
+      "automatic_promotion": false,
+      "experiment_role": "Static candidate scorer with matched training loss; control for D temporal contribution"
+    },
+    "D": {
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "variant": "D",
+      "sequences": 132,
+      "frames": 47200,
+      "sequence_macro": {
+        "AUC": 0.7468910687414383,
+        "Precision20": 0.8771276574289931,
+        "cAUC": 0.7452438231715983,
+        "nPrecision_at_0_2": 0.8715334621920713,
+        "nPrecision_AUC": 0.8047164144543898,
+        "mACC": 0.7617378742350509,
+        "visible_mean_iou": 0.8093203048622647,
+        "visible_hit50": 0.9190124484826016
+      },
+      "sequence_macro_null_as_localization_failure": {
+        "AUC": 0.7468910687414383,
+        "Precision20": 0.8771276574289931,
+        "cAUC": 0.7452438231715983,
+        "nPrecision_at_0_2": 0.8715334621920713,
+        "nPrecision_AUC": 0.8047164144543898
+      },
+      "diagnostics": {
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39627,
+        "severe_offset_frames": 2265,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 131,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2963,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36533,
+        "visible_pool_frames": 43433,
+        "pool_hit50_frames": 40663,
+        "unmatched_with_hit50_candidate": 0,
+        "selected_wrong_with_hit50_candidate": 897,
+        "global_commits": 199,
+        "global_commit_hit50": 115,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 29
+      },
+      "online_tracker_fps": 37.21720800300361,
+      "sequence_loop_fps": 36.24773362451838,
+      "counts": {
+        "detector_requests": 47068,
+        "no_output_frames": 0,
+        "candidate_probes": 12857,
+        "recovery_events": 538,
+        "tentative_output_frames": 6671
+      },
+      "metric_definition": "Installed official MMOT functions used in prior R2/V3/V4 runs. Primary curves include GT-initialized first frame; visible diagnostics exclude it. nPrecision_AUC is primary NP.",
+      "speed_definition": "Synchronous current RGB detector IPC and all candidate/head computation included; model startup and image reading excluded from online FPS. Loop FPS includes reads and output writes.",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "physical_absence_classifier": false,
+      "protocol": "Fixed first-frame template, no later GT passed to tracker. Development validation already used for detector selection; not a blind test.",
+      "research_stage": "INDEPENDENT_B_PLUS_D_AND_B_PLUS_E",
+      "baseline_checkpoint_sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc",
+      "automatic_promotion": false,
+      "experiment_role": "Temporal candidate value experiment on existing geometric associations; compare with D0 as well as B"
+    },
+    "E_ZERO": {
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "variant": "E_ZERO",
+      "sequences": 132,
+      "frames": 47200,
+      "sequence_macro": {
+        "AUC": 0.7437649838244844,
+        "Precision20": 0.8734077333194413,
+        "cAUC": 0.7421072316995074,
+        "nPrecision_at_0_2": 0.8674554509262388,
+        "nPrecision_AUC": 0.8013541587187072,
+        "mACC": 0.7585398895805823,
+        "visible_mean_iou": 0.8049577277114377,
+        "visible_hit50": 0.9129118131899789
+      },
+      "sequence_macro_null_as_localization_failure": {
+        "AUC": 0.7437649838244844,
+        "Precision20": 0.8734077333194413,
+        "cAUC": 0.7421072316995074,
+        "nPrecision_at_0_2": 0.8674554509262388,
+        "nPrecision_AUC": 0.8013541587187072
+      },
+      "diagnostics": {
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39380,
+        "severe_offset_frames": 2541,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 91,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2923,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36366,
+        "visible_pool_frames": 0,
+        "pool_hit50_frames": 0,
+        "global_commits": 142,
+        "global_commit_hit50": 90,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 32
+      },
+      "online_tracker_fps": 40.68599279409234,
+      "sequence_loop_fps": 39.552721210766585,
+      "counts": {
+        "detector_requests": 47068,
+        "no_output_frames": 0,
+        "candidate_probes": 8328,
+        "recovery_events": 451,
+        "tentative_output_frames": 6981
+      },
+      "metric_definition": "Installed official MMOT functions used in prior R2/V3/V4 runs. Primary curves include GT-initialized first frame; visible diagnostics exclude it. nPrecision_AUC is primary NP.",
+      "speed_definition": "Synchronous current RGB detector IPC and all candidate/head computation included; model startup and image reading excluded from online FPS. Loop FPS includes reads and output writes.",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "physical_absence_classifier": false,
+      "protocol": "Fixed first-frame template, no later GT passed to tracker. Development validation already used for detector selection; not a blind test.",
+      "research_stage": "INDEPENDENT_B_PLUS_D_AND_B_PLUS_E",
+      "baseline_checkpoint_sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc",
+      "automatic_promotion": false,
+      "experiment_role": "Zero-effect spatial implementation control; must reproduce B exactly",
+      "exact_prediction_parity_with_frozen_B": true
+    },
+    "E": {
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "variant": "E",
+      "sequences": 132,
+      "frames": 47200,
+      "sequence_macro": {
+        "AUC": 0.7426403272818125,
+        "Precision20": 0.8710207052042501,
+        "cAUC": 0.7409029143571123,
+        "nPrecision_at_0_2": 0.8662737960134236,
+        "nPrecision_AUC": 0.7999394150929546,
+        "mACC": 0.7574822695508072,
+        "visible_mean_iou": 0.8038683500359287,
+        "visible_hit50": 0.9113738667957485
+      },
+      "sequence_macro_null_as_localization_failure": {
+        "AUC": 0.7426403272818125,
+        "Precision20": 0.8710207052042501,
+        "cAUC": 0.7409029143571123,
+        "nPrecision_at_0_2": 0.8662737960134236,
+        "nPrecision_AUC": 0.7999394150929546
+      },
+      "diagnostics": {
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39354,
+        "severe_offset_frames": 2543,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 92,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2918,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36344,
+        "visible_pool_frames": 0,
+        "pool_hit50_frames": 0,
+        "global_commits": 144,
+        "global_commit_hit50": 90,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 33
+      },
+      "online_tracker_fps": 40.42695922595695,
+      "sequence_loop_fps": 39.27761986927232,
+      "counts": {
+        "detector_requests": 47068,
+        "no_output_frames": 0,
+        "candidate_probes": 8151,
+        "recovery_events": 456,
+        "tentative_output_frames": 6920
+      },
+      "metric_definition": "Installed official MMOT functions used in prior R2/V3/V4 runs. Primary curves include GT-initialized first frame; visible diagnostics exclude it. nPrecision_AUC is primary NP.",
+      "speed_definition": "Synchronous current RGB detector IPC and all candidate/head computation included; model startup and image reading excluded from online FPS. Loop FPS includes reads and output writes.",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "physical_absence_classifier": false,
+      "protocol": "Fixed first-frame template, no later GT passed to tracker. Development validation already used for detector selection; not a blind test.",
+      "research_stage": "INDEPENDENT_B_PLUS_D_AND_B_PLUS_E",
+      "baseline_checkpoint_sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc",
+      "automatic_promotion": false,
+      "experiment_role": "Local spatial refinement experiment starting independently from frozen B"
+    }
+  },
+  "comparisons": {
+    "D0_minus_B": {
+      "AUC": {
+        "mean_delta_pp": -0.074582013246347,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.39892629365640064,
+          0.17863474087155287
+        ],
+        "better": 14,
+        "worse": 7,
+        "tied": 111,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.11924857002134125,
+          0.049945601110295654
+        ]
+      },
+      "Precision20": {
+        "mean_delta_pp": -0.14627839620820965,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.5553307689162518,
+          0.18419165187699416
+        ],
+        "better": 10,
+        "worse": 7,
+        "tied": 115,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.21309393646208288,
+          0.002364735197485114
+        ]
+      },
+      "cAUC": {
+        "mean_delta_pp": -0.07120329011351023,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.3967598885418866,
+          0.18319282138998513
+        ],
+        "better": 14,
+        "worse": 7,
+        "tied": 111,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.11584405510886452,
+          0.053746305865059116
+        ]
+      },
+      "nPrecision_AUC": {
+        "mean_delta_pp": -0.10354353440220794,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.46604015899772966,
+          0.18666194995258062
+        ],
+        "better": 13,
+        "worse": 8,
+        "tied": 111,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.15690534078616752,
+          0.0320485838242295
+        ]
+      },
+      "mACC": {
+        "mean_delta_pp": -0.0735754177296714,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.40428207237079083,
+          0.18472951377305355
+        ],
+        "better": 14,
+        "worse": 7,
+        "tied": 111,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.11885661766667832,
+          0.053867478275434554
+        ]
+      },
+      "visible_hit50": {
+        "mean_delta_pp": -0.07303439945786319,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.5203194778051916,
+          0.319259788699233
+        ],
+        "better": 12,
+        "worse": 7,
+        "tied": 113,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.16643284649313053,
+          0.08166749864434741
+        ]
+      }
+    },
+    "D_minus_D0": {
+      "AUC": {
+        "mean_delta_pp": 0.3871905049417222,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.10040963392882508,
+          0.735399544812731
+        ],
+        "better": 13,
+        "worse": 8,
+        "tied": 111,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.2837691849972144,
+          0.4070448469694057
+        ]
+      },
+      "Precision20": {
+        "mean_delta_pp": 0.5182708071633939,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.14043523175810924,
+          0.9691101628814589
+        ],
+        "better": 11,
+        "worse": 6,
+        "tied": 115,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.39742727254661175,
+          0.5452044274075118
+        ]
+      },
+      "cAUC": {
+        "mean_delta_pp": 0.3848624373226055,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.0983910157917897,
+          0.7327019234420195
+        ],
+        "better": 13,
+        "worse": 8,
+        "tied": 111,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.2804328712638381,
+          0.4046990078417461
+        ]
+      },
+      "nPrecision_AUC": {
+        "mean_delta_pp": 0.4397691079704791,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.10910223258457385,
+          0.8385948714893066
+        ],
+        "better": 12,
+        "worse": 9,
+        "tied": 111,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.3238729815335515,
+          0.464451511936121
+        ]
+      },
+      "mACC": {
+        "mean_delta_pp": 0.3933738831765388,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.10117275621149296,
+          0.7483485299364881
+        ],
+        "better": 13,
+        "worse": 8,
+        "tied": 111,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.2871947095535764,
+          0.4136499444002872
+        ]
+      },
+      "visible_hit50": {
+        "mean_delta_pp": 0.6830979287201294,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.18692884393796885,
+          1.2845839092305094
+        ],
+        "better": 13,
+        "worse": 7,
+        "tied": 112,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.5104424100555014,
+          0.7113668764827863
+        ]
+      }
+    },
+    "D_minus_B": {
+      "AUC": {
+        "mean_delta_pp": 0.31260849169537513,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.05255135567350549,
+          0.6617007008771454
+        ],
+        "better": 18,
+        "worse": 7,
+        "tied": 107,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.1976008430779531,
+          0.33371478610751
+        ]
+      },
+      "Precision20": {
+        "mean_delta_pp": 0.37199241095518426,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.0033768894277106686,
+          0.8733436871586602
+        ],
+        "better": 13,
+        "worse": 7,
+        "tied": 112,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.22466310762246827,
+          0.4080904177031555
+        ]
+      },
+      "cAUC": {
+        "mean_delta_pp": 0.3136591472090953,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.05442650804117939,
+          0.6620389825482726
+        ],
+        "better": 18,
+        "worse": 7,
+        "tied": 107,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.19895747310891637,
+          0.3341791771288972
+        ]
+      },
+      "nPrecision_AUC": {
+        "mean_delta_pp": 0.33622557356827115,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.02306545342266122,
+          0.754655024019356
+        ],
+        "better": 17,
+        "worse": 7,
+        "tied": 108,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.20751704549225167,
+          0.36335555232435696
+        ]
+      },
+      "mACC": {
+        "mean_delta_pp": 0.3197984654468676,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.05626899283457169,
+          0.6742202908389008
+        ],
+        "better": 18,
+        "worse": 7,
+        "tied": 107,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.20293281830088558,
+          0.34106218782901104
+        ]
+      },
+      "visible_hit50": {
+        "mean_delta_pp": 0.6100635292622664,
+        "paired_sequence_bootstrap_95ci_pp": [
+          0.14296870973080722,
+          1.197538281160673
+        ],
+        "better": 16,
+        "worse": 7,
+        "tied": 109,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          0.46331049709021,
+          0.6440804557921604
+        ]
+      }
+    },
+    "E_minus_B": {
+      "AUC": {
+        "mean_delta_pp": -0.11246565426720177,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.31357948194694407,
+          0.015510608765740602
+        ],
+        "better": 55,
+        "worse": 66,
+        "tied": 11,
+        "median_delta_pp": -0.005878894767796794,
+        "leave_one_sequence_out_range_pp": [
+          -0.13117482242305578,
+          -0.028506528642439157
+        ]
+      },
+      "Precision20": {
+        "mean_delta_pp": -0.23870281151912964,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.6292346354461138,
+          0.0484330780065171
+        ],
+        "better": 11,
+        "worse": 16,
+        "tied": 105,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.2746034872886322,
+          -0.10173246518096898
+        ]
+      },
+      "cAUC": {
+        "mean_delta_pp": -0.12043173423950558,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.3394386262173155,
+          0.01799246157175506
+        ],
+        "better": 59,
+        "worse": 64,
+        "tied": 9,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.13903943351422177,
+          -0.028293990298767644
+        ]
+      },
+      "nPrecision_AUC": {
+        "mean_delta_pp": -0.14147436257525983,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.37194014407498116,
+          0.011658724605675217
+        ],
+        "better": 55,
+        "worse": 73,
+        "tied": 4,
+        "median_delta_pp": -0.02056579012370552,
+        "leave_one_sequence_out_range_pp": [
+          -0.16754523193697565,
+          -0.04735898950107005
+        ]
+      },
+      "mACC": {
+        "mean_delta_pp": -0.1057620029775117,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.3169896930369457,
+          0.028565591341640367
+        ],
+        "better": 65,
+        "worse": 67,
+        "tied": 0,
+        "median_delta_pp": -0.0015091105788123116,
+        "leave_one_sequence_out_range_pp": [
+          -0.12478552915579763,
+          -0.01820193785588753
+        ]
+      },
+      "visible_hit50": {
+        "mean_delta_pp": -0.15379463942303895,
+        "paired_sequence_bootstrap_95ci_pp": [
+          -0.40956966170071507,
+          0.031032993484452067
+        ],
+        "better": 14,
+        "worse": 18,
+        "tied": 100,
+        "median_delta_pp": 0.0,
+        "leave_one_sequence_out_range_pp": [
+          -0.1777554735168459,
+          -0.05181205259792086
+        ]
+      }
+    }
+  },
+  "speed_comparisons": {
+    "D0_minus_B": {
+      "new_online_fps": 36.00976796174133,
+      "base_online_fps": 40.74856858754718,
+      "delta_fps": -4.738800625805851,
+      "relative_percent": -11.629367092060349
+    },
+    "D_minus_D0": {
+      "new_online_fps": 37.21720800300361,
+      "base_online_fps": 36.00976796174133,
+      "delta_fps": 1.2074400412622808,
+      "relative_percent": 3.3530903130093215
+    },
+    "D_minus_B": {
+      "new_online_fps": 37.21720800300361,
+      "base_online_fps": 40.74856858754718,
+      "delta_fps": -3.5313605845435703,
+      "relative_percent": -8.666219960479193
+    },
+    "E_minus_B": {
+      "new_online_fps": 40.42695922595695,
+      "base_online_fps": 40.74856858754718,
+      "delta_fps": -0.3216093615902338,
+      "relative_percent": -0.7892531510628742
+    }
+  },
+  "diagnostics": {
+    "B": {
+      "totals": {
+        "global_commit_hit50": 90,
+        "global_commits": 142,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36366,
+        "pool_hit50_frames": 0,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 32,
+        "severe_offset_frames": 2541,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2923,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 91,
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39380,
+        "visible_pool_frames": 0
+      },
+      "size_strata": {
+        "tiny_le8": {
+          "sequences": 12,
+          "frames": 450,
+          "hit50_frames": 91,
+          "frame_hit50": 0.20222222222222222,
+          "sequence_macro_hit50": 0.26238010355657415
+        },
+        "small_8_16": {
+          "sequences": 41,
+          "frames": 3702,
+          "hit50_frames": 2923,
+          "frame_hit50": 0.7895732036736899,
+          "sequence_macro_hit50": 0.7056767471088502
+        },
+        "larger_gt16": {
+          "sequences": 131,
+          "frames": 39281,
+          "hit50_frames": 36366,
+          "frame_hit50": 0.9257910949313918,
+          "sequence_macro_hit50": 0.9218259799096407
+        }
+      },
+      "reappearance": {
+        "events": 127,
+        "no_three_consecutive_hits": 32,
+        "recovery_fraction": 0.7480314960629921
+      },
+      "severe_offset": {
+        "frames": 2541,
+        "definition": "Visible IoU < 0.1, not an identity-error annotation"
+      },
+      "global_commit": {
+        "frames": 142,
+        "hit50_frames": 90
+      }
+    },
+    "D_ZERO": {
+      "totals": {
+        "global_commit_hit50": 90,
+        "global_commits": 142,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36366,
+        "pool_hit50_frames": 40616,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 32,
+        "selected_wrong_with_hit50_candidate": 1236,
+        "severe_offset_frames": 2541,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2923,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 91,
+        "unmatched_with_hit50_candidate": 0,
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39380,
+        "visible_pool_frames": 43433
+      },
+      "size_strata": {
+        "tiny_le8": {
+          "sequences": 12,
+          "frames": 450,
+          "hit50_frames": 91,
+          "frame_hit50": 0.20222222222222222,
+          "sequence_macro_hit50": 0.26238010355657415
+        },
+        "small_8_16": {
+          "sequences": 41,
+          "frames": 3702,
+          "hit50_frames": 2923,
+          "frame_hit50": 0.7895732036736899,
+          "sequence_macro_hit50": 0.7056767471088502
+        },
+        "larger_gt16": {
+          "sequences": 131,
+          "frames": 39281,
+          "hit50_frames": 36366,
+          "frame_hit50": 0.9257910949313918,
+          "sequence_macro_hit50": 0.9218259799096407
+        }
+      },
+      "reappearance": {
+        "events": 127,
+        "no_three_consecutive_hits": 32,
+        "recovery_fraction": 0.7480314960629921
+      },
+      "severe_offset": {
+        "frames": 2541,
+        "definition": "Visible IoU < 0.1, not an identity-error annotation"
+      },
+      "global_commit": {
+        "frames": 142,
+        "hit50_frames": 90
+      }
+    },
+    "D0": {
+      "totals": {
+        "global_commit_hit50": 102,
+        "global_commits": 186,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36262,
+        "pool_hit50_frames": 40572,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 29,
+        "selected_wrong_with_hit50_candidate": 1140,
+        "severe_offset_frames": 2618,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2949,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 94,
+        "unmatched_with_hit50_candidate": 0,
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39305,
+        "visible_pool_frames": 43433
+      },
+      "size_strata": {
+        "tiny_le8": {
+          "sequences": 12,
+          "frames": 450,
+          "hit50_frames": 94,
+          "frame_hit50": 0.2088888888888889,
+          "sequence_macro_hit50": 0.2648805987041281
+        },
+        "small_8_16": {
+          "sequences": 41,
+          "frames": 3702,
+          "hit50_frames": 2949,
+          "frame_hit50": 0.7965964343598055,
+          "sequence_macro_hit50": 0.709537555330154
+        },
+        "larger_gt16": {
+          "sequences": 131,
+          "frames": 39281,
+          "hit50_frames": 36262,
+          "frame_hit50": 0.9231435044932664,
+          "sequence_macro_hit50": 0.9199718302201747
+        }
+      },
+      "reappearance": {
+        "events": 127,
+        "no_three_consecutive_hits": 29,
+        "recovery_fraction": 0.7716535433070866
+      },
+      "severe_offset": {
+        "frames": 2618,
+        "definition": "Visible IoU < 0.1, not an identity-error annotation"
+      },
+      "global_commit": {
+        "frames": 186,
+        "hit50_frames": 102
+      }
+    },
+    "D": {
+      "totals": {
+        "global_commit_hit50": 115,
+        "global_commits": 199,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36533,
+        "pool_hit50_frames": 40663,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 29,
+        "selected_wrong_with_hit50_candidate": 897,
+        "severe_offset_frames": 2265,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2963,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 131,
+        "unmatched_with_hit50_candidate": 0,
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39627,
+        "visible_pool_frames": 43433
+      },
+      "size_strata": {
+        "tiny_le8": {
+          "sequences": 12,
+          "frames": 450,
+          "hit50_frames": 131,
+          "frame_hit50": 0.2911111111111111,
+          "sequence_macro_hit50": 0.3176583764819059
+        },
+        "small_8_16": {
+          "sequences": 41,
+          "frames": 3702,
+          "hit50_frames": 2963,
+          "frame_hit50": 0.8003781739600216,
+          "sequence_macro_hit50": 0.710981781078646
+        },
+        "larger_gt16": {
+          "sequences": 131,
+          "frames": 39281,
+          "hit50_frames": 36533,
+          "frame_hit50": 0.9300425141926122,
+          "sequence_macro_hit50": 0.927308648522577
+        }
+      },
+      "reappearance": {
+        "events": 127,
+        "no_three_consecutive_hits": 29,
+        "recovery_fraction": 0.7716535433070866
+      },
+      "severe_offset": {
+        "frames": 2265,
+        "definition": "Visible IoU < 0.1, not an identity-error annotation"
+      },
+      "global_commit": {
+        "frames": 199,
+        "hit50_frames": 115
+      }
+    },
+    "E_ZERO": {
+      "totals": {
+        "global_commit_hit50": 90,
+        "global_commits": 142,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36366,
+        "pool_hit50_frames": 0,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 32,
+        "severe_offset_frames": 2541,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2923,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 91,
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39380,
+        "visible_pool_frames": 0
+      },
+      "size_strata": {
+        "tiny_le8": {
+          "sequences": 12,
+          "frames": 450,
+          "hit50_frames": 91,
+          "frame_hit50": 0.20222222222222222,
+          "sequence_macro_hit50": 0.26238010355657415
+        },
+        "small_8_16": {
+          "sequences": 41,
+          "frames": 3702,
+          "hit50_frames": 2923,
+          "frame_hit50": 0.7895732036736899,
+          "sequence_macro_hit50": 0.7056767471088502
+        },
+        "larger_gt16": {
+          "sequences": 131,
+          "frames": 39281,
+          "hit50_frames": 36366,
+          "frame_hit50": 0.9257910949313918,
+          "sequence_macro_hit50": 0.9218259799096407
+        }
+      },
+      "reappearance": {
+        "events": 127,
+        "no_three_consecutive_hits": 32,
+        "recovery_fraction": 0.7480314960629921
+      },
+      "severe_offset": {
+        "frames": 2541,
+        "definition": "Visible IoU < 0.1, not an identity-error annotation"
+      },
+      "global_commit": {
+        "frames": 142,
+        "hit50_frames": 90
+      }
+    },
+    "E": {
+      "totals": {
+        "global_commit_hit50": 90,
+        "global_commits": 144,
+        "larger_gt16_frames": 39281,
+        "larger_gt16_hit50_frames": 36344,
+        "pool_hit50_frames": 0,
+        "reappearance_events": 127,
+        "reappearance_no_three_hits": 33,
+        "severe_offset_frames": 2543,
+        "small_8_16_frames": 3702,
+        "small_8_16_hit50_frames": 2918,
+        "tiny_le8_frames": 450,
+        "tiny_le8_hit50_frames": 92,
+        "visible_frames": 43433,
+        "visible_hit50_frames": 39354,
+        "visible_pool_frames": 0
+      },
+      "size_strata": {
+        "tiny_le8": {
+          "sequences": 12,
+          "frames": 450,
+          "hit50_frames": 92,
+          "frame_hit50": 0.20444444444444446,
+          "sequence_macro_hit50": 0.28321343688990747
+        },
+        "small_8_16": {
+          "sequences": 41,
+          "frames": 3702,
+          "hit50_frames": 2918,
+          "frame_hit50": 0.7882225823878984,
+          "sequence_macro_hit50": 0.6786046442701565
+        },
+        "larger_gt16": {
+          "sequences": 131,
+          "frames": 39281,
+          "hit50_frames": 36344,
+          "frame_hit50": 0.9252310277233268,
+          "sequence_macro_hit50": 0.9200062703523061
+        }
+      },
+      "reappearance": {
+        "events": 127,
+        "no_three_consecutive_hits": 33,
+        "recovery_fraction": 0.7401574803149606
+      },
+      "severe_offset": {
+        "frames": 2543,
+        "definition": "Visible IoU < 0.1, not an identity-error annotation"
+      },
+      "global_commit": {
+        "frames": 144,
+        "hit50_frames": 90
+      }
+    }
+  },
+  "zero_controls": {
+    "D_ZERO": {
+      "status": "PASS",
+      "exact_prediction_equality": true,
+      "exact_state_and_anchor_equality": true,
+      "exact_RGB_equality": true,
+      "sequences": 132,
+      "frames": 47200,
+      "state_fields_checked": [
+        "state",
+        "previous_state",
+        "proposed_commit",
+        "commit_source",
+        "search_anchor_before",
+        "local_search_anchor",
+        "committed_bbox",
+        "tentative_local_anchor",
+        "localization_status",
+        "reason",
+        "output_source"
+      ],
+      "reference": "/home/xu/zyx/send/LORAT_BC_R1_20261003/validation/B",
+      "comparison": "Per-file prediction SHA256 plus per-frame exact controller state, search anchors and RGB digest equality; timing, probe counts and extra logs excluded",
+      "sequences_checked": [
+        {
+          "sequence": "UAV-Anti-UAV_Train_000009",
+          "frames": 75,
+          "prediction_sha256": "1d73e4febf9e4bcf28aea1bce48f1b912a2df617dc52d9dca9a397416db3a986"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000019",
+          "frames": 68,
+          "prediction_sha256": "7b6055be7c2befdb652d36280a8fc21f37c217f27322d447310c7ff88c976319"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000026",
+          "frames": 25,
+          "prediction_sha256": "fb10be5816c525592f4cb4c269353976e50816d3764ac7e4481f130aed845a60"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000027",
+          "frames": 205,
+          "prediction_sha256": "28746ac9cbc7b581481f99df9599242a139d5f86b9d5f828c9054908d3ffca8b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000035",
+          "frames": 1407,
+          "prediction_sha256": "c1b0a98f9aa97332c9df896a3c1183713b41970e2475457d3d14ffc62e2f02ef"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000040",
+          "frames": 1039,
+          "prediction_sha256": "86a45b66b980c34868fb70a43811a2cb976570ab6cfe41a8f1bb3d0010e6d4f5"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000051",
+          "frames": 367,
+          "prediction_sha256": "01e41d083bbc51d0af06168a6bea320e5dd85c4b6d9896b3b9b7f25911b8e287"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000060",
+          "frames": 1942,
+          "prediction_sha256": "a4c0442cfb67fde689c1a693c89fbe8db8909a609672e8619f6cd10c8c6f1842"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000062",
+          "frames": 665,
+          "prediction_sha256": "a69aec4f0455fecdb9649383e69abe01a084e714ca4e05fa2759100160955e04"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000089",
+          "frames": 858,
+          "prediction_sha256": "538ff52c25579d65099268e211cce797212140d3b7b81db4fd3822115ae5c55d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000106",
+          "frames": 239,
+          "prediction_sha256": "2b57b8035185691b6fe8ec292d6166b842d7ea4c81d82f8982dd0dade3969c9f"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000117",
+          "frames": 321,
+          "prediction_sha256": "d07cf387c69aae52179782eebddf211dd43818be63667e315275ec8d638b36b7"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000119",
+          "frames": 1077,
+          "prediction_sha256": "ca4f8c48cd8ac6aca0ee2641a6ae33eb8abd21ef5190953bb95734207d0ea9b9"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000122",
+          "frames": 747,
+          "prediction_sha256": "81c028a5ce274cc25eaf8d74b2e37dab848f23c51acb77a2bd9057f02e70870e"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000137",
+          "frames": 809,
+          "prediction_sha256": "47bf694d9bfe7380feef536e41f63914bf4f91054ea0051387dda8f08955c251"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000146",
+          "frames": 477,
+          "prediction_sha256": "9b60ed2fcf1e1187435d57ad1262f8a369f7dcb6fe5a61dd66c41d925e8da8b3"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000155",
+          "frames": 455,
+          "prediction_sha256": "17e0128c26238dcb0666eb3ebdfeaeec05f383c0061d78ef8643ddec7f4a57c0"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000157",
+          "frames": 842,
+          "prediction_sha256": "97e6a5370ebf4687b6f1a91ab5a8e65875293a487e58d1f6192c8443d43d495d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000158",
+          "frames": 244,
+          "prediction_sha256": "7ae446898e97bd4f677c760180bfda0ca2f421ea11d28db7742cb2211f52b540"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000162",
+          "frames": 865,
+          "prediction_sha256": "b60d2eaa19650301f1cf4ba9b8daefd28b6af715ec915b6c9dc7cd2374e0612b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000164",
+          "frames": 856,
+          "prediction_sha256": "bed11ec5a2df92220325143dc7e86b358d47ded7c8d0ae0c6c45a0cee9eed323"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000173",
+          "frames": 263,
+          "prediction_sha256": "10ed416b4931d99d104b011022b7233c378c7ffb763e7a6b996b7a28bb634e77"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000183",
+          "frames": 125,
+          "prediction_sha256": "b9a6645ccf09e96f29245488003b5d54ed038ca8f76650a94ecd119aa98f2735"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000189",
+          "frames": 120,
+          "prediction_sha256": "0bdf2008360333ac7077c20e3cfba1b63fa6d9abcf195c092526aca2a75c8e3d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000190",
+          "frames": 431,
+          "prediction_sha256": "71308c4a1a0bdd25abd108d68e53a980d9e2ad574b76ecd27610ff5718669410"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000193",
+          "frames": 138,
+          "prediction_sha256": "332e0db561bef6bb7745fda44b4101504f23dcf03eec91f3d60422842d6313b2"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000206",
+          "frames": 482,
+          "prediction_sha256": "dacdd963beb1c2ba818c44dfd11fdb1d84f4ba1adc999cfbf922431114f9f865"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000249",
+          "frames": 215,
+          "prediction_sha256": "01674a887c4953fd17de8923c017eba7d83f7c27036f521dd20044c0afbd9ce4"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000250",
+          "frames": 348,
+          "prediction_sha256": "b3e5d8a413dc2412787efbff2c4ab2b17ef229c4cf0c879e0cdb1541831ca3ab"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000256",
+          "frames": 503,
+          "prediction_sha256": "c3b64beda858b5a11441eeb1259943fed69504320c5b4fbfeffe2010f8ebe802"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000281",
+          "frames": 112,
+          "prediction_sha256": "0d6a3b3eaaf5ea31a774465dc4e4d6d619792b5c2594dd1fe788cb0c1cd5270b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000294",
+          "frames": 57,
+          "prediction_sha256": "206ea26204740f2d30b9d58cdc32775290bf8989b40c04eeb86501dee9adc498"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000309",
+          "frames": 93,
+          "prediction_sha256": "eb95f15f96ee6d24481d71d90ec6b64acec9d64b08595de8ad09d7bac98f3e6c"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000319",
+          "frames": 126,
+          "prediction_sha256": "7fc5f9b5961d94fa981fcce1a22debfaad50c5450d340948666bf15e761c0c5d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000320",
+          "frames": 367,
+          "prediction_sha256": "a2c28a6638281fdd896e5da52ba1a496851b44cda4acd8a298a75a8efd6f32ca"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000334",
+          "frames": 42,
+          "prediction_sha256": "65c4a524fa56c3deba7f0143c57bf8ee8d65752d5d7c890f1353b002edfe6fc5"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000373",
+          "frames": 102,
+          "prediction_sha256": "24fcc2d399485911ae7e21e0f7c2ebc150b124e36cb8bde950c6c527b984cf9a"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000381",
+          "frames": 66,
+          "prediction_sha256": "13a21085800488120ed1c63dd43d7c87d5b68c373517141c97cdb0c706d50f62"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000384",
+          "frames": 262,
+          "prediction_sha256": "856921a86b79859f2ae4e627b6369832e3a0677cf17ef24f82cd69099088bb56"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000385",
+          "frames": 165,
+          "prediction_sha256": "96aed676e7ca1d14815b6b6d049623fa561d5baec01bac8d84eb8269b18bbb8b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000397",
+          "frames": 183,
+          "prediction_sha256": "20e1b6b7eeb99a313a32cc5c34c01e4ac475c6de9fe8de66a60316e15dfe0b61"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000405",
+          "frames": 102,
+          "prediction_sha256": "d742ed2fb76eef975b3a3b007951148ade0b55b266650617fb13297dcb8bda8c"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000422",
+          "frames": 1059,
+          "prediction_sha256": "c2cd8cc2811e1a5d57580819226dd69d463ab122b9842aa385ec2d76d2d236b6"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000430",
+          "frames": 138,
+          "prediction_sha256": "6937438df50151ac7f9fe84b0826205ffb08e482567338604b916e69dba2afbb"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000446",
+          "frames": 258,
+          "prediction_sha256": "1004933921d1c0529262dce6c94d11e35181b9d473e806f5b9f14f44ba0a92e3"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000448",
+          "frames": 395,
+          "prediction_sha256": "b87857a43b5c35519e7173ac87eaa11f9af1384bab85cebfa609b48479a4f15e"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000470",
+          "frames": 228,
+          "prediction_sha256": "6d3065b502707d201d9d59573c0b6f3a2706f2b2b91d26765fbfcc3bcfca8fc2"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000474",
+          "frames": 1010,
+          "prediction_sha256": "5804079444d9c6c25bd08f3cc065d21429c1bcdd4339f5a877a81872f610bc03"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000482",
+          "frames": 264,
+          "prediction_sha256": "6c407013130e4190c34139ec20c43243c97e9cec015d67c1023ff6d6952a3563"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000487",
+          "frames": 599,
+          "prediction_sha256": "e4d75804379fa8f466551e26fc51cd46a1db2e645fdf1ee733befb92ef30c604"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000488",
+          "frames": 224,
+          "prediction_sha256": "cfbe3255b2d5326a39076ca86f203bc344ebc0c2e627f475e10344b2b5c571da"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000492",
+          "frames": 453,
+          "prediction_sha256": "247abf102289c890b4d3da51d9d2df798b470ef53f630d0f55076d0e1b2e973e"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000495",
+          "frames": 810,
+          "prediction_sha256": "2aa7de5b14431ebc74f24a7a532bcc6f079415172c5eaa76dc5bb578a425bf81"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000498",
+          "frames": 819,
+          "prediction_sha256": "818f42107acba9d5ed7dccfff2a349e67e090e8e0ab44bf9ceae95b1e498ce92"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000502",
+          "frames": 1577,
+          "prediction_sha256": "8f2dff89dd918cb0fc7da8bb5f15a818c3e7036201b5460a6eebff94e139bc59"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000504",
+          "frames": 299,
+          "prediction_sha256": "8e70946476b7b47efcf9f61e3a8b04f7ef3d179d76d785c89d110573d1a6420a"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000513",
+          "frames": 119,
+          "prediction_sha256": "36b335d4764cc0f5581f5b6db51992c3043a2748cb907b931024f5ce8c0ddbf5"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000517",
+          "frames": 31,
+          "prediction_sha256": "c310d0413df5f828d87219d8a009336433fde1981314aaed37fbc871078e4ae8"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000522",
+          "frames": 985,
+          "prediction_sha256": "03c739e083b904d6d810900e7c075a30fcea7f053762b27092808cbc6514845c"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000556",
+          "frames": 144,
+          "prediction_sha256": "788ee4c34b49b9602b5a4c041b0538f7f8899bd4b89a990ab24ee7259c778d80"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000559",
+          "frames": 48,
+          "prediction_sha256": "923713524ecd8ddf171037b2320a38844015783b41c277455c0196de022e33f7"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000560",
+          "frames": 46,
+          "prediction_sha256": "ee05f9b10bb7f3a512580b59a97eb36142fb598f1df175e7dafbb51254ed28d9"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000564",
+          "frames": 47,
+          "prediction_sha256": "33c2848cee430779782f2536cfb7c891d23ea0edc6a4c662a4778648a7616ec2"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000567",
+          "frames": 47,
+          "prediction_sha256": "07776827d2595d0113b59f3e6951cc08ca4875d658ed45da41cc40c87af2fa7d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000569",
+          "frames": 59,
+          "prediction_sha256": "4dd43e56393db298096eef01914c20ae7bc1f8c5f914115389b3c503cdf63a66"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000582",
+          "frames": 46,
+          "prediction_sha256": "73e960dc1aaee740e1590472b9c961478305003bf1ab618ce9f7aaa08b81bdb6"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000615",
+          "frames": 315,
+          "prediction_sha256": "57b6f472217bc2e6e86bf45dfd8c3c58f2bfbb125c3afe6e7be40ad1e5e43d38"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000618",
+          "frames": 601,
+          "prediction_sha256": "43675e0987b359a30d4983b40ac2462847a8d1db005a62e194a4ee5e3352af3b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000620",
+          "frames": 367,
+          "prediction_sha256": "f784013ae81f7bf512922c24f2056e5213bf38a69bbec2fc7175c405310e9ebe"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000624",
+          "frames": 66,
+          "prediction_sha256": "92c172cd9e422af2b26f5f946de51f4cb5c0e0f3714b54ee8b91322c21ced503"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000631",
+          "frames": 291,
+          "prediction_sha256": "c36bb5324c0fc619e1d42a682abb97400b3fd279a2ae7afe96fcd6998f03efcb"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000672",
+          "frames": 1143,
+          "prediction_sha256": "f70eb6943941c736145c775ad962c62f566eedb5894c866a919ade0026ece761"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000676",
+          "frames": 179,
+          "prediction_sha256": "49af77ae40a6dd01a829181bd7b39d65f9ad78dc83d29205bfb3f9271ee705fa"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000698",
+          "frames": 415,
+          "prediction_sha256": "0f6665ceb91fbdfd5b346ea4299d40deb6f1920da134c73edf7c584f8033328e"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000705",
+          "frames": 149,
+          "prediction_sha256": "8f7fa79af0f90fe030bd0ff4a09ce5e51d1fcab5d95029d2df4173b95c8b5f4d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000719",
+          "frames": 164,
+          "prediction_sha256": "b92804e6ebc181c52c7f1a9ec8f4aacb5169b5845ede46ce5f797a33e0ce4456"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000739",
+          "frames": 102,
+          "prediction_sha256": "be12daa8f1daf9af6d3d34de66e058f63de78e0fb4a1aab44eadcdc418e3643b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000747",
+          "frames": 269,
+          "prediction_sha256": "5dbc3929db87e5dd935c1bd9622d0f200ea7f2ebd2d8fb2fa8b7298a05e1b5bf"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000769",
+          "frames": 1007,
+          "prediction_sha256": "a1a99e14da00a5be0e579e26df1a6dbe67f8739e3a697fab3279d8b764310388"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000785",
+          "frames": 357,
+          "prediction_sha256": "546e46235a212c9969fe5f9ed5686afbd6483ca45a85b11cf696e5e0752a7caf"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000792",
+          "frames": 149,
+          "prediction_sha256": "3a3bcb24007997a666d6782458f43edbf92ab4aaaeb4411aa84799cebd00730d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000817",
+          "frames": 990,
+          "prediction_sha256": "94ada6603bbbd62f75fce35da2cd9a40e3d26569fa6cf7f1c4530773df433ad4"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000826",
+          "frames": 160,
+          "prediction_sha256": "414cd1045966f1778ae73d35a44f7a00aba5431a1a96b7bf3b9181bf4a1b1a20"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000833",
+          "frames": 282,
+          "prediction_sha256": "12f2ad2a033a91ba0f773826e9228ebd6275dda64c7fd11652568f04948cea39"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000838",
+          "frames": 352,
+          "prediction_sha256": "4300a9e79c02d57e03b0465c188f6e684d7a076bc7a2e00bb1741a324a4c77d8"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000841",
+          "frames": 75,
+          "prediction_sha256": "ec8dfbf4ca039dcafe57223353f22a5a1bb28afac84725aaba2670c96af8ed1b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000852",
+          "frames": 94,
+          "prediction_sha256": "99438ef820518cda4b65497655836410160906311bf050faf282f82e95302b0e"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000870",
+          "frames": 135,
+          "prediction_sha256": "96ba4f24d200fa5d1e8313b920828788ab4ff5b0dd8e9916c3b86f491aa81418"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000877",
+          "frames": 413,
+          "prediction_sha256": "af45d8d4b67b6dc4ca574adbe026eeb08eb86eaadc9f8f59e731132fa352dc8d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000888",
+          "frames": 110,
+          "prediction_sha256": "2336db9e968e405fc1f9f0e221052d9d5a0be7a9a592073f846c2bec843abbb4"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000893",
+          "frames": 124,
+          "prediction_sha256": "a4bbfbff2b9876229ab6280ba006e1f0c6a8ab98fba5e239f6c75cbcd6a74778"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000902",
+          "frames": 97,
+          "prediction_sha256": "795416f5a1a7799bd9a505ad83a38ca619fe33c7967bb7a6f14c3f077fb2b08b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000919",
+          "frames": 101,
+          "prediction_sha256": "7a93748ad9fd4a33b442bb1c38f31a85105fe9cdfeb02581b60bd48a45d83ef4"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000937",
+          "frames": 53,
+          "prediction_sha256": "d638dc9dfc516036e959372580e862870a8a2293f8b08de5310631f7f309d758"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000972",
+          "frames": 86,
+          "prediction_sha256": "d30a9d54244c92cde6fcb020ec22c3ca408bcae5659db5b2adc2722c447b0cbf"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000999",
+          "frames": 162,
+          "prediction_sha256": "53151b5a84cab9d39e9e62ac9ed4b6c88061dd51da755cb7133de0f42ebf741f"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001005",
+          "frames": 93,
+          "prediction_sha256": "cb25c3cfea382ffb38876243d65eea9131880fc931ebb54f5a9d6a3f2b104199"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001016",
+          "frames": 85,
+          "prediction_sha256": "70c0ebe02808db5ba735e019f2ca5d7de929968cf27c1050623bd310435b5749"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001038",
+          "frames": 984,
+          "prediction_sha256": "6c617d5696bd3403d060142915c3db40ad2e9457e873b2299ac17503ebfe2095"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001085",
+          "frames": 489,
+          "prediction_sha256": "ef45cf294c7ea8bf1897e53e5f77be360c06212a8ee136f90bb6e1217c884a11"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001101",
+          "frames": 916,
+          "prediction_sha256": "63dae3a47d48d6c2190fbe2ff87e0606782ae4ff6c1e023cb3c91551d85a8a78"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001116",
+          "frames": 213,
+          "prediction_sha256": "3febd5781e40e7a6b5c6cb61dcb2cffee878fa8c41c88218f3af543368212089"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001120",
+          "frames": 244,
+          "prediction_sha256": "867b836b6f803503fa1157c68e01db79b20d7d29936d694d0115f10af5157f07"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001135",
+          "frames": 105,
+          "prediction_sha256": "64a96a9460cc37f2262570bf3186797d377080e1dfcafd42d72be0fe5aa3817d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001152",
+          "frames": 417,
+          "prediction_sha256": "df3dd397d53d6ce5309e32213a79cd754d661ea60c2475c4a0f6c2aaa5b8e35d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001154",
+          "frames": 455,
+          "prediction_sha256": "5410f6ec9968672ae53ec087cc3dc3b510bb46bd56065f4a3138b36a5e77bc29"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001155",
+          "frames": 356,
+          "prediction_sha256": "3a904cd2dac1af5245f6f836a934b485d7f0f8f6bf599272a4b16ec857205316"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001156",
+          "frames": 2143,
+          "prediction_sha256": "4febd73335393937da3cedb76ed10ccc711bcde7f54ce9f4a46a139debb13520"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001157",
+          "frames": 32,
+          "prediction_sha256": "9aadb1b00c37ed2b2622a60dca580dea7cf6e88bc6da9760e44a13f198c281ad"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001163",
+          "frames": 421,
+          "prediction_sha256": "980ee1e2fdd6666f778272f1fe64078de27ded530d381a782cb1f0849935d3c0"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001164",
+          "frames": 102,
+          "prediction_sha256": "1ff12b4ffb761a2159579858c8ca5fa0f0409bb2f675c21d0660b0e79b301f8b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001201",
+          "frames": 971,
+          "prediction_sha256": "6d4d25a236931c988955697c9c573dce3bf6953a5086bcac7f72c07f1af55ca5"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001223",
+          "frames": 261,
+          "prediction_sha256": "f80de923869cb2f2e0984e37021d25fc939eca905aa3cd23844bea1c8c2a1447"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001244",
+          "frames": 163,
+          "prediction_sha256": "e02f21f6094fd3bc2e3b28185abcb802f35fd2c3ea97dd3b665e974d1c055a19"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001245",
+          "frames": 231,
+          "prediction_sha256": "4960afac106efda95471f9c529a0b6a2f85809f1e2e584fc18fbf891f5a2c9de"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001251",
+          "frames": 178,
+          "prediction_sha256": "f79afb55ca680a1c1abb1b8b0bbdffe8b031fd3c9ba03da57e2a6e2a62e05702"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001260",
+          "frames": 85,
+          "prediction_sha256": "2e66ddcbce983788c46060949e5d5c66fe42985dba4b4b5e49a33c3378b78a0d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001266",
+          "frames": 163,
+          "prediction_sha256": "a3f7c84193f10f859abb210a64a7953fc3299203226de0a1b332e8347de24df5"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001274",
+          "frames": 595,
+          "prediction_sha256": "0b4ac65c7f601d0b0400e3f37bc717572f165343cb2a569a104aa9dcf55a963f"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001279",
+          "frames": 28,
+          "prediction_sha256": "259ac97ef4ab712d289aff35715d59d1db781d45c4ddcfca6084cfd3ce8af30d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001290",
+          "frames": 33,
+          "prediction_sha256": "d5027f5354345766b148727ea37210bf3e4dd137fab331628676f7579af9eed9"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001305",
+          "frames": 67,
+          "prediction_sha256": "8239da91b706f06f65b16cd882b4765bfcfdd00519dddc4330c57eeb701c1c67"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001306",
+          "frames": 70,
+          "prediction_sha256": "8e3886946ca61f95477499169c241a2df85a0e89bfddcd3450f8145eb7ac7905"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001313",
+          "frames": 95,
+          "prediction_sha256": "c40b3b2a9f3516113686604a565f894b8c8d961980c435dce7513b0358c06a82"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001316",
+          "frames": 74,
+          "prediction_sha256": "917b52a355e4fbe216400a6a063a6ad138e315d8154551c72a54710b2de31e0d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001333",
+          "frames": 124,
+          "prediction_sha256": "09c78c6bc944c0c8d0ae02c07b548a7cca83c4ca6e35ae9b2e80f24ce6a0bf8f"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001349",
+          "frames": 50,
+          "prediction_sha256": "5165aff858ea7e5d36b094d26cdd8d3f2a58f29667548decb3bd823569293ec9"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001364",
+          "frames": 265,
+          "prediction_sha256": "86dd965a34ab016549dce2db36351311d0cbda10c22f2d0cd04c1d3e7e4ad106"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001368",
+          "frames": 84,
+          "prediction_sha256": "d72a117116064f196a8b61c80c42dbfd070efd70ce37bec030ac3f7f3176576f"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001382",
+          "frames": 52,
+          "prediction_sha256": "e095aa59c96c95bb2edcdc0bd6852c71a077b2ecf216cddffb24b52599b8eaf3"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001391",
+          "frames": 59,
+          "prediction_sha256": "e793c25c11b14212de35d34cdcc7bee78152ba2968b979baa5d6cd45474e58cb"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001399",
+          "frames": 99,
+          "prediction_sha256": "156e62a90ce725f9284ee65f1fcee07b1524c0051a4abcf0f2a5376e225b5363"
+        }
+      ]
+    },
+    "E_ZERO": {
+      "status": "PASS",
+      "exact_prediction_equality": true,
+      "exact_state_and_anchor_equality": true,
+      "exact_RGB_equality": true,
+      "sequences": 132,
+      "frames": 47200,
+      "state_fields_checked": [
+        "state",
+        "previous_state",
+        "proposed_commit",
+        "commit_source",
+        "search_anchor_before",
+        "local_search_anchor",
+        "committed_bbox",
+        "tentative_local_anchor",
+        "localization_status",
+        "reason",
+        "output_source"
+      ],
+      "reference": "/home/xu/zyx/send/LORAT_BC_R1_20261003/validation/B",
+      "comparison": "Per-file prediction SHA256 plus per-frame exact controller state, search anchors and RGB digest equality; timing, probe counts and extra logs excluded",
+      "sequences_checked": [
+        {
+          "sequence": "UAV-Anti-UAV_Train_000009",
+          "frames": 75,
+          "prediction_sha256": "1d73e4febf9e4bcf28aea1bce48f1b912a2df617dc52d9dca9a397416db3a986"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000019",
+          "frames": 68,
+          "prediction_sha256": "7b6055be7c2befdb652d36280a8fc21f37c217f27322d447310c7ff88c976319"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000026",
+          "frames": 25,
+          "prediction_sha256": "fb10be5816c525592f4cb4c269353976e50816d3764ac7e4481f130aed845a60"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000027",
+          "frames": 205,
+          "prediction_sha256": "28746ac9cbc7b581481f99df9599242a139d5f86b9d5f828c9054908d3ffca8b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000035",
+          "frames": 1407,
+          "prediction_sha256": "c1b0a98f9aa97332c9df896a3c1183713b41970e2475457d3d14ffc62e2f02ef"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000040",
+          "frames": 1039,
+          "prediction_sha256": "86a45b66b980c34868fb70a43811a2cb976570ab6cfe41a8f1bb3d0010e6d4f5"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000051",
+          "frames": 367,
+          "prediction_sha256": "01e41d083bbc51d0af06168a6bea320e5dd85c4b6d9896b3b9b7f25911b8e287"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000060",
+          "frames": 1942,
+          "prediction_sha256": "a4c0442cfb67fde689c1a693c89fbe8db8909a609672e8619f6cd10c8c6f1842"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000062",
+          "frames": 665,
+          "prediction_sha256": "a69aec4f0455fecdb9649383e69abe01a084e714ca4e05fa2759100160955e04"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000089",
+          "frames": 858,
+          "prediction_sha256": "538ff52c25579d65099268e211cce797212140d3b7b81db4fd3822115ae5c55d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000106",
+          "frames": 239,
+          "prediction_sha256": "2b57b8035185691b6fe8ec292d6166b842d7ea4c81d82f8982dd0dade3969c9f"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000117",
+          "frames": 321,
+          "prediction_sha256": "d07cf387c69aae52179782eebddf211dd43818be63667e315275ec8d638b36b7"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000119",
+          "frames": 1077,
+          "prediction_sha256": "ca4f8c48cd8ac6aca0ee2641a6ae33eb8abd21ef5190953bb95734207d0ea9b9"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000122",
+          "frames": 747,
+          "prediction_sha256": "81c028a5ce274cc25eaf8d74b2e37dab848f23c51acb77a2bd9057f02e70870e"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000137",
+          "frames": 809,
+          "prediction_sha256": "47bf694d9bfe7380feef536e41f63914bf4f91054ea0051387dda8f08955c251"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000146",
+          "frames": 477,
+          "prediction_sha256": "9b60ed2fcf1e1187435d57ad1262f8a369f7dcb6fe5a61dd66c41d925e8da8b3"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000155",
+          "frames": 455,
+          "prediction_sha256": "17e0128c26238dcb0666eb3ebdfeaeec05f383c0061d78ef8643ddec7f4a57c0"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000157",
+          "frames": 842,
+          "prediction_sha256": "97e6a5370ebf4687b6f1a91ab5a8e65875293a487e58d1f6192c8443d43d495d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000158",
+          "frames": 244,
+          "prediction_sha256": "7ae446898e97bd4f677c760180bfda0ca2f421ea11d28db7742cb2211f52b540"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000162",
+          "frames": 865,
+          "prediction_sha256": "b60d2eaa19650301f1cf4ba9b8daefd28b6af715ec915b6c9dc7cd2374e0612b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000164",
+          "frames": 856,
+          "prediction_sha256": "bed11ec5a2df92220325143dc7e86b358d47ded7c8d0ae0c6c45a0cee9eed323"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000173",
+          "frames": 263,
+          "prediction_sha256": "10ed416b4931d99d104b011022b7233c378c7ffb763e7a6b996b7a28bb634e77"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000183",
+          "frames": 125,
+          "prediction_sha256": "b9a6645ccf09e96f29245488003b5d54ed038ca8f76650a94ecd119aa98f2735"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000189",
+          "frames": 120,
+          "prediction_sha256": "0bdf2008360333ac7077c20e3cfba1b63fa6d9abcf195c092526aca2a75c8e3d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000190",
+          "frames": 431,
+          "prediction_sha256": "71308c4a1a0bdd25abd108d68e53a980d9e2ad574b76ecd27610ff5718669410"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000193",
+          "frames": 138,
+          "prediction_sha256": "332e0db561bef6bb7745fda44b4101504f23dcf03eec91f3d60422842d6313b2"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000206",
+          "frames": 482,
+          "prediction_sha256": "dacdd963beb1c2ba818c44dfd11fdb1d84f4ba1adc999cfbf922431114f9f865"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000249",
+          "frames": 215,
+          "prediction_sha256": "01674a887c4953fd17de8923c017eba7d83f7c27036f521dd20044c0afbd9ce4"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000250",
+          "frames": 348,
+          "prediction_sha256": "b3e5d8a413dc2412787efbff2c4ab2b17ef229c4cf0c879e0cdb1541831ca3ab"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000256",
+          "frames": 503,
+          "prediction_sha256": "c3b64beda858b5a11441eeb1259943fed69504320c5b4fbfeffe2010f8ebe802"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000281",
+          "frames": 112,
+          "prediction_sha256": "0d6a3b3eaaf5ea31a774465dc4e4d6d619792b5c2594dd1fe788cb0c1cd5270b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000294",
+          "frames": 57,
+          "prediction_sha256": "206ea26204740f2d30b9d58cdc32775290bf8989b40c04eeb86501dee9adc498"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000309",
+          "frames": 93,
+          "prediction_sha256": "eb95f15f96ee6d24481d71d90ec6b64acec9d64b08595de8ad09d7bac98f3e6c"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000319",
+          "frames": 126,
+          "prediction_sha256": "7fc5f9b5961d94fa981fcce1a22debfaad50c5450d340948666bf15e761c0c5d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000320",
+          "frames": 367,
+          "prediction_sha256": "a2c28a6638281fdd896e5da52ba1a496851b44cda4acd8a298a75a8efd6f32ca"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000334",
+          "frames": 42,
+          "prediction_sha256": "65c4a524fa56c3deba7f0143c57bf8ee8d65752d5d7c890f1353b002edfe6fc5"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000373",
+          "frames": 102,
+          "prediction_sha256": "24fcc2d399485911ae7e21e0f7c2ebc150b124e36cb8bde950c6c527b984cf9a"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000381",
+          "frames": 66,
+          "prediction_sha256": "13a21085800488120ed1c63dd43d7c87d5b68c373517141c97cdb0c706d50f62"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000384",
+          "frames": 262,
+          "prediction_sha256": "856921a86b79859f2ae4e627b6369832e3a0677cf17ef24f82cd69099088bb56"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000385",
+          "frames": 165,
+          "prediction_sha256": "96aed676e7ca1d14815b6b6d049623fa561d5baec01bac8d84eb8269b18bbb8b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000397",
+          "frames": 183,
+          "prediction_sha256": "20e1b6b7eeb99a313a32cc5c34c01e4ac475c6de9fe8de66a60316e15dfe0b61"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000405",
+          "frames": 102,
+          "prediction_sha256": "d742ed2fb76eef975b3a3b007951148ade0b55b266650617fb13297dcb8bda8c"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000422",
+          "frames": 1059,
+          "prediction_sha256": "c2cd8cc2811e1a5d57580819226dd69d463ab122b9842aa385ec2d76d2d236b6"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000430",
+          "frames": 138,
+          "prediction_sha256": "6937438df50151ac7f9fe84b0826205ffb08e482567338604b916e69dba2afbb"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000446",
+          "frames": 258,
+          "prediction_sha256": "1004933921d1c0529262dce6c94d11e35181b9d473e806f5b9f14f44ba0a92e3"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000448",
+          "frames": 395,
+          "prediction_sha256": "b87857a43b5c35519e7173ac87eaa11f9af1384bab85cebfa609b48479a4f15e"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000470",
+          "frames": 228,
+          "prediction_sha256": "6d3065b502707d201d9d59573c0b6f3a2706f2b2b91d26765fbfcc3bcfca8fc2"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000474",
+          "frames": 1010,
+          "prediction_sha256": "5804079444d9c6c25bd08f3cc065d21429c1bcdd4339f5a877a81872f610bc03"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000482",
+          "frames": 264,
+          "prediction_sha256": "6c407013130e4190c34139ec20c43243c97e9cec015d67c1023ff6d6952a3563"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000487",
+          "frames": 599,
+          "prediction_sha256": "e4d75804379fa8f466551e26fc51cd46a1db2e645fdf1ee733befb92ef30c604"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000488",
+          "frames": 224,
+          "prediction_sha256": "cfbe3255b2d5326a39076ca86f203bc344ebc0c2e627f475e10344b2b5c571da"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000492",
+          "frames": 453,
+          "prediction_sha256": "247abf102289c890b4d3da51d9d2df798b470ef53f630d0f55076d0e1b2e973e"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000495",
+          "frames": 810,
+          "prediction_sha256": "2aa7de5b14431ebc74f24a7a532bcc6f079415172c5eaa76dc5bb578a425bf81"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000498",
+          "frames": 819,
+          "prediction_sha256": "818f42107acba9d5ed7dccfff2a349e67e090e8e0ab44bf9ceae95b1e498ce92"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000502",
+          "frames": 1577,
+          "prediction_sha256": "8f2dff89dd918cb0fc7da8bb5f15a818c3e7036201b5460a6eebff94e139bc59"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000504",
+          "frames": 299,
+          "prediction_sha256": "8e70946476b7b47efcf9f61e3a8b04f7ef3d179d76d785c89d110573d1a6420a"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000513",
+          "frames": 119,
+          "prediction_sha256": "36b335d4764cc0f5581f5b6db51992c3043a2748cb907b931024f5ce8c0ddbf5"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000517",
+          "frames": 31,
+          "prediction_sha256": "c310d0413df5f828d87219d8a009336433fde1981314aaed37fbc871078e4ae8"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000522",
+          "frames": 985,
+          "prediction_sha256": "03c739e083b904d6d810900e7c075a30fcea7f053762b27092808cbc6514845c"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000556",
+          "frames": 144,
+          "prediction_sha256": "788ee4c34b49b9602b5a4c041b0538f7f8899bd4b89a990ab24ee7259c778d80"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000559",
+          "frames": 48,
+          "prediction_sha256": "923713524ecd8ddf171037b2320a38844015783b41c277455c0196de022e33f7"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000560",
+          "frames": 46,
+          "prediction_sha256": "ee05f9b10bb7f3a512580b59a97eb36142fb598f1df175e7dafbb51254ed28d9"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000564",
+          "frames": 47,
+          "prediction_sha256": "33c2848cee430779782f2536cfb7c891d23ea0edc6a4c662a4778648a7616ec2"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000567",
+          "frames": 47,
+          "prediction_sha256": "07776827d2595d0113b59f3e6951cc08ca4875d658ed45da41cc40c87af2fa7d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000569",
+          "frames": 59,
+          "prediction_sha256": "4dd43e56393db298096eef01914c20ae7bc1f8c5f914115389b3c503cdf63a66"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000582",
+          "frames": 46,
+          "prediction_sha256": "73e960dc1aaee740e1590472b9c961478305003bf1ab618ce9f7aaa08b81bdb6"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000615",
+          "frames": 315,
+          "prediction_sha256": "57b6f472217bc2e6e86bf45dfd8c3c58f2bfbb125c3afe6e7be40ad1e5e43d38"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000618",
+          "frames": 601,
+          "prediction_sha256": "43675e0987b359a30d4983b40ac2462847a8d1db005a62e194a4ee5e3352af3b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000620",
+          "frames": 367,
+          "prediction_sha256": "f784013ae81f7bf512922c24f2056e5213bf38a69bbec2fc7175c405310e9ebe"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000624",
+          "frames": 66,
+          "prediction_sha256": "92c172cd9e422af2b26f5f946de51f4cb5c0e0f3714b54ee8b91322c21ced503"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000631",
+          "frames": 291,
+          "prediction_sha256": "c36bb5324c0fc619e1d42a682abb97400b3fd279a2ae7afe96fcd6998f03efcb"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000672",
+          "frames": 1143,
+          "prediction_sha256": "f70eb6943941c736145c775ad962c62f566eedb5894c866a919ade0026ece761"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000676",
+          "frames": 179,
+          "prediction_sha256": "49af77ae40a6dd01a829181bd7b39d65f9ad78dc83d29205bfb3f9271ee705fa"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000698",
+          "frames": 415,
+          "prediction_sha256": "0f6665ceb91fbdfd5b346ea4299d40deb6f1920da134c73edf7c584f8033328e"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000705",
+          "frames": 149,
+          "prediction_sha256": "8f7fa79af0f90fe030bd0ff4a09ce5e51d1fcab5d95029d2df4173b95c8b5f4d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000719",
+          "frames": 164,
+          "prediction_sha256": "b92804e6ebc181c52c7f1a9ec8f4aacb5169b5845ede46ce5f797a33e0ce4456"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000739",
+          "frames": 102,
+          "prediction_sha256": "be12daa8f1daf9af6d3d34de66e058f63de78e0fb4a1aab44eadcdc418e3643b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000747",
+          "frames": 269,
+          "prediction_sha256": "5dbc3929db87e5dd935c1bd9622d0f200ea7f2ebd2d8fb2fa8b7298a05e1b5bf"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000769",
+          "frames": 1007,
+          "prediction_sha256": "a1a99e14da00a5be0e579e26df1a6dbe67f8739e3a697fab3279d8b764310388"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000785",
+          "frames": 357,
+          "prediction_sha256": "546e46235a212c9969fe5f9ed5686afbd6483ca45a85b11cf696e5e0752a7caf"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000792",
+          "frames": 149,
+          "prediction_sha256": "3a3bcb24007997a666d6782458f43edbf92ab4aaaeb4411aa84799cebd00730d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000817",
+          "frames": 990,
+          "prediction_sha256": "94ada6603bbbd62f75fce35da2cd9a40e3d26569fa6cf7f1c4530773df433ad4"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000826",
+          "frames": 160,
+          "prediction_sha256": "414cd1045966f1778ae73d35a44f7a00aba5431a1a96b7bf3b9181bf4a1b1a20"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000833",
+          "frames": 282,
+          "prediction_sha256": "12f2ad2a033a91ba0f773826e9228ebd6275dda64c7fd11652568f04948cea39"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000838",
+          "frames": 352,
+          "prediction_sha256": "4300a9e79c02d57e03b0465c188f6e684d7a076bc7a2e00bb1741a324a4c77d8"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000841",
+          "frames": 75,
+          "prediction_sha256": "ec8dfbf4ca039dcafe57223353f22a5a1bb28afac84725aaba2670c96af8ed1b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000852",
+          "frames": 94,
+          "prediction_sha256": "99438ef820518cda4b65497655836410160906311bf050faf282f82e95302b0e"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000870",
+          "frames": 135,
+          "prediction_sha256": "96ba4f24d200fa5d1e8313b920828788ab4ff5b0dd8e9916c3b86f491aa81418"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000877",
+          "frames": 413,
+          "prediction_sha256": "af45d8d4b67b6dc4ca574adbe026eeb08eb86eaadc9f8f59e731132fa352dc8d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000888",
+          "frames": 110,
+          "prediction_sha256": "2336db9e968e405fc1f9f0e221052d9d5a0be7a9a592073f846c2bec843abbb4"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000893",
+          "frames": 124,
+          "prediction_sha256": "a4bbfbff2b9876229ab6280ba006e1f0c6a8ab98fba5e239f6c75cbcd6a74778"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000902",
+          "frames": 97,
+          "prediction_sha256": "795416f5a1a7799bd9a505ad83a38ca619fe33c7967bb7a6f14c3f077fb2b08b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000919",
+          "frames": 101,
+          "prediction_sha256": "7a93748ad9fd4a33b442bb1c38f31a85105fe9cdfeb02581b60bd48a45d83ef4"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000937",
+          "frames": 53,
+          "prediction_sha256": "d638dc9dfc516036e959372580e862870a8a2293f8b08de5310631f7f309d758"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000972",
+          "frames": 86,
+          "prediction_sha256": "d30a9d54244c92cde6fcb020ec22c3ca408bcae5659db5b2adc2722c447b0cbf"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_000999",
+          "frames": 162,
+          "prediction_sha256": "53151b5a84cab9d39e9e62ac9ed4b6c88061dd51da755cb7133de0f42ebf741f"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001005",
+          "frames": 93,
+          "prediction_sha256": "cb25c3cfea382ffb38876243d65eea9131880fc931ebb54f5a9d6a3f2b104199"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001016",
+          "frames": 85,
+          "prediction_sha256": "70c0ebe02808db5ba735e019f2ca5d7de929968cf27c1050623bd310435b5749"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001038",
+          "frames": 984,
+          "prediction_sha256": "6c617d5696bd3403d060142915c3db40ad2e9457e873b2299ac17503ebfe2095"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001085",
+          "frames": 489,
+          "prediction_sha256": "ef45cf294c7ea8bf1897e53e5f77be360c06212a8ee136f90bb6e1217c884a11"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001101",
+          "frames": 916,
+          "prediction_sha256": "63dae3a47d48d6c2190fbe2ff87e0606782ae4ff6c1e023cb3c91551d85a8a78"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001116",
+          "frames": 213,
+          "prediction_sha256": "3febd5781e40e7a6b5c6cb61dcb2cffee878fa8c41c88218f3af543368212089"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001120",
+          "frames": 244,
+          "prediction_sha256": "867b836b6f803503fa1157c68e01db79b20d7d29936d694d0115f10af5157f07"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001135",
+          "frames": 105,
+          "prediction_sha256": "64a96a9460cc37f2262570bf3186797d377080e1dfcafd42d72be0fe5aa3817d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001152",
+          "frames": 417,
+          "prediction_sha256": "df3dd397d53d6ce5309e32213a79cd754d661ea60c2475c4a0f6c2aaa5b8e35d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001154",
+          "frames": 455,
+          "prediction_sha256": "5410f6ec9968672ae53ec087cc3dc3b510bb46bd56065f4a3138b36a5e77bc29"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001155",
+          "frames": 356,
+          "prediction_sha256": "3a904cd2dac1af5245f6f836a934b485d7f0f8f6bf599272a4b16ec857205316"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001156",
+          "frames": 2143,
+          "prediction_sha256": "4febd73335393937da3cedb76ed10ccc711bcde7f54ce9f4a46a139debb13520"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001157",
+          "frames": 32,
+          "prediction_sha256": "9aadb1b00c37ed2b2622a60dca580dea7cf6e88bc6da9760e44a13f198c281ad"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001163",
+          "frames": 421,
+          "prediction_sha256": "980ee1e2fdd6666f778272f1fe64078de27ded530d381a782cb1f0849935d3c0"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001164",
+          "frames": 102,
+          "prediction_sha256": "1ff12b4ffb761a2159579858c8ca5fa0f0409bb2f675c21d0660b0e79b301f8b"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001201",
+          "frames": 971,
+          "prediction_sha256": "6d4d25a236931c988955697c9c573dce3bf6953a5086bcac7f72c07f1af55ca5"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001223",
+          "frames": 261,
+          "prediction_sha256": "f80de923869cb2f2e0984e37021d25fc939eca905aa3cd23844bea1c8c2a1447"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001244",
+          "frames": 163,
+          "prediction_sha256": "e02f21f6094fd3bc2e3b28185abcb802f35fd2c3ea97dd3b665e974d1c055a19"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001245",
+          "frames": 231,
+          "prediction_sha256": "4960afac106efda95471f9c529a0b6a2f85809f1e2e584fc18fbf891f5a2c9de"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001251",
+          "frames": 178,
+          "prediction_sha256": "f79afb55ca680a1c1abb1b8b0bbdffe8b031fd3c9ba03da57e2a6e2a62e05702"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001260",
+          "frames": 85,
+          "prediction_sha256": "2e66ddcbce983788c46060949e5d5c66fe42985dba4b4b5e49a33c3378b78a0d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001266",
+          "frames": 163,
+          "prediction_sha256": "a3f7c84193f10f859abb210a64a7953fc3299203226de0a1b332e8347de24df5"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001274",
+          "frames": 595,
+          "prediction_sha256": "0b4ac65c7f601d0b0400e3f37bc717572f165343cb2a569a104aa9dcf55a963f"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001279",
+          "frames": 28,
+          "prediction_sha256": "259ac97ef4ab712d289aff35715d59d1db781d45c4ddcfca6084cfd3ce8af30d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001290",
+          "frames": 33,
+          "prediction_sha256": "d5027f5354345766b148727ea37210bf3e4dd137fab331628676f7579af9eed9"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001305",
+          "frames": 67,
+          "prediction_sha256": "8239da91b706f06f65b16cd882b4765bfcfdd00519dddc4330c57eeb701c1c67"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001306",
+          "frames": 70,
+          "prediction_sha256": "8e3886946ca61f95477499169c241a2df85a0e89bfddcd3450f8145eb7ac7905"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001313",
+          "frames": 95,
+          "prediction_sha256": "c40b3b2a9f3516113686604a565f894b8c8d961980c435dce7513b0358c06a82"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001316",
+          "frames": 74,
+          "prediction_sha256": "917b52a355e4fbe216400a6a063a6ad138e315d8154551c72a54710b2de31e0d"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001333",
+          "frames": 124,
+          "prediction_sha256": "09c78c6bc944c0c8d0ae02c07b548a7cca83c4ca6e35ae9b2e80f24ce6a0bf8f"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001349",
+          "frames": 50,
+          "prediction_sha256": "5165aff858ea7e5d36b094d26cdd8d3f2a58f29667548decb3bd823569293ec9"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001364",
+          "frames": 265,
+          "prediction_sha256": "86dd965a34ab016549dce2db36351311d0cbda10c22f2d0cd04c1d3e7e4ad106"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001368",
+          "frames": 84,
+          "prediction_sha256": "d72a117116064f196a8b61c80c42dbfd070efd70ce37bec030ac3f7f3176576f"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001382",
+          "frames": 52,
+          "prediction_sha256": "e095aa59c96c95bb2edcdc0bd6852c71a077b2ecf216cddffb24b52599b8eaf3"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001391",
+          "frames": 59,
+          "prediction_sha256": "e793c25c11b14212de35d34cdcc7bee78152ba2968b979baa5d6cd45474e58cb"
+        },
+        {
+          "sequence": "UAV-Anti-UAV_Train_001399",
+          "frames": 99,
+          "prediction_sha256": "156e62a90ce725f9284ee65f1fcee07b1524c0051a4abcf0f2a5376e225b5363"
+        }
+      ]
+    }
+  },
+  "input_completion_digests": {
+    "B": {
+      "summary_sha256": "052991d2e11c9b1744b3db47bc69c13d36e4425ae2217969392b19dbfb78a152",
+      "sequences_sha256": "fa88fec066925fa50cbd5fa4ef0f66756bbcc53e751e7720988e0f7f01bf70c7",
+      "sequences": 132,
+      "frames": 47200
+    },
+    "D_ZERO": {
+      "status": "PASS",
+      "summary_sha256": "750ba23d511c549190349a1a1de318f740e3698867f06a98ed13e8fd609e115f",
+      "sequences_sha256": "762a578f92bf992ad10c8b5b2fd0fc292321346f8770300c8a63b388f4fd55f5",
+      "sequences": 132,
+      "frames": 47200,
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "automatic_promotion": false,
+      "parity_sha256": "ee37784b84b00e03ab8e1154b4b5318ce90b52505f8743cab7b30c30ca6ab396"
+    },
+    "D0": {
+      "status": "PASS",
+      "summary_sha256": "79c6cdbd2da2321dd47b3f138f4b514c9751b4a39b874978ab6c7e3bef019fff",
+      "sequences_sha256": "749b7667439248eb186a7a2b1730fbd50a62d534ad149f631fe3ec5284bc9449",
+      "sequences": 132,
+      "frames": 47200,
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "automatic_promotion": false
+    },
+    "D": {
+      "status": "PASS",
+      "summary_sha256": "7fb4ccfa201db3f3e5a2d35e801bebe9724fd1871095219c18fe698b98d3ef90",
+      "sequences_sha256": "ac7abfbb497f6b79b60f209cc1e99cfc4be179fd398b54a9b0770945fd76e6f6",
+      "sequences": 132,
+      "frames": 47200,
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "automatic_promotion": false
+    },
+    "E_ZERO": {
+      "status": "PASS",
+      "summary_sha256": "91bdeb69f5d010ea6d01e3655e28dd24e11e9e0b3664132f830ee31b5dcec5a2",
+      "sequences_sha256": "8dd3f398a70dc3c892c850a755d5fbb5a0d0735fc339827aa918edaeec2f9c63",
+      "sequences": 132,
+      "frames": 47200,
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "automatic_promotion": false,
+      "parity_sha256": "ee37784b84b00e03ab8e1154b4b5318ce90b52505f8743cab7b30c30ca6ab396"
+    },
+    "E": {
+      "status": "PASS",
+      "summary_sha256": "8cfe7e068c6de2b0db355f5389197cb9143510ea08208050de491d91fa50aee9",
+      "sequences_sha256": "b81c8cb0ea08d1e9299b5422c69dd40e3ffb8cbeaafacfab221450123868a5af",
+      "sequences": 132,
+      "frames": 47200,
+      "scope": "TRAIN_DEVELOPMENT_VAL132",
+      "reverse_verification": false,
+      "detector_precomputation": false,
+      "automatic_promotion": false
+    }
+  },
+  "no_test_inference": true,
+  "automatic_promotion": false,
+  "interpretation": "D0 vs B measures static scoring changes; D vs D0 estimates added temporal mechanism within matched loss/control design; D vs B is integrated temporal arm. E vs B is the independent spatial arm. Zero controls verify engineering parity, not learned benefit.",
+  "limits": [
+    "This development validation split was used for detector model selection and prior research attribution.",
+    "One training seed and fixed budgets; bootstrap intervals cover sequence resampling, not training variability.",
+    "Sequences may share source videos; capture-level independence is not verified.",
+    "Trajectory-dependent proposals can differ after intervention; these are integrated causal rollouts, not a common cached candidate replay.",
+    "Small-target pooled rates can be dominated by long sequences; per-sequence size averages are provided separately.",
+    "IoU and geometric labels do not establish target identity; unmatched is not physical absence.",
+    "Runtime comparisons include synchronous current-frame YOLO but are separate wall-clock runs and not isolated hardware benchmarks."
+  ]
+}

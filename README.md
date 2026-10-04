@@ -1,81 +1,67 @@
-# LoRAT + YOLO V4 — UAV-Anti-UAV 跟踪
+# LoRAT + YOLO + GRU：B+D / Test420 冻结版本
 
-本仓库保存 **2026-10-03 完成 Test420 的原版 V4**，并非后来的关闭反向验证或其他消融版本。
-核心源码由该次正式运行的 `SOURCE_SNAPSHOT.json` 重建，**866 个冻结文件逐个 SHA-256 校验一致**；没有为上传而修改定位、验证、候选关联或状态逻辑。
+本分支保存 **B+D（GRU）**：UAV 微调 LoRAT-L/378、同步当前帧 YOLO、保留基础动作的短历史候选比较、连续确认，以及输出与可信状态提交分离。
 
-## 算法框架
+- 分支：`b-plus-d`；版本标签：`bd-test420-20261004`。
+- 对应正式运行：`/home/xu/zyx/send/LORAT_BEST_DE_TEST420_20261004/test420`。
+- 反向验证关闭；固定首帧模板；不使用语言分支；不是 Mamba、E、裁剪修订或其他开发中的分支。
+- 历史 `main` 和 `v4-test420-20261003` 仍保存原版 V4，本次没有改动它们。
 
-**LoRAT 局部跟踪 → 同一当前帧 YOLO 全图候选 → 候选独立定位 → 首帧反向参考检查 → 空间消歧与连续确认 → 分别决定输出和可信位置提交。**
+## 完整 Test420 成绩
 
-- 首帧图像与指定框建立固定模板；后续 GT 不参与推理。
-- LoRAT-L/378：DINOv2 ViT-L/14 + LoRA（rank 64、alpha 64），模板 196，搜索 378，搜索因子 5。
-- 每帧同步运行 YOLO；没有预先检测整个视频。原始候选下限 0.001，活动候选过滤 0.1，最多 12 框。
-- 局部和全局候选共用正向响应、反向响应与首帧参考框重叠检查；不确定后的恢复要求唯一候选连续 3 帧支持。
-- 未确认但局部坐标有效时仍输出暂定框；可信位置不提交，暂定位置可继续推进。
-- 没有额外 Mamba、MVLM 语言分支或独立 DINO 身份分类器。
-
-## 已完成的 Test420 结果
-
-范围：**420 条完整序列，476,221 帧**。以下直接引用正式运行 `results/test420/metrics/SUMMARY.json`，不是本次上传重新推理得到。
+420 条序列、476221 帧。以下均为原始正式汇总的序列宏平均；包含首帧初始化和缺失帧。
 
 | 指标 | 结果 |
 |---|---:|
-| AUC | **48.8293%** |
-| Precision20 | **64.2552%** |
-| cAUC | **48.4851%** |
-| nPrecision 曲线 AUC | 54.5007% |
-| nPrecision @ 0.2 | 59.4813% |
-| mACC | **49.6193%** |
-| 在线跟踪速度 | **23.9166 FPS** |
+| AUC | 49.4759% |
+| Precision20 / Pre | 67.5602% |
+| cAUC | 49.2137% |
+| nPrecision AUC | 57.8833% |
+| NP@0.20 | 63.4514% |
+| mACC | 50.2395% |
+| 在线速度（项目累计计时） | 35.5037 FPS |
+| 含读图及写入的序列循环速度 | 33.6733 FPS |
 
-主指标为既有 MMOT 序列等权统计，包含 GT 初始化首帧。可见帧诊断排除首帧。nPrecision 两种定义分别保留，不混用。速度包含当前帧检测通信、候选定位、反向检查与状态处理，不含读图和模型启动；硬件和环境见 `results/test420/ENVIRONMENT.json`。
+原始汇总：[SUMMARY.json](results/test420/metrics/SUMMARY.json)。评分定义及既有 CPU 独立复算：[官方评分审计](results/test420/official_metric_audit/OFFICIAL_METRIC_AUDIT.md)。
+速度不是 MMOT report() 的 FPS 聚合；相对 V4 还存在 TF32 与控制路径差异。版本间增益不能全部归到 GRU，具体见[完整对照](results/test420/final_audit/COMPARISON_V4.zh.md)。
 
 ## 目录
 
 | 路径 | 内容 |
 |---|---|
-| `tracking/` | V4 跟踪器、状态机、验证器、入口及继承的 V3/通用依赖 |
-| `dependencies/LOCAL_TRACKER_SELECTION_R1_20261002/` | 冻结 LoRAT 适配器与 LoRAT 源码 |
-| `dependencies/MVLM_V2_GLOBAL_PROPOSAL_BACKBONE_R1_20261001/` | 现用 YOLO26 适配器；目录名是历史名称，不代表运行 MVLM |
-| `dependencies/LORAT_YOLO_GEOMETRY_R2_20261002/` | 入口导入所需的历史几何辅助依赖 |
-| `third_party/MMOT_Evaluation_Toolkit/` | 本次评测使用的冻结工具包源码 |
-| `results/test420/` | 正式汇总、逐序列指标、环境、配置、预测文件清单 |
-| `provenance/` | 原路径映射、源码/权重/版本附件校验值、上游版本 |
-| `docs/` | 架构与复现说明、历史架构原文 |
-| `tools/` | 不加载模型的校验与原路径恢复辅助脚本 |
+| `research/bc_r1/` | B 的 UAV 微调、候选特征与基础框架；含历史 C 对照所需代码 |
+| `research/de_r1/` | D 的相对质量网络、因果短历史、训练和确认替换；E 为同阶段对照，不是当前模型 |
+| `research/de_test420_r1/` | 原选优、冻结输入、Test420 执行与测试代码 |
+| `tracking/` | 同步 YOLO、LoRAT 封装、局部轨迹和继承的恢复控制 |
+| `dependencies/` | 正式运行冻结的 LoRAT、适配器、策略及必要协议/输入元数据 |
+| `third_party/` | 已使用的 MMOT 评测源码与许可 |
+| `results/` | Test420、训练记录及开发集对照；不混为相同评测范围 |
+| `provenance/` | 逐文件来源、SHA-256、权重、预测及附件清单 |
+| `tools/` | 只读校验及默认仅预览的原路径恢复工具 |
 
-## 权重与预测结果
+## 权重与全部预测
 
-[版本附件：v4-test420-20261003](https://github.com/Artemis-GIL/LoRAT-YOLO-V4/releases/tag/v4-test420-20261003)
+私有版本附件：
+[bd-test420-20261004](https://github.com/Artemis-GIL/LoRAT-YOLO-V4/releases/tag/bd-test420-20261004)
 
-附件单独保存 `LoRAT_large-378.bin`、`yolo26_uav_best.pt`、`V4_TEST420_PREDICTIONS.zip`，不混入 Git 源码历史。420 份预测逐文件核对了原运行哈希和总帧数。
+| 附件 | 用途 |
+|---|---|
+| `LoRAT_B_UAV_final.safetensors` | 正式 B 的 UAV 微调权重 |
+| `GRU_D_final.safetensors` | 由验证集选定的 GRU-D 权重 |
+| `LoRAT_large-378.bin` | 原封装构造模型时首先加载的 LoRAT 权重，之后再加载 B；不能只下载 D |
+| `yolo26_uav_best.pt` | 同步全图检测器权重 |
+| `BD_TEST420_PREDICTIONS.zip` | 420 份预测、逐序列完成记录、帧数及 SHA 清单 |
+| `SHA256SUMS.txt` | 版本附件校验值 |
 
-**DINOv2-L 骨干权重未上传**。请使用原本已下载的官方权重；原路径、大小和 SHA-256 见 `provenance/WEIGHTS.json`。数据集、视频、图像、GT、逐帧调试日志、缓存、登录信息不包含在本仓库。
+DINOv2-L 原骨干没有重复上传；原路径、大小和 SHA 已保存于 [WEIGHTS.json](provenance/WEIGHTS.json)。
+不包含视频、图像、完整逐帧 GT/absent 标注、训练特征缓存、模型优化器状态或逐帧调试 traces。**协议和输入清单保留了首帧初始化框、文件路径和哈希**，不是零标注元数据包。
 
-## 运行与迁移
+## 使用与限制
 
-此仓库是**精确保真的原机环境快照，不是已经验证过的跨机器一键安装包**。冻结代码中仍有原机绝对路径；保留这些路径是为了不把上传整理与算法修改混在一起。
+这是忠实保存正式实验的研究版本，不是已经在新机器验证过的一键安装包。源码原有的绝对路径与防篡改断言保持不变；大输入清单采用无损 gzip 存储，恢复时字节内容与原运行一致。
 
-```bash
-# 不需要加载模型，校验本仓库快照
-python3 tools/verify_snapshot.py
+先执行 `python3 tools/verify_snapshot.py`，再阅读 [运行与恢复说明](docs/REPRODUCE.md)。原始 `worker.py` 是已有训练/验证流水线的管理入口，**不要把它直接当成可任意重跑 Test 的通用 CLI**。原正式实验目录不能用于新推理输出。
 
-# 在原机原依赖仍存在的环境中，可运行仓库里的单序列入口
-bash tracking/run_tracker_v4.sh \
-  --frames /path/to/frames --init-box 100 100 20 20 \
-  --output /path/to/new_v4_output
-```
+已有完整 MMOT 评分复核不等于本次重新运行过模型；本次仅上传、文件检查和 CPU 代码级检查。候选相对质量监督是当前帧 IoU，不保证实例身份或未来长期收益。当前没有物理缺失分类器。
 
-环境、迁移步骤和全量评测入口见 [docs/REPRODUCE.md](docs/REPRODUCE.md)。不要覆盖正式结果目录，也不要在没有准备权重和数据的机器上把源码归档误认为完整运行环境。
-
-## 已知边界
-
-反向参考检查是定位一致性检查，不是可靠的实例身份认证。相似干扰物可能通过，外观变化后的正确目标可能被拒绝。暂定输出可能错误；`SEARCHING` 不表示目标已经离场。当前没有可靠的物理存在/离场判断。
-
-此快照保留原版已知的候选连续性和暂定轨迹生命周期局限，没有混入修复。后续 Train32 消融尚未证明完整 V4 比合理的简化输出基线有稳定增量优势；本仓库不宣称所有组件都已获得独立收益证明，也不宣称 SOTA。Test420 已参与过项目归因和开发，应如实说明开发过程。
-
-冻结 JSON 中的 `status=experimental_structural_revision_not_accuracy_validated` 是运行前历史字段；它未被改写。是否完成以本仓库保存的 `COMPLETE.json` 和正式结果为准。
-
-## 上游与许可
-
-LoRAT 来源于 [LitingLin/LoRAT](https://github.com/LitingLin/LoRAT)，MMOT 评测来源于 [Awesome-Multimodal-Object-Tracking](https://github.com/983632847/Awesome-Multimodal-Object-Tracking)。各自许可随代码保留；详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。本次上传为私有研究备份，没有代替作者为整个项目选择新的公开开源许可证。
+第三方技术与代码署名、许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 和上游 LICENSE；本归档不重新许可第三方权重或数据。

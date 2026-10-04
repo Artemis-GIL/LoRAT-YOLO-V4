@@ -1,0 +1,90 @@
+{
+  "version": "B_DE_R1",
+  "seed": 20261004,
+  "baseline": {
+    "version": "B_UAV_finetuned_development_baseline",
+    "selected_by_user": true,
+    "checkpoint": "/home/xu/zyx/send/LORAT_BC_R1_20261003/B/final.safetensors",
+    "checkpoint_sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc",
+    "tracker": "research.bc_r1.tracker_c.build variant B",
+    "architecture": "LoRAT-L/378 with trained LoRA, token embeddings and MLP head; synchronous current-frame YOLO; V3 output separation",
+    "reverse_verification": false,
+    "fixed_first_frame_template": true,
+    "post_initialization_gt_input": false,
+    "validation_summary": "/home/xu/zyx/send/LORAT_BC_R1_20261003/validation/B/metrics/SUMMARY.json",
+    "validation_summary_sha256": "052991d2e11c9b1744b3db47bc69c13d36e4425ae2217969392b19dbfb78a152",
+    "scope": "Research baseline chosen from development Val132; not a new Test420 result or replacement of historical V4 records",
+    "research_extensions": [
+      "D temporal candidate association with explicit KEEP_B action",
+      "E zero-initialized spatial residual in LoRAT search-token head input"
+    ]
+  },
+  "data_partition": "/home/xu/zyx/send/LORAT_BC_R1_20261003/PROTOCOL.json",
+  "train_sequences": 1268,
+  "validation_sequences": 132,
+  "validation_frames": 47200,
+  "D": {
+    "epochs": 12,
+    "steps_per_epoch": 4096,
+    "batch_size": 16,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "dim": 128,
+    "feature_projection": 64,
+    "history_snapshots": 3,
+    "history_stride": 8,
+    "source": "Frozen B_POOL train rollout features, all stored samples with exact B output represented in the pool",
+    "supervision": "IoU quality BCE plus equal-weight SmoothL1 relative IoU utility against KEEP_B; no class-prior rebalancing",
+    "sampling": "Uniform valid stored training query samples; identical sample draws for D0 and D",
+    "temporal": "GRU over three strictly past fixed-clock feature snapshots and current candidate; frame gaps and geometry explicit",
+    "static_control": "D0 has identical model and losses but masks all historical observations",
+    "controller": "Original B default output/state retained until a higher-valued candidate confirms on three consecutive selected observations with common branch membership; local and global streaks cannot mix",
+    "identity_limit": "Branch IDs are geometric association cues, never target identity labels or model input numbers",
+    "history_write_rule": "frame modulo 8 only; never use GT-dependent retained-sample cadence at runtime",
+    "initialization": "Zero last value layer produces exact KEEP_B; complete D_ZERO validation must reproduce B predictions",
+    "checkpoint_selection": "Last fixed epoch; no validation checkpoint selection"
+  },
+  "E": {
+    "epochs": 8,
+    "samples_per_epoch": 4096,
+    "microbatch": 2,
+    "accumulation": 8,
+    "learning_rate": 0.0001,
+    "minimum_learning_rate": 1e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 64,
+    "workers": 4,
+    "classification": "official IoU-aware BCE",
+    "regression": "official GIoU",
+    "architecture": "Frozen B plus search-grid residual: LayerNorm,1024-to-64,GELU,depthwise3x3,GELU,zero-initialized64-to-1024; original head retained",
+    "trainable_parameters": 134848,
+    "base_model": "All B parameters frozen, only spatial residual trained",
+    "sampling": "Same fixed-first-frame PairDataset as B; 50 percent uniform visible, 50 percent smaller-half frames per uniformly sampled sequence",
+    "initialization": "Complete E_ZERO validation must reproduce B predictions",
+    "limitation": "No extra pixels or increased backbone resolution; tests local grid/box-regression refinement, not information recovery",
+    "checkpoint_selection": "Last fixed epoch; no validation checkpoint selection"
+  },
+  "evaluations": [
+    "D_ZERO",
+    "D0",
+    "D",
+    "E_ZERO",
+    "E"
+  ],
+  "baseline_results": "/home/xu/zyx/send/LORAT_BC_R1_20261003/validation/B",
+  "paired_comparisons": [
+    "D0_minus_B",
+    "D_minus_D0",
+    "D_minus_B",
+    "E_minus_B"
+  ],
+  "no_reverse_verification": true,
+  "no_test_inference": true,
+  "no_threshold_sweep": true,
+  "no_combined_DE_run": true,
+  "validation_limit": "Existing development Val132 previously used for YOLO and C inspection, not blind validation; one seed research run",
+  "evidence": {
+    "full_attribution": "/home/xu/文档/ChatGPT/uavantiuav/analysis/LORAT_BC_C2_ATTRIBUTION_20261004/INTERPRETATION.zh.json",
+    "training_audit": "/home/xu/文档/ChatGPT/uavantiuav/analysis/LORAT_BC_C2_TRAIN_AUDIT_20261004/REPORT.zh.md"
+  }
+}

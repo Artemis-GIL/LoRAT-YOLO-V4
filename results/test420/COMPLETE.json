@@ -1,6 +1,16 @@
 {
-  "mode": "lorat_yolo_v4_current_frame",
+  "status": "PASS",
+  "scope": "TEST420",
+  "mode": "lorat_validation_selected_de_current_frame",
+  "variant": "D",
   "sequences": 420,
   "frames": 476221,
-  "summary_sha256": "1c164068df030a03ed58cd21d171e32974116fe9ba7955387ae4e2b4e06909b1"
+  "selection_sha256": "3ed744e7df83ca0e1fc75f8e91cc11090b4d5e2184572c6da3aadc56129c4dbb",
+  "baseline_sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc",
+  "checkpoint_sha256": "998a0b111232fae8ad8b6b2cdfa5ed906101c25969abf670850b7f0f01ccdd51",
+  "summary_sha256": "36eb0fb99b7c58e0374152bfe8d9402555ccfcad78248fb7c3b10d6df1eed6ce",
+  "sequences_sha256": "71bc0c12879f137555ce0f6a565a3a83e56369de0c8ca97717c3fabcef16f173",
+  "reverse_verification": false,
+  "detector_precomputation": false,
+  "initial_templates_preserved": true
 }

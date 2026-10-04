@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "variant": "D",
+  "updates": 49152,
+  "epochs": 12,
+  "samples": 145817,
+  "checkpoint_sha256": "998a0b111232fae8ad8b6b2cdfa5ed906101c25969abf670850b7f0f01ccdd51",
+  "elapsed_seconds": 210.26620364189148,
+  "baseline_frozen": true,
+  "temporal": true,
+  "history_schedule": "Fixed frame modulo 8, three strictly past snapshots",
+  "checkpoint_selection": "Last fixed epoch"
+}
