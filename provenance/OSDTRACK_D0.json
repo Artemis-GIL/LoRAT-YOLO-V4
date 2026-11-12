@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "model": "OSDTrack",
+  "variant": "D0",
+  "temporal": false,
+  "composition": "B UAV-adapted LoRAT-L/378 plus the matched static D0 action-value head and synchronous current-frame YOLO",
+  "algorithm_note": "D0 uses the frozen ActionValue architecture with temporal=False; it masks all historical observations and is not the GRU-D arm archived by the b-plus-d release.",
+  "weights": [
+    {
+      "key": "dinov2",
+      "filename": "dinov2_vitl14_pretrain.pth",
+      "environment": "OSDTRACK_DINO_WEIGHT",
+      "sha256": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428",
+      "bytes": 1217586395,
+      "role": "Frozen DINOv2-L/14 backbone",
+      "release_asset": null,
+      "distribution_note": "Use an official/local copy with the exact digest; this repository and its release do not redistribute it."
+    },
+    {
+      "key": "lorat",
+      "filename": "LoRAT_large-378.bin",
+      "environment": "OSDTRACK_LORAT_WEIGHT",
+      "sha256": "601529735439da5d7ad0136b63e894ee02923d4694ce17d3568e333c298a06b0",
+      "bytes": 130101948,
+      "role": "Original LoRAT-L/378 constructor checkpoint loaded before B",
+      "release_asset": "LoRAT_large-378.bin"
+    },
+    {
+      "key": "b",
+      "filename": "LoRAT_B_UAV_final.safetensors",
+      "environment": "OSDTRACK_B_WEIGHT",
+      "sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc",
+      "bytes": 130101948,
+      "role": "UAV-adapted B trainable LoRAT weights",
+      "release_asset": "LoRAT_B_UAV_final.safetensors"
+    },
+    {
+      "key": "d0",
+      "filename": "D0_static_final.safetensors",
+      "environment": "OSDTRACK_D0_WEIGHT",
+      "sha256": "0a27352804839714f7e691f60ae288ef06dc0b358209e379de156831d24871bd",
+      "bytes": 1002996,
+      "role": "Paper-final matched static D0 action-value head (temporal=False)",
+      "release_asset": null,
+      "frozen_evidence": "results/test420/CONFIG.json selection provenance entry for LORAT_B_DE_R1_20261004/D0/final.safetensors",
+      "distribution_note": "Not present in the historical bd-test420-20261004 release; copy the frozen D0 checkpoint separately and verify this digest."
+    },
+    {
+      "key": "yolo",
+      "filename": "yolo26_uav_best.pt",
+      "environment": "OSDTRACK_YOLO_WEIGHT",
+      "sha256": "efa76597c9912fbda8ff150208996a88597544fb5ba2e52a6ad02e4dc964b433",
+      "bytes": 60285155,
+      "role": "Synchronous current-frame YOLO detector",
+      "release_asset": "yolo26_uav_best.pt"
+    }
+  ],
+  "weights_committed_to_git": false
+}

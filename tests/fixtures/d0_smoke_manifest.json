@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "variant": "D0",
+  "temporal": false,
+  "sequence": "UAV-Anti-UAV_Test_000001",
+  "initial_bbox_xywh": [272.0, 375.0, 13.0, 8.0],
+  "frame_files": [
+    "00000001.jpg",
+    "00000002.jpg",
+    "00000003.jpg",
+    "00000004.jpg",
+    "00000005.jpg",
+    "00000006.jpg",
+    "00000007.jpg",
+    "00000008.jpg"
+  ],
+  "rgb_sha256": [
+    "e594f8004cdde085238460f417518b09cf92bd52605652e60468a37cffcca6ce",
+    "53855fbe61e6313d8b6aa5ea0700cb35c5f150e108267407a782f4ea7c660af0",
+    "cd867834415f06bc0c6884e319c6f5975ead83a1d21cc48e0e47ceef37420d4c",
+    "cc61e9e22d8045c1fb16ec39f30d67555355ed76da99f7ab3612600f0a0dcfe0",
+    "881eaf10d6c420ee8ab9b92bbe143842d588d251a2afb2ef7d06399f8edc912d",
+    "ea1c03200d1e60d416dabca9155bc477648f1fcd54b54ffc06d9d30566da051c",
+    "341186199e637c2321dcace449261c864a5de9de8e6d56c881a7518e9b0365b9",
+    "a97234d45491b40b5bc9080849d5699c917d09b16d1c33a4270d3969788cfe84"
+  ],
+  "expected_predictions": "d0_smoke_expected.txt",
+  "prediction_sha256": "96c4a59c6d0ab09e9376787c786b19adc217ae9f37d7eeecc4c4215b5c79ba00",
+  "source_complete_sha256": "45b7e9579dc130dc23baa8b4154edc98e87295db59b8ab917996d4ef63fbf9a3"
+}
