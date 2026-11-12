@@ -4,6 +4,8 @@
 
 本 Windows 迁移分支固定的 OSDTrack 是 **B + 静态 D0**，不是 GitHub `b-plus-d` 标签中已发布的时序 GRU-D。
 
+发布分支为 `codex/windows-native`，标签为 `osdtrack-d0-windows-rc1-20261112`。该 Release 自包含 LoRAT、B、静态 D0、YOLO 四个可分发权重及 `SHA256SUMS.txt`；DINOv2-L/14 仍从 Meta 官方地址下载并按下表校验。由于尚未完成目标 Windows/GPU 实机验收，本版本明确标为 RC1。
+
 - B：UAV 数据微调后的 LoRAT-L/378，带同步当前帧 YOLO 候选和确认机制。
 - D0：`ActionValue(temporal=False)` 的静态候选价值头；模型前向会屏蔽早于当前步的历史。
 - 检测器仅接收当前 RGB 像素，并在独立 YOLO Python 环境中常驻运行。
@@ -45,6 +47,8 @@
 | nPrecision AUC | 58.2478% |
 
 完整 420 汇总文件 SHA-256 为 `970ed87095fe04af2c3b12b362b5589d3635e37a204c3c1847d60d49ae91bcc9`；共同 419 离线重汇总文件 SHA-256 为 `d6275fb548da15ee01d09b4cf93426d73bbf5c4a6627035376e070a5f3f4b86d`。
+
+完整 420 汇总随本分支保存在 `results/osdtrack_d0/test420/SUMMARY.json`。共同 419 文件记录论文横向比较口径，但本次 Windows 迁移 Release 不把完整 D0 Test420 预测包冒充为部署依赖；Release 的分发范围以 `provenance/OSDTRACK_D0_RELEASE_ASSETS.json` 为准。
 
 ## 与旧 GitHub 附件的差异
 

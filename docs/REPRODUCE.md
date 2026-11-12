@@ -1,4 +1,6 @@
-# B+D 运行、恢复与迁移
+# 历史 B+GRU-D 运行与恢复
+
+> **版本边界：** 本文忠实记录 `b-plus-d` / `bd-test420-20261004` 的历史 GRU-D 归档，不是论文终版静态 D0 的 Windows 部署说明。D0/Windows 请从仓库根 [README](../README.md) 和 [WINDOWS_NATIVE.md](WINDOWS_NATIVE.md) 开始；不要把下面的 `build('D')` 或 GRU 权重替换成 D0 后声称复现了同一历史结果。
 
 ## 冻结来源
 

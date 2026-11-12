@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "release_tag": "osdtrack-d0-windows-rc1-20261112",
+  "branch": "codex/windows-native",
+  "purpose": "Native Windows migration bundle for OSDTrack B plus static D0",
+  "assets": [
+    {
+      "name": "LoRAT_large-378.bin",
+      "bytes": 130101948,
+      "sha256": "601529735439da5d7ad0136b63e894ee02923d4694ce17d3568e333c298a06b0"
+    },
+    {
+      "name": "LoRAT_B_UAV_final.safetensors",
+      "bytes": 130101948,
+      "sha256": "e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc"
+    },
+    {
+      "name": "D0_static_final.safetensors",
+      "bytes": 1002996,
+      "sha256": "0a27352804839714f7e691f60ae288ef06dc0b358209e379de156831d24871bd"
+    },
+    {
+      "name": "yolo26_uav_best.pt",
+      "bytes": 60285155,
+      "sha256": "efa76597c9912fbda8ff150208996a88597544fb5ba2e52a6ad02e4dc964b433"
+    }
+  ],
+  "checksum_file": {
+    "name": "SHA256SUMS.txt",
+    "bytes": 361,
+    "sha256": "c14f633e41609f992a78373a6c13cae17809838f0cbad0a10d6714fd7f764b2c"
+  },
+  "external_required_asset": {
+    "name": "dinov2_vitl14_pretrain.pth",
+    "bytes": 1217586395,
+    "sha256": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428",
+    "official_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth",
+    "redistributed": false
+  },
+  "source_tree_evidence": [
+    {
+      "path": "results/osdtrack_d0/test420/SUMMARY.json",
+      "sha256": "970ed87095fe04af2c3b12b362b5589d3635e37a204c3c1847d60d49ae91bcc9"
+    },
+    {
+      "path": "results/osdtrack_d0/test420/COMMON419_SUMMARY.json",
+      "sha256": "d6275fb548da15ee01d09b4cf93426d73bbf5c4a6627035376e070a5f3f4b86d"
+    }
+  ],
+  "historical_boundary": "The inherited results/test420 and provenance/WEIGHTS.json describe the bd-test420-20261004 GRU-D archive; they are not D0 release assets.",
+  "weights_committed_to_git": false
+}

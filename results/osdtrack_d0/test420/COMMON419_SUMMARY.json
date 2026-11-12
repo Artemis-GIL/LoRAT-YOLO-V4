@@ -1,0 +1,39 @@
+{
+  "status": "OFFLINE_REAGGREGATION_VERIFIED",
+  "created_utc": "2026-10-05T14:41:49.345560+00:00",
+  "description_zh": "仅从已完成D0的逐序列指标去掉第316条后等权重汇总；不重新训练、推理、逐帧评分或重算外部方法。",
+  "sources": {
+    "/home/xu/zyx/send/UAV_PAPER_EXPERIMENTS_R1_20261004/evaluation/TEST420/D0/metrics/SEQUENCES.json": "155254108a90946e5fc2e6dd86b17ae6b89a6f4d2b7ad24aa5db53edd50655f4",
+    "/home/xu/zyx/send/UAV_PAPER_EXPERIMENTS_R1_20261004/evaluation/TEST420/D0/metrics/SUMMARY.json": "970ed87095fe04af2c3b12b362b5589d3635e37a204c3c1847d60d49ae91bcc9"
+  },
+  "metrics_definition": "相同安装版本的官方 MMOT 函数；主指标含初始化帧；可见性诊断排除初始化帧；NP 使用 nPrecision_AUC。",
+  "source_sequences": 420,
+  "source_frames": 476221,
+  "excluded_sequence": "UAV-Anti-UAV_Test_000316",
+  "excluded_frames": 31,
+  "sequences": 419,
+  "frames": 476190,
+  "formula": "每项指标取保留419条逐序列数值的算术平均；percentage=100*mean；不按帧加权。",
+  "sequence_macro": {
+    "AUC": 0.49805041676983897,
+    "nPrecision_AUC": 0.5824775110342513,
+    "Precision20": 0.6797825830550663,
+    "cAUC": 0.4954170637853576,
+    "nPrecision_at_0_2": 0.6385643041782503,
+    "mACC": 0.5057479432356722
+  },
+  "sequence_macro_percent": {
+    "AUC": 49.8050416769839,
+    "nPrecision_AUC": 58.24775110342513,
+    "Precision20": 67.97825830550663,
+    "cAUC": 49.54170637853576,
+    "nPrecision_at_0_2": 63.856430417825024,
+    "mACC": 50.57479432356722
+  },
+  "full420_reaggregation_matches_summary": true,
+  "full420_max_abs_error": 1.1102230246251565e-16,
+  "added_pairwise_confidence_intervals": false,
+  "new_model_inference": false,
+  "source_prediction_or_gt_files_modified": false,
+  "limitations_zh": "复用已审计逐序列评分，不构成新增预测或GT审计；第316条排除规则沿用既有共同419报告；未消除外部方法初始化、训练和图像来源差异。"
+}

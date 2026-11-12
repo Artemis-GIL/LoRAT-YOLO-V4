@@ -3,6 +3,8 @@
   "model": "OSDTrack",
   "variant": "D0",
   "temporal": false,
+  "branch": "codex/windows-native",
+  "release_tag": "osdtrack-d0-windows-rc1-20261112",
   "composition": "B UAV-adapted LoRAT-L/378 plus the matched static D0 action-value head and synchronous current-frame YOLO",
   "algorithm_note": "D0 uses the frozen ActionValue architecture with temporal=False; it masks all historical observations and is not the GRU-D arm archived by the b-plus-d release.",
   "weights": [
@@ -14,7 +16,7 @@
       "bytes": 1217586395,
       "role": "Frozen DINOv2-L/14 backbone",
       "release_asset": null,
-      "distribution_note": "Use an official/local copy with the exact digest; this repository and its release do not redistribute it."
+      "distribution_note": "Download the official ViT-L/14 backbone from https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth and verify the exact byte count and digest; this repository and its release do not redistribute it."
     },
     {
       "key": "lorat",
@@ -41,9 +43,9 @@
       "sha256": "0a27352804839714f7e691f60ae288ef06dc0b358209e379de156831d24871bd",
       "bytes": 1002996,
       "role": "Paper-final matched static D0 action-value head (temporal=False)",
-      "release_asset": null,
+      "release_asset": "D0_static_final.safetensors",
       "frozen_evidence": "results/test420/CONFIG.json selection provenance entry for LORAT_B_DE_R1_20261004/D0/final.safetensors",
-      "distribution_note": "Not present in the historical bd-test420-20261004 release; copy the frozen D0 checkpoint separately and verify this digest."
+      "distribution_note": "Published by the osdtrack-d0-windows-rc1-20261112 release; the historical bd-test420-20261004 release contains GRU-D instead and must not be substituted."
     },
     {
       "key": "yolo",

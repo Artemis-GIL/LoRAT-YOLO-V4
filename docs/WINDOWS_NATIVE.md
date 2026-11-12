@@ -53,33 +53,36 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 | Windows 文件名 | 字节数 | SHA-256 | 来源 |
 |---|---:|---|---|
-| `dinov2_vitl14_pretrain.pth` | 1,217,586,395 | `d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428` | 已有的官方 DINOv2-L 本地副本；当前 Release 未重复上传 |
-| `LoRAT_large-378.bin` | 130,101,948 | `601529735439da5d7ad0136b63e894ee02923d4694ce17d3568e333c298a06b0` | GitHub Release `bd-test420-20261004` |
-| `LoRAT_B_UAV_final.safetensors` | 130,101,948 | `e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc` | GitHub Release `bd-test420-20261004` |
-| `D0_static_final.safetensors` | 1,002,996 | `0a27352804839714f7e691f60ae288ef06dc0b358209e379de156831d24871bd` | **当前不在 GitHub Release，必须从 Ubuntu 人工复制** |
-| `yolo26_uav_best.pt` | 60,285,155 | `efa76597c9912fbda8ff150208996a88597544fb5ba2e52a6ad02e4dc964b433` | GitHub Release `bd-test420-20261004` |
+| `dinov2_vitl14_pretrain.pth` | 1,217,586,395 | `d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428` | Meta DINOv2 官方下载；本 Release 不重复分发 |
+| `LoRAT_large-378.bin` | 130,101,948 | `601529735439da5d7ad0136b63e894ee02923d4694ce17d3568e333c298a06b0` | GitHub Release `osdtrack-d0-windows-rc1-20261112` |
+| `LoRAT_B_UAV_final.safetensors` | 130,101,948 | `e62112dd6582552d1668130b58b0a0c3382775670ccc6c714e9b00e94dbd58bc` | GitHub Release `osdtrack-d0-windows-rc1-20261112` |
+| `D0_static_final.safetensors` | 1,002,996 | `0a27352804839714f7e691f60ae288ef06dc0b358209e379de156831d24871bd` | GitHub Release `osdtrack-d0-windows-rc1-20261112` |
+| `yolo26_uav_best.pt` | 60,285,155 | `efa76597c9912fbda8ff150208996a88597544fb5ba2e52a6ad02e4dc964b433` | GitHub Release `osdtrack-d0-windows-rc1-20261112` |
 
-私有 Release：<https://github.com/Artemis-GIL/LoRAT-YOLO-V4/releases/tag/bd-test420-20261004>
+私有 Release：<https://github.com/Artemis-GIL/LoRAT-YOLO-V4/releases/tag/osdtrack-d0-windows-rc1-20261112>
 
-Ubuntu 上的 D0 原文件为：
-
-```text
-/home/xu/zyx/send/LORAT_B_DE_R1_20261004/D0/final.safetensors
-```
-
-通过移动硬盘、内网文件服务或其他已批准方式复制到 Windows 后，将它命名为 `D0_static_final.safetensors`。复制前后都应核对 SHA，不要仅看文件名：
-
-```bash
-# Ubuntu
-sha256sum /home/xu/zyx/send/LORAT_B_DE_R1_20261004/D0/final.safetensors
-```
+将 Release 中的四个附件下载到 `weights`。DINOv2-L/14 使用 Meta 官方地址：
 
 ```powershell
-# Windows
-Get-FileHash .\weights\D0_static_final.safetensors -Algorithm SHA256
+New-Item -ItemType Directory -Force .\weights | Out-Null
+Invoke-WebRequest `
+  -Uri "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth" `
+  -OutFile ".\weights\dinov2_vitl14_pretrain.pth"
 ```
 
-安装脚本不会下载、替换或覆盖任何权重。
+下载完成后核对 DINO 的大小和哈希，再检查 Release 的四个附件：
+
+```powershell
+(Get-Item .\weights\dinov2_vitl14_pretrain.pth).Length
+Get-FileHash .\weights\dinov2_vitl14_pretrain.pth -Algorithm SHA256
+Get-Content .\weights\SHA256SUMS.txt
+Get-FileHash .\weights\LoRAT_large-378.bin -Algorithm SHA256
+Get-FileHash .\weights\LoRAT_B_UAV_final.safetensors -Algorithm SHA256
+Get-FileHash .\weights\D0_static_final.safetensors -Algorithm SHA256
+Get-FileHash .\weights\yolo26_uav_best.pt -Algorithm SHA256
+```
+
+官方 DINOv2 模型表见 <https://github.com/facebookresearch/dinov2#pretrained-models>。安装脚本不会下载、替换或覆盖任何权重。
 
 ## 4. 双 Python 环境
 
@@ -268,7 +271,7 @@ conda run --no-capture-output -n osdtrack-lorat python .\tools\smoke_d0.py `
 
 ### D0 缺失或 SHA 与 GRU-D 相同
 
-当前 Release 没有静态 D0。重新从 Ubuntu 的 `LORAT_B_DE_R1_20261004/D0/final.safetensors` 人工复制。若 SHA 为 `998a0b111232fae8ad8b6b2cdfa5ed906101c25969abf670850b7f0f01ccdd51`，拿到的是 GRU-D，不能用于论文终版。
+从 `osdtrack-d0-windows-rc1-20261112` Release 重新下载 `D0_static_final.safetensors`。若 SHA 为 `998a0b111232fae8ad8b6b2cdfa5ed906101c25969abf670850b7f0f01ccdd51`，拿到的是旧 GRU-D，不能用于论文终版；正确 D0 必须为 `0a27352804839714f7e691f60ae288ef06dc0b358209e379de156831d24871bd`。
 
 ### `torch.cuda.is_available()` 为 false
 

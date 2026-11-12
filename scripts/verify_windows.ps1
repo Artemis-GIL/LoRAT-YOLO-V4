@@ -164,7 +164,7 @@ $weightRows = foreach ($spec in $weightSpecs) {
 $weightRows | Format-Table -AutoSize | Out-Host
 
 if ($weightErrors.Count -gt 0) {
-    $d0Hint = "D0_static_final.safetensors is not in the current GitHub Release. Copy the Ubuntu D0/final.safetensors manually; do not substitute GRU_D_final.safetensors."
+    $d0Hint = "Download D0_static_final.safetensors from release osdtrack-d0-windows-rc1-20261112; do not substitute the historical GRU_D_final.safetensors."
     throw ("Weight verification failed:`n" + ($weightErrors -join "`n") + "`n" + $d0Hint)
 }
 
